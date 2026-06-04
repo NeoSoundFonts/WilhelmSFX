@@ -15,6 +15,7 @@ using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
 using YamlDotNet.Serialization.NamingConventions;
 
+// ReSharper disable ClassNeverInstantiated.Global
 // ReSharper disable CollectionNeverUpdated.Global
 #pragma warning disable CS8618 // Non-nullable field must contain a non-null value when exiting constructor. Consider adding the 'required' modifier or declaring as nullable.
 #pragma warning disable CS0649 // Field is never assigned to, and will always have its default value
@@ -25,6 +26,7 @@ using YamlDotNet.Serialization.NamingConventions;
 const string bankName = "WilhelmSFX";
 const string author = "WhiteDuke";
 const string samplesOutput = "SamplesOgg";
+
 // Read command line
 var q = Math.Clamp(ArgsInt("-q") ?? 2, -1, 10);
 var processSamples = !ArgsContains("--skip-process");
@@ -79,7 +81,7 @@ if (processReadme)
 
         A sound bank focused on sound effects.
         
-        ## Compilation
+        ## Build
         
         Requires `dotnet 10` and `ffmpeg`. Example:
         
@@ -355,39 +357,36 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
 {
     public bool Accepts(Type type) => type == typeof(SampleCfg);
 
-    public object ReadYaml(
-        IParser parser, Type type, ObjectDeserializer rootDeserializer)
+    public object ReadYaml(IParser parser, Type __, ObjectDeserializer ___)
     {
         if (parser.TryConsume<Scalar>(out var scalar))
             return new SampleCfg { File = scalar.Value };
 
         parser.Consume<SequenceStart>();
         
-        var cfg = new SampleCfg();
-        cfg.File = parser.Consume<Scalar>().Value;
+        var cfg = new SampleCfg { File = parser.Consume<Scalar>().Value };
         while (!parser.TryConsume<SequenceEnd>(out _))
         {
             parser.Consume<MappingStart>();
-            var key   = parser.Consume<Scalar>().Value;
-            var value = int.Parse(parser.Consume<Scalar>().Value);
-            parser.Consume<MappingEnd>();
-
-            switch (key)
+            switch (parser.Consume<Scalar>().Value)
             {
                 case "Start":
-                    cfg.LoopStart = value;
+                    cfg.LoopStart = GetInt();
                     break;
                 case "End":
-                    cfg.LoopEnd   = value;
+                    cfg.LoopEnd   = GetInt();
                     break;
             }
+            parser.Consume<MappingEnd>();
         }
 
         return cfg;
+
+        int GetInt() => int.Parse(parser.Consume<Scalar>().Value);
     }
 
     public void WriteYaml(
-        IEmitter emitter, object? value, Type type, ObjectSerializer serializer)
+        IEmitter _, object? __, Type ___, ObjectSerializer ____)
         => throw new NotImplementedException();
 }
 #endregion

@@ -1,13 +1,49 @@
+// Action
+651515__1bob__grab-item                                 https://freesound.org/people/1bob/sounds/651515/
+841596__qubodup__grab-item                              https://freesound.org/people/qubodup/sounds/841596/
+
+368711__mikes-multimedia__heavy_swallow                 https://freesound.org/people/Mikes-MultiMedia/sounds/368711/
+445970__breviceps__drink-drinking-liquid                https://freesound.org/people/Breviceps/sounds/445970/
+531755__magnuswaker__gulp-hard-swallow                  https://freesound.org/people/magnuswaker/sounds/531755/
+552676__boaay__gulp                                     https://freesound.org/people/BOAAY/sounds/552676/
+
+478052__deleted_user_10023915__ladderclimb4             https://freesound.org/people/deleted_user_10023915/sounds/478052/
+478055__deleted_user_10023915__ladderclimb1             https://freesound.org/people/deleted_user_10023915/sounds/478055/
+478054__deleted_user_10023915__ladderclimb2             https://freesound.org/people/deleted_user_10023915/sounds/478054/
+478053__deleted_user_10023915__ladderclimb3             https://freesound.org/people/deleted_user_10023915/sounds/478053/
+
+12730__pingel__burp                                     https://freesound.org/people/Pingel/sounds/12730/
+324514__deleted_user_2104797__burp                      https://freesound.org/people/deleted_user_2104797/sounds/324514/
+26762__santuccie__belch1                                https://freesound.org/people/santuccie/sounds/26762/
+331630__etheron369__burp                                https://freesound.org/people/etheron369/sounds/331630/
+172071__jeffijoe__small-burp                            https://freesound.org/people/Jeffijoe/sounds/172071/
+466759__phatcorns__burp-belch                           https://freesound.org/people/phatcorns/sounds/466759/
+245751__2mbst1__ruelps-3                                https://freesound.org/people/2mbst1/sounds/245751/
+678963__josetb__cartoon-burp                            https://freesound.org/people/josetb/sounds/678963/
+683053__phatcorns__loud-burp                            https://freesound.org/people/phatcorns/sounds/683053/
+833381__geruhn__burp-single-clear                       https://freesound.org/people/Geruhn/sounds/833381/
+
 // Man
 341730__sgtpepperarc360__hahahaha                       https://freesound.org/people/SgtPepperArc360/sounds/341730/
 
 759458__akridiy__a-single-scream-of-a-young-male        https://freesound.org/people/akridiy/sounds/759458/
 813304__qubodup__wilhelm-scream-alternative-2           https://freesound.org/people/qubodup/sounds/813304/
+523216__feed__death-scream                              https://freesound.org/people/Feed_/sounds/523216/
 
 272023__aldenroth2__male-scream                         https://freesound.org/people/aldenroth2/sounds/272023/
 823508__riippumattog__pain-yell-male                    https://freesound.org/people/riippumattog/sounds/823508/
 267480__islandan__male-scream                           https://freesound.org/people/islandan/sounds/267480/
+
 233600__sortsapostata__snoring                          https://freesound.org/people/SortsApostata/sounds/233600/
+365372__rdpipo7777__ronquido                            https://freesound.org/people/rdpipo7777/sounds/365372/
+universfield-snore-250959                               https://pixabay.com/sound-effects/people-snore-250959/
+magiaz-snoring-389947_a                                 https://pixabay.com/sound-effects/people-snoring-389947/
+magiaz-snoring-389947_b                                 https://pixabay.com/sound-effects/people-snoring-389947/
+magiaz-snoring-389947_c                                 https://pixabay.com/sound-effects/people-snoring-389947/
+
+564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning          https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564231/
+238399__amorralteixe__yawn                              https://freesound.org/people/amorralteixe/sounds/238399/
+202105__spookymodem__yawn                               https://freesound.org/people/spookymodem/sounds/202105/
 
 469605__bolkmar__voice-male-humming-doubting            https://freesound.org/people/bolkmar/sounds/469605/
 
@@ -24,17 +60,8 @@
 249583__ycbcr__short-definite-fart                      https://freesound.org/people/ycbcr/sounds/249583/
 346143__dleigh__fart3                                   https://freesound.org/people/dleigh/sounds/346143/
 346145__dleigh__fart4                                   https://freesound.org/people/dleigh/sounds/346145/
-
-12730__pingel__burp                                     https://freesound.org/people/Pingel/sounds/12730/
-324514__deleted_user_2104797__burp                      https://freesound.org/people/deleted_user_2104797/sounds/324514/
-26762__santuccie__belch1                                https://freesound.org/people/santuccie/sounds/26762/
-331630__etheron369__burp                                https://freesound.org/people/etheron369/sounds/331630/
-172071__jeffijoe__small-burp                            https://freesound.org/people/Jeffijoe/sounds/172071/
-466759__phatcorns__burp-belch                           https://freesound.org/people/phatcorns/sounds/466759/
-245751__2mbst1__ruelps-3                                https://freesound.org/people/2mbst1/sounds/245751/
-678963__josetb__cartoon-burp                            https://freesound.org/people/josetb/sounds/678963/
-683053__phatcorns__loud-burp                            https://freesound.org/people/phatcorns/sounds/683053/
 553480__samsterbirdies__fart                            https://freesound.org/people/SamsterBirdies/sounds/553480/
+561535__jixolros__small-realpoot117                     https://freesound.org/people/Jixolros/sounds/561535/
 
 26244__bitsmart__ohm                                    https://freesound.org/people/bitsmart/sounds/26244/
 
@@ -86,6 +113,8 @@ dragon-studio-crowd-booing-494319                       https://pixabay.com/soun
 113698__huubjeroen__goalloop                            https://freesound.org/people/huubjeroen/sounds/113698/
 
 // Move
+251788__vkproduktion__footstep-01                       https://freesound.org/people/VKProduktion/sounds/251788/
+
 464691__branndybottle__grasswalking_step1               https://freesound.org/people/BranndyBottle/sounds/464691/
 464690__branndybottle__grasswalking_step2               https://freesound.org/people/BranndyBottle/sounds/464690/
 
@@ -134,7 +163,7 @@ dragon-studio-crowd-booing-494319                       https://pixabay.com/soun
 318559__speedenza__short-servo-burst-1                  https://freesound.org/people/Speedenza/sounds/318559/
 148309__keemocore__robot-step-short-medium-heavy        https://freesound.org/people/keemocore/sounds/148309/
 
-// Animals
+// Animal
 445958__breviceps__cartoon-bat-mouse-squeak             https://freesound.org/people/Breviceps/sounds/445958/
 
 146975__zabuhailo__cathowls2                            https://freesound.org/people/Zabuhailo/sounds/146975/
@@ -182,28 +211,39 @@ the-vampires-monster-bat-chirping-type-2-355965_b       https://pixabay.com/soun
 freesound_community-wing-flap-1-6434                    https://pixabay.com/sound-effects/film-special-effects-wing-flap-1-6434/
 dragon-studio-dragon-flapping-wings-364476              https://pixabay.com/sound-effects/film-special-effects-dragon-flapping-wings-364476/
 
-// Guns
+// Gun
 253446__jmayoff__laser                                  https://freesound.org/people/jmayoff/sounds/253446/
 417731__wcoltd__laser1                                  https://freesound.org/people/wcoltd/sounds/417731/
 83562__nbs-dark__ship-fire3                             https://freesound.org/people/Nbs%20Dark/sounds/83562/
 
+154934__klawykogut__empty-gun-shot                      https://freesound.org/people/KlawyKogut/sounds/154934/
+107806__j1987__metallicclick                            https://freesound.org/people/j1987/sounds/107806/
+
 406476__kretopi__synthguns-001                          https://freesound.org/people/kretopi/sounds/406476/
+344142__brokenphono__gunshot_002                        https://freesound.org/people/Brokenphono/sounds/344142/
 
 255716__paul368__silenced-pistol-layered-powerful       https://freesound.org/people/Paul368/sounds/255716/
+188499__underlineddesigns__silenced-shotgun-gunshot     https://freesound.org/people/UnderlinedDesigns/sounds/188499/
 
 274559__mrjohnweez__auto-machine-gun                    https://freesound.org/people/MrJohnWeez/sounds/274559/
+122103__greatmganga__dshk_01                            https://freesound.org/people/greatmganga/sounds/122103/
 
 427595__michorvath__20-gauge-shotgun-gunshot            https://freesound.org/people/michorvath/sounds/427595/
 473846__lilmati__shotgun-shot-03                        https://freesound.org/people/LilMati/sounds/473846/
+
+163460__lemudcrab__sniper-shot                          https://freesound.org/people/LeMudCrab/sounds/163460/
+258198__wadaltmon__thompson-smg-shot                    https://freesound.org/people/wadaltmon/sounds/258198/
+482120__qubodup__rifle-burst                            https://freesound.org/people/qubodup/sounds/482120/
 
 200966__paul368__shotgun-cock-reload-layered-powerful   https://freesound.org/people/Paul368/sounds/200966/
 182276__martian__kg-gun-cock-02                         https://freesound.org/people/martian/sounds/182276/
 595051__21100354__gun-reloading                         https://freesound.org/people/21100354/sounds/595051/
 153560__splicesound__winchester-rifle-cock-reload       https://freesound.org/people/SpliceSound/sounds/153560/
+448987__lilmati__weapon-ready                           https://freesound.org/people/LilMati/sounds/448987/
 
 163458__lemudcrab__grenade-launcher                     https://freesound.org/people/LeMudCrab/sounds/163458/
 
-// Doors
+// Door
 15419__pagancow__dorm-door-opening                      https://freesound.org/people/pagancow/sounds/15419/
 
 176146__swagmuffinplus__sliding-doors                   https://freesound.org/people/SwagMuffinPlus/sounds/176146/
@@ -228,6 +268,8 @@ dragon-studio-dragon-flapping-wings-364476              https://pixabay.com/soun
 434878__mickthemicguy__car-honking                      https://freesound.org/people/univ_lyon3/sounds/324693/
 164626__deleted_user_2104797__car_horn_mid              https://freesound.org/people/deleted_user_2104797/sounds/164626/
 513741__danlucaz__truck-horn                            https://freesound.org/people/danlucaz/sounds/513741/
+
+50888__rutgermuller__car-door-porter-unlocking          https://freesound.org/people/RutgerMuller/sounds/50888/
 
 freesound_community-car-alarm-88609                     https://pixabay.com/sound-effects/city-car-alarm-88609/
 
@@ -283,16 +325,33 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 539957__samsterbirdies__sonar-ping                      https://freesound.org/people/SamsterBirdies/sounds/539957/
 32093__jbum__jsyd_ping                                  https://freesound.org/people/jbum/sounds/32093/
 
-// Items
+// Item
+207781__dvideoguy__pouring-liquid                       https://freesound.org/people/Dvideoguy/sounds/207781/
+431119__billypalmer__pouring-water-in-bowl              https://freesound.org/people/BillyPalmer/sounds/431119/
+319963__bart1234567__pouring-water-2015                 https://freesound.org/people/bart1234567/sounds/319963/
+
+738633__waheegle__glasses-clinking                      https://freesound.org/people/waheegle/sounds/738633/
+568758__bowlingballout__cup-and-saucer-2                https://freesound.org/people/bowlingballout/sounds/568758/
+416288__fugeni__empty-beer-bottles-clinking-clanking    https://freesound.org/people/Fugeni/sounds/416288/
+608709__somatik7__bottles-2                             https://freesound.org/people/somatik7/sounds/608709/
+
 184438__capslok__cash-register-fake                     https://freesound.org/people/CapsLok/sounds/184438/
 
 175522__mywhats__scissors-cut                           https://freesound.org/people/mywhats/sounds/175522/
 127153__daphne_in_wonderland__scissors                  https://freesound.org/people/Daphne_in_Wonderland/sounds/127153/
 
+97481__egolessdub__keys9                                https://freesound.org/people/egolessdub/sounds/97481/
+788310__realsquink__key-pickup                          https://freesound.org/people/RealSquink/sounds/788310/
+443956__anational__keys-stash                           https://freesound.org/people/anational/sounds/443956/
+405699__apinasaundi__found-keys-1                       https://freesound.org/people/apinasaundi/sounds/405699/
+
 338260__philsavlem__money-bag                           https://freesound.org/people/PhilSavlem/sounds/338260/
+565699__ralphwhitehead__coin-bag-pickup-drop            https://freesound.org/people/ralph.whitehead/sounds/565699/
 
 360739__lilmati__coin-sound-01                          https://freesound.org/people/LilMati/sounds/360739/
+343462__rocotilos__real-coin-drop                       https://freesound.org/people/Rocotilos/sounds/343462/
 162195__rickmk2__coin-drop                              https://freesound.org/people/Rickmk2/sounds/162195/
+558991__gerent__coins-falling-022                       https://freesound.org/people/Gerent/sounds/558991/
 
 337235__anthousai__bullet-shells-linearly-01_a          https://freesound.org/people/Anthousai/sounds/337235/
 337235__anthousai__bullet-shells-linearly-01_b          https://freesound.org/people/Anthousai/sounds/337235/
@@ -300,14 +359,17 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 337235__anthousai__bullet-shells-linearly-01_d          https://freesound.org/people/Anthousai/sounds/337235/
 
 632489__ani_music__opening-a-steel-padlock-shackle-take-c   https://freesound.org/people/ani_music/sounds/632489/
+342713__spacejoe__lock-3-remove-key-3                   https://freesound.org/people/SpaceJoe/sounds/342713/
+422852__ipaddeh__door_unlocking                         https://freesound.org/people/IPaddeh/sounds/422852/
+397314__designdean__double-door-lock_a                  https://freesound.org/people/DesignDean/sounds/397314/
+397314__designdean__double-door-lock_b                  https://freesound.org/people/DesignDean/sounds/397314/
+56246__qk__latch_04                                     https://freesound.org/people/Q.K./sounds/56246/
 
 581268__zaqqazlowell__shackles                          https://freesound.org/people/zaqqazlowell/sounds/581268/
 161650__cosmicembers__snapping-chain                    https://freesound.org/people/CosmicEmbers/sounds/161650/
 167915__ani_music__steel-chain-link-rustling            https://freesound.org/people/ani_music/sounds/167915/
 167373__ani_music__steel-chain-being-dropped            https://freesound.org/people/ani_music/sounds/167373/
 167372__ani_music__steel-chain-being-dropped-and-dragged-on-a-cardboard-box https://freesound.org/people/ani_music/sounds/167372/
-
-416288__fugeni__empty-beer-bottles-clinking-clanking    https://freesound.org/people/Fugeni/sounds/416288/
 
 370362__devilqube__match-lighting-candle                https://freesound.org/people/devilqube/sounds/370362/
 398448__brachern__match-ignite-no-strike                https://freesound.org/people/brachern/sounds/398448/
@@ -345,13 +407,15 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 
 485524__byjesusjp__hoja-rota                            https://freesound.org/people/ByJesusJP/sounds/485524/
 
-// Hit
+// Attack
 389590__jofae__swing-woosh                              https://freesound.org/people/Jofae/sounds/389590/
 352719__dalesome__woosh-stick-swung-in-the-air          https://freesound.org/people/Dalesome/sounds/352719/
 420668__sypherzent__basic-melee-swing-miss-whoosh       https://freesound.org/people/SypherZent/sounds/420668/
 420670__sypherzent__strong-melee-swing                  https://freesound.org/people/SypherZent/sounds/420670/
 
 444407__mootmcnoodles__slap                             https://freesound.org/people/MootMcnoodles/sounds/444407/
+
+511490__lydmakeren__fx_bowarrow                         https://freesound.org/people/Lydmakeren/sounds/511490/
 
 100466__hoot_avi__smash                                 https://freesound.org/people/hoot_avi/sounds/100466/
 399183__janbezouska__major-punch                        https://freesound.org/people/janbezouska/sounds/399183/
@@ -414,6 +478,14 @@ freesound_community-water-drip-45622                    https://pixabay.com/soun
 mrstokes302-water-droplet-sfx-mrstokes302-417690        https://pixabay.com/sound-effects/film-special-effects-water-droplet-sfx-mrstokes302-417690/
 dragon-studio-waterdrop-406639                          https://pixabay.com/sound-effects/film-special-effects-waterdrop-406639/
 alexzavesa-water-drop-tap-4-463593                      https://pixabay.com/sound-effects/nature-water-drop-tap-4-463593/
+
+208111__planman__poof-of-smoke                          https://freesound.org/people/Planman/sounds/208111/
+714257__qubodup__puff-of-smoke                          https://freesound.org/people/qubodup/sounds/714257/
+
+447910__breviceps__plop                                 https://freesound.org/people/Breviceps/sounds/447910/
+506545__lilmati__pop-02                                 https://freesound.org/people/LilMati/sounds/506545/
+
+96125__bmaczero__bubbles_single2                        https://freesound.org/people/BMacZero/sounds/96125/
 
 530975__inframatico__rain1                              https://freesound.org/people/inframatico/sounds/530975/
 672701__cinetony__rain-on-the-roof-of-car-inside-3      https://freesound.org/people/Cinetony/sounds/672701/    

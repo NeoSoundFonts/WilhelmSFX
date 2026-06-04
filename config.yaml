@@ -1,22 +1,17 @@
 Presets:
-  Man:
-    Laugh1: 341730__sgtpepperarc360__hahahaha
+  Action:
+    Grab1: 651515__1bob__grab-item
+    Grab2: 841596__qubodup__grab-item
     
-    Scream1: 759458__akridiy__a-single-scream-of-a-young-male
-    Scream2: 813304__qubodup__wilhelm-scream-alternative-2
-
-    Agony1: 272023__aldenroth2__male-scream
-    Agony2: 823508__riippumattog__pain-yell-male
-    Agony3: 267480__islandan__male-scream
+    Swallow1: 368711__mikes-multimedia__heavy_swallow
+    Swallow2: 445970__breviceps__drink-drinking-liquid
+    Swallow3: 531755__magnuswaker__gulp-hard-swallow
+    Swallow4: 552676__boaay__gulp
     
-    Snore1: 233600__sortsapostata__snoring
-    
-    Doubt1: 469605__bolkmar__voice-male-humming-doubting
-    
-    Grunt1: 416838__tonsil5__grunt2-death-pain
-    Grunt2: 416839__tonsil5__grunt1-death-pain
-    Grunt3: 90164__snaginneb__gruntsound
-    Grunt4: 547209__mrfossy__voice_adultmale_paingrunts_09
+    ClimbLadder1: 478052__deleted_user_10023915__ladderclimb4
+    ClimbLadder2: 478055__deleted_user_10023915__ladderclimb1
+    ClimbLadder3: 478054__deleted_user_10023915__ladderclimb2
+    ClimbLadder4: 478053__deleted_user_10023915__ladderclimb3
     
     Fart1: 26216__walter_odington__grim-fart
     Fart2: 558741__samsterbirdies__fart-sound
@@ -27,6 +22,36 @@ Presets:
     Fart7: 346143__dleigh__fart3
     Fart8: 346145__dleigh__fart4
     Fart9: 553480__samsterbirdies__fart
+    Fart10: 561535__jixolros__small-realpoot117
+  
+  Man:
+    Laugh1: 341730__sgtpepperarc360__hahahaha
+    
+    Scream1: 759458__akridiy__a-single-scream-of-a-young-male
+    Scream2: 813304__qubodup__wilhelm-scream-alternative-2
+    Scream3: 523216__feed__death-scream
+
+    Agony1: 272023__aldenroth2__male-scream
+    Agony2: 823508__riippumattog__pain-yell-male
+    Agony3: 267480__islandan__male-scream
+    
+    Snore1: 233600__sortsapostata__snoring
+    Snore2: 365372__rdpipo7777__ronquido
+    Snore3: universfield-snore-250959
+    Snore4: magiaz-snoring-389947_a
+    Snore5: magiaz-snoring-389947_b
+    Snore6: magiaz-snoring-389947_c
+    
+    Yawn1: 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning
+    Yawn2: 238399__amorralteixe__yawn
+    Yawn3: 202105__spookymodem__yawn
+    
+    Doubt1: 469605__bolkmar__voice-male-humming-doubting
+    
+    Grunt1: 416838__tonsil5__grunt2-death-pain
+    Grunt2: 416839__tonsil5__grunt1-death-pain
+    Grunt3: 90164__snaginneb__gruntsound
+    Grunt4: 547209__mrfossy__voice_adultmale_paingrunts_09
     
     Burp1: 12730__pingel__burp
     Burp2: 324514__deleted_user_2104797__burp
@@ -37,6 +62,7 @@ Presets:
     Burp7: 245751__2mbst1__ruelps-3
     Burp8: 678963__josetb__cartoon-burp
     Burp9: 683053__phatcorns__loud-burp
+    Burp10: 833381__geruhn__burp-single-clear
     
     Ohm1: 26244__bitsmart__ohm
 
@@ -92,6 +118,8 @@ Presets:
       - End: 53678
 
   Move:
+    Foot1: 251788__vkproduktion__footstep-01
+    
     Grass1: 464691__branndybottle__grasswalking_step1
     Grass2: 464690__branndybottle__grasswalking_step2
     
@@ -140,7 +168,7 @@ Presets:
     Move2: 318559__speedenza__short-servo-burst-1
     Move3: 148309__keemocore__robot-step-short-medium-heavy
   
-  Animals:
+  Animal:
     Toy1: 445958__breviceps__cartoon-bat-mouse-squeak
     
     CatMeow1: 146975__zabuhailo__cathowls2
@@ -198,31 +226,53 @@ Presets:
       - Start: 0
       - End: 8927
     
-  Guns:
+  Gun:
     Laser1: 253446__jmayoff__laser
     Laser2: 417731__wcoltd__laser1
     Laser3: 83562__nbs-dark__ship-fire3
     
+    Empty1: 154934__klawykogut__empty-gun-shot
+    Empty2: 107806__j1987__metallicclick
+    
     Gun1: 406476__kretopi__synthguns-001
+    Gun2: 344142__brokenphono__gunshot_002
     
     Silenced1: 255716__paul368__silenced-pistol-layered-powerful
+    Silenced2: 188499__underlineddesigns__silenced-shotgun-gunshot
     
     MachineGun1: 
       - 274559__mrjohnweez__auto-machine-gun
       - Start: 0
-      - End: 92041
+      - End: 7285
+
+    MachineGun2:
+      - 122103__greatmganga__dshk_01
+      - Start: 456
+      - End: 5021
         
     ShotGun1: 427595__michorvath__20-gauge-shotgun-gunshot
     ShotGun2: 473846__lilmati__shotgun-shot-03
     
-    GunCock1: 182276__martian__kg-gun-cock-02
-    GunCock2: 595051__21100354__gun-reloading
-    GunCock3: 153560__splicesound__winchester-rifle-cock-reload
-    GunCock4: 200966__paul368__shotgun-cock-reload-layered-powerful
+    Rifle1: 163460__lemudcrab__sniper-shot
+    Rifle2:
+      - 258198__wadaltmon__thompson-smg-shot
+      - Start: 0
+      - End: 2699
+    
+    Rifle3:
+      - 482120__qubodup__rifle-burst
+      - Start: 0
+      - End: 6445
+    
+    Reload1: 182276__martian__kg-gun-cock-02
+    Reload2: 595051__21100354__gun-reloading
+    Reload3: 153560__splicesound__winchester-rifle-cock-reload
+    Reload4: 200966__paul368__shotgun-cock-reload-layered-powerful
+    Reload5: 448987__lilmati__weapon-ready
     
     GrenLaunch1: 163458__lemudcrab__grenade-launcher
 
-  Doors:
+  Door:
     DoorOpen1: 15419__pagancow__dorm-door-opening
     
     DoorSlide1: 176146__swagmuffinplus__sliding-doors
@@ -238,17 +288,19 @@ Presets:
     Curtain1: 272436__ryanharding95__opening-shower-curtain
     Curtain2: 106132__j1987__showercurtain
   
-  Vehicles:    
-    CarOpen1: 335102__rnl__opening_car_door
+  Vehicle:    
+    Open1: 335102__rnl__opening_car_door
     
-    CarClose1: 208695__monotraum__car-door-close
-    CarClose2: 173009__ninebilly__car-door-close
+    Close1: 208695__monotraum__car-door-close
+    Close2: 173009__ninebilly__car-door-close
     
-    CarHorn1: 434878__mickthemicguy__car-honking
-    CarHorn2: 164626__deleted_user_2104797__car_horn_mid
-    CarHorn3: 513741__danlucaz__truck-horn
+    Horn1: 434878__mickthemicguy__car-honking
+    Horn2: 164626__deleted_user_2104797__car_horn_mid
+    Horn3: 513741__danlucaz__truck-horn
     
-    CarAlarm1:
+    Lock1: 50888__rutgermuller__car-door-porter-unlocking
+    
+    Alarm1:
       - freesound_community-car-alarm-88609
       - Start: 0
       - End: 8620
@@ -351,31 +403,51 @@ Presets:
       - Start: 0
       - End: 44086
   
-  Items:
+  Item:
+    Pour1: 207781__dvideoguy__pouring-liquid
+    Pour2: 431119__billypalmer__pouring-water-in-bowl
+    Pour3: 319963__bart1234567__pouring-water-2015
+    
+    Clink1: 738633__waheegle__glasses-clinking
+    Clink2: 568758__bowlingballout__cup-and-saucer-2
+    Clink3: 416288__fugeni__empty-beer-bottles-clinking-clanking
+    Clink4: 608709__somatik7__bottles-2
+    
     CashReg1: 184438__capslok__cash-register-fake
     
     Scissor1: 175522__mywhats__scissors-cut
     Scissor2: 127153__daphne_in_wonderland__scissors
     
+    Keys1: 97481__egolessdub__keys9
+    Keys2: 788310__realsquink__key-pickup
+    Keys3: 443956__anational__keys-stash
+    Keys4: 405699__apinasaundi__found-keys-1
+    
     MoneyBag1: 338260__philsavlem__money-bag
+    MoneyBag2: 565699__ralphwhitehead__coin-bag-pickup-drop
     
     CoinDrop1: 360739__lilmati__coin-sound-01
+    CoinDrop2: 343462__rocotilos__real-coin-drop
     CoinsDrop1: 162195__rickmk2__coin-drop
+    CoinsDrop2: 558991__gerent__coins-falling-022
     
     BulletDrop1: 337235__anthousai__bullet-shells-linearly-01_a
     BulletDrop2: 337235__anthousai__bullet-shells-linearly-01_b
     BulletDrop3: 337235__anthousai__bullet-shells-linearly-01_c
     BulletDrop4: 337235__anthousai__bullet-shells-linearly-01_d
     
-    Padlock1: 632489__ani_music__opening-a-steel-padlock-shackle-take-c
+    Lock1: 632489__ani_music__opening-a-steel-padlock-shackle-take-c
+    Lock2: 342713__spacejoe__lock-3-remove-key-3
+    Lock3: 422852__ipaddeh__door_unlocking
+    Lock4: 397314__designdean__double-door-lock_a
+    Lock5: 397314__designdean__double-door-lock_b
+    Lock6: 56246__qk__latch_04
     
     Chains1: 581268__zaqqazlowell__shackles
     Chains2: 161650__cosmicembers__snapping-chain
     Chains3: 167915__ani_music__steel-chain-link-rustling
     Chains4: 167373__ani_music__steel-chain-being-dropped
     Chains5: 167372__ani_music__steel-chain-being-dropped-and-dragged-on-a-cardboard-box
-    
-    Bottle1: 416288__fugeni__empty-beer-bottles-clinking-clanking
     
     Match1: 370362__devilqube__match-lighting-candle
     Match2: 398448__brachern__match-ignite-no-strike
@@ -414,13 +486,15 @@ Presets:
     
     Paper1: 485524__byjesusjp__hoja-rota
   
-  Hit:
+  Attack:
     Swing1: 389590__jofae__swing-woosh
     Swing2: 352719__dalesome__woosh-stick-swung-in-the-air
     Swing3: 420668__sypherzent__basic-melee-swing-miss-whoosh
     Swing4: 420670__sypherzent__strong-melee-swing
     
     Slap1: 444407__mootmcnoodles__slap
+    
+    Arrow1: 511490__lydmakeren__fx_bowarrow
 
     Punch1: 100466__hoot_avi__smash
     Punch2: 399183__janbezouska__major-punch
@@ -487,6 +561,14 @@ Presets:
     Drop3: mrstokes302-water-droplet-sfx-mrstokes302-417690
     Drop4: dragon-studio-waterdrop-406639
     Drop5: alexzavesa-water-drop-tap-4-463593
+    
+    SmokePoof1: 208111__planman__poof-of-smoke
+    SmokePoof2: 714257__qubodup__puff-of-smoke
+    
+    Bubble1: 447910__breviceps__plop
+    Bubble2: 506545__lilmati__pop-02
+    
+    Bubbles2: 96125__bmaczero__bubbles_single2
     
     Rain1:
       - 530975__inframatico__rain1
