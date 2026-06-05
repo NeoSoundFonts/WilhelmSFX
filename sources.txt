@@ -151,6 +151,11 @@ dragon-studio-crowd-booing-494319                       https://pixabay.com/soun
 
 447930__breviceps__step-on-a-slug-splat-2               https://freesound.org/people/Breviceps/sounds/447930/
 
+horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_a    https://freesound.org/people/designerschoice/sounds/807858/
+horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_b    https://freesound.org/people/designerschoice/sounds/807858/
+horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_c    https://freesound.org/people/designerschoice/sounds/807858/
+horse-galloping-coconut-shells-looped-03_nicholas-judy_tdc_d    https://freesound.org/people/designerschoice/sounds/807858/
+
 // Robot
 275654__deleted_user_4798915__robot_yes-sir             https://freesound.org/people/deleted_user_4798915/sounds/275654/
 316311__littlerobotsoundfactory__robot2_16              https://freesound.org/people/LittleRobotSoundFactory/sounds/316311/
@@ -180,10 +185,20 @@ dragon-studio-crowd-booing-494319                       https://pixabay.com/soun
 464406__michael_grinnell__dog_bark_2                    https://freesound.org/people/michael_grinnell/sounds/464406/
 
 316920__rudmer_rotteveel__chicken-single-alarm-call     https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/
+842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico    https://freesound.org/people/harrisonlace/sounds/842587/
+435508__benjaminnelan__rooster-crow-1                   https://freesound.org/people/rafaelpicoli/sounds/392029/
+623796__nomadas__rooster-crows-in-a-farm                https://freesound.org/people/nomadas/sounds/623796/
+
+dragon-studio-hawk-call-sound-effect-hawk-cry-364472    https://pixabay.com/sound-effects/nature-hawk-call-sound-effect-hawk-cry-364472/
+556575__sieuamthanh__ai-bang-tren-khong                 https://freesound.org/people/SieuAmThanh/sounds/556575/
 
 u_jd81cxyq22-cow-mooing-343423                          https://pixabay.com/sound-effects/nature-cow-mooing-343423/
 
-842587__harrisonlace__birdfowl_rooster-crow-boisterous-cock-cocorico    https://freesound.org/people/harrisonlace/sounds/842587/
+184503__madklown__horse                                 https://freesound.org/people/madklown/sounds/184503/
+269571__shadowisp__horse-neigh-shortened                https://freesound.org/people/shadoWisp/sounds/269571/
+475483__o_ciz__horsesnort_3                             https://freesound.org/people/o_ciz/sounds/475483/
+
+392029__rafaelpicoli__jumento                           https://freesound.org/people/rafaelpicoli/sounds/392029/
 
 34207__deleted_user_229898__birds_01                    https://freesound.org/people/deleted_user_229898/sounds/34207/
 509321__xfromarge1__bird_cherp_42                       https://freesound.org/people/xFromarge1/sounds/509321/
@@ -191,6 +206,8 @@ u_jd81cxyq22-cow-mooing-343423                          https://pixabay.com/soun
 607242__d4xx__great-tit                                 https://freesound.org/people/D4XX/sounds/607242/
 607223__d4xx__bird-sound                                https://freesound.org/people/D4XX/sounds/607223/
 
+512781__iwanplays__croworraven1                         https://freesound.org/people/iwanPlays/sounds/512781/
+512780__iwanplays__croworraven2                         https://freesound.org/people/iwanPlays/sounds/512780/
 56234__qk__crows_02                                     https://freesound.org/people/Q.K./sounds/56234/
 
 442906__qubodup__pig-oink                               https://freesound.org/people/qubodup/sounds/442906/
