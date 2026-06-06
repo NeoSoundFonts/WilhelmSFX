@@ -50,6 +50,8 @@ Presets:
     Chew4: 570336__user391915396__eating-sound-effect
     Chew5: 816237__qubodup__crunch
     Chew6: 718593__jomungus__crispy-bite
+    
+    Brush1: 344579__vcspran__brushing_teeth
   
   Man:
     Laugh1: 341730__sgtpepperarc360__hahahaha
@@ -57,6 +59,10 @@ Presets:
     Scream1: 759458__akridiy__a-single-scream-of-a-young-male
     Scream2: 813304__qubodup__wilhelm-scream-alternative-2
     Scream3: 523216__feed__death-scream
+    
+    Angry1: 187762__anguruso__buttface
+    Angry2: 318090__drkvixn91__sigh_5_male_deep
+    Angry3: 391939__ssierra1202__anger
 
     Agony1: 272023__aldenroth2__male-scream
     Agony2: 823508__riippumattog__pain-yell-male
@@ -111,6 +117,11 @@ Presets:
     Scream3: 169811__missozzy__female-scream-02
     Scream4: 344013__reitanna__high-pitched-ah2
     
+    Angry1: 344010__reitanna__growly
+    Angry2: 343919__reitanna__large-growl
+    Angry3: 344003__reitanna__so-anger_a
+    Angry4: 344003__reitanna__so-anger_b
+    
     Grunt1: 344004__reitanna__heavy-grunt
     
     Surprise1: 509883__slamaxu__female_gasp
@@ -121,6 +132,21 @@ Presets:
     Dissapoint2: 391896__edinaldoapsantos__bocejo_feminino
     
     Nya1: 336012__mike_bes__nya
+  
+  Child:
+    BabyCry1: 240372__mariiao2__baby-cry
+
+    BabyLaugh1: 449869__gary_in_wv__infantlaugh
+    BabyLaugh2: 462457__arvinsohi29__children_laughing-mike_koenig-575083331
+    
+    GirlLaugh1: 367493__funwithsound__child-giggle
+    GirlLaugh2: 184618__kimheadlee__lkf10
+    
+    GirlOh1: 445964__breviceps__cartoon-uh-oh
+
+    GirlScream1: 397686__piermic__little-girl-screaming
+    
+    Cough1: 470120__the_coolguy78__child-coffing
     
   People:
     Laugh1: 262983__alcappuccino__audience_laughing50
@@ -261,6 +287,14 @@ Presets:
     Crow3: 56234__qk__crows_02
     
     Cow1: u_jd81cxyq22-cow-mooing-343423
+    Cow2: 275154__bird_man__moo
+    Cow3: 59245__zozzy__z-moo01
+    Cow4: 112068__diarchangeli__animalhowling
+    
+    Sheep1: 380042__edschaefer__sheeplings_a
+    Sheep2: 380042__edschaefer__sheeplings_b
+    Sheep3: 710298__michaelperfect__sheep-baaing-3-norwegian-sheep-expressing-itself-concisely
+    Sheep4: 710296__michaelperfect__sheep-baaing-1-norwegian-sheep-expressing-itself-concisely
     
     Bison1: yell-YELLMM8K2005918Bison_a
     Bison2: yell-YELLMM8K2005918Bison_b
@@ -358,6 +392,10 @@ Presets:
     Reload7: dragon-studio-gun-reload-2-511308
     
     GrenLaunch1: 163458__lemudcrab__grenade-launcher
+    
+    Flamethrower1:
+      - 490166__samsterbirdies__flamethrower
+      - End: all
 
   Door:
     DoorOpen1: 15419__pagancow__dorm-door-opening

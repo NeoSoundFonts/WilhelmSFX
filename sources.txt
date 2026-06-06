@@ -43,12 +43,18 @@ velisophigus-vomiting-301069                            https://pixabay.com/soun
 816237__qubodup__crunch                                 https://freesound.org/people/qubodup/sounds/816237/
 718593__jomungus__crispy-bite                           https://freesound.org/people/JoMungus/sounds/718593/
 
+344579__vcspran__brushing_teeth                         https://freesound.org/people/vcspran/sounds/344579/
+
 // Man
 341730__sgtpepperarc360__hahahaha                       https://freesound.org/people/SgtPepperArc360/sounds/341730/
 
 759458__akridiy__a-single-scream-of-a-young-male        https://freesound.org/people/akridiy/sounds/759458/
 813304__qubodup__wilhelm-scream-alternative-2           https://freesound.org/people/qubodup/sounds/813304/
 523216__feed__death-scream                              https://freesound.org/people/Feed_/sounds/523216/
+
+187762__anguruso__buttface                              https://freesound.org/people/anguruso/sounds/187762/
+318090__drkvixn91__sigh_5_male_deep                     https://freesound.org/people/Drkvixn91/sounds/318090/
+391939__ssierra1202__anger                              https://freesound.org/people/ssierra1202/sounds/391939/
 
 272023__aldenroth2__male-scream                         https://freesound.org/people/aldenroth2/sounds/272023/
 823508__riippumattog__pain-yell-male                    https://freesound.org/people/riippumattog/sounds/823508/
@@ -103,6 +109,11 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 169811__missozzy__female-scream-02                      https://freesound.org/people/missozzy/sounds/169811/
 344013__reitanna__high-pitched-ah2                      https://freesound.org/people/Reitanna/sounds/344013/
 
+344010__reitanna__growly                                https://freesound.org/people/Reitanna/sounds/344010/
+343919__reitanna__large-growl                           https://freesound.org/people/Reitanna/sounds/343919/
+344003__reitanna__so-anger_a                            https://freesound.org/people/Reitanna/sounds/344003/
+344003__reitanna__so-anger_b                            https://freesound.org/people/Reitanna/sounds/344003/
+
 344004__reitanna__heavy-grunt                           https://freesound.org/people/Reitanna/sounds/344004/
 
 509883__slamaxu__female_gasp                            https://freesound.org/people/slamaxu/sounds/509883/
@@ -113,6 +124,21 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 391896__edinaldoapsantos__bocejo_feminino               https://freesound.org/people/EdinaldoApSantos/sounds/391896/
 
 336012__mike_bes__nya                                   https://freesound.org/people/Mike_bes/sounds/336012/
+
+// Child
+
+240372__mariiao2__baby-cry                              https://freesound.org/people/mariiao2/sounds/240372/
+449869__gary_in_wv__infantlaugh                         https://freesound.org/people/gary_in_wv/sounds/449869/
+462457__arvinsohi29__children_laughing-mike_koenig-575083331    https://freesound.org/people/arvinsohi29/sounds/462457/
+
+367493__funwithsound__child-giggle                      https://freesound.org/people/FunWithSound/sounds/367493/
+184618__kimheadlee__lkf10                               https://freesound.org/people/kim.headlee/sounds/184618/
+
+445964__breviceps__cartoon-uh-oh                        https://freesound.org/people/Breviceps/sounds/445964/
+
+397686__piermic__little-girl-screaming                  https://freesound.org/people/piermic/sounds/397686/
+
+470120__the_coolguy78__child-coffing                    https://freesound.org/people/The_coolguy78/sounds/470120/
 
 // People
 262983__alcappuccino__audience_laughing50               https://freesound.org/people/Alcappuccino/sounds/262983/
@@ -234,6 +260,14 @@ dragon-studio-hawk-call-sound-effect-hawk-cry-364472    https://pixabay.com/soun
 556575__sieuamthanh__ai-bang-tren-khong                 https://freesound.org/people/SieuAmThanh/sounds/556575/
 
 u_jd81cxyq22-cow-mooing-343423                          https://pixabay.com/sound-effects/nature-cow-mooing-343423/
+275154__bird_man__moo                                   https://freesound.org/people/Bird_man/sounds/275154/
+59245__zozzy__z-moo01                                   https://freesound.org/people/Zozzy/sounds/59245/
+112068__diarchangeli__animalhowling                     https://freesound.org/people/DiArchangeli/sounds/112068/
+
+380042__edschaefer__sheeplings_a                        https://freesound.org/people/edschaefer/sounds/380042/
+380042__edschaefer__sheeplings_b                        https://freesound.org/people/edschaefer/sounds/380042/
+710298__michaelperfect__sheep-baaing-3-norwegian-sheep-expressing-itself-concisely  https://freesound.org/people/michaelperfect/sounds/710298/
+710296__michaelperfect__sheep-baaing-1-norwegian-sheep-expressing-itself-concisely  https://freesound.org/people/michaelperfect/sounds/710296/
 
 yell-YELLMM8K2005918Bison_a                             https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm
 yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm
@@ -321,6 +355,8 @@ dragon-studio-gun-reload-2-511308                       https://pixabay.com/soun
 eaglaxle-gun-shot-3-530790                              https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/
 
 163458__lemudcrab__grenade-launcher                     https://freesound.org/people/LeMudCrab/sounds/163458/
+
+490166__samsterbirdies__flamethrower                    https://freesound.org/people/SamsterBirdies/sounds/490166/
 
 // Door
 15419__pagancow__dorm-door-opening                      https://freesound.org/people/pagancow/sounds/15419/

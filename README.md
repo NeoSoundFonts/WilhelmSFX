@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (445)
+## Effect List (469)
 ### Action
 
 Grab1 [grab item](https://freesound.org/people/1bob/sounds/651515/)
@@ -116,6 +116,11 @@ Chew6 [crispy bite](https://freesound.org/people/JoMungus/sounds/718593/)
 &nbsp;
 &nbsp;
 
+Brush1 [brushing teeth](https://freesound.org/people/vcspran/sounds/344579/)
+
+&nbsp;
+&nbsp;
+
 ### Man
 
 Laugh1 [hahahaha](https://freesound.org/people/SgtPepperArc360/sounds/341730/)
@@ -128,6 +133,15 @@ Scream1 [a single scream of a young male](https://freesound.org/people/akridiy/s
 Scream2 [wilhelm scream alternative 2](https://freesound.org/people/qubodup/sounds/813304/)
 
 Scream3 [death scream](https://freesound.org/people/Feed_/sounds/523216/)
+
+&nbsp;
+&nbsp;
+
+Angry1 [buttface](https://freesound.org/people/anguruso/sounds/187762/)
+
+Angry2 [sigh 5 male deep](https://freesound.org/people/Drkvixn91/sounds/318090/)
+
+Angry3 [anger](https://freesound.org/people/ssierra1202/sounds/391939/)
 
 &nbsp;
 &nbsp;
@@ -250,6 +264,17 @@ Scream4 [high pitched ah2](https://freesound.org/people/Reitanna/sounds/344013/)
 &nbsp;
 &nbsp;
 
+Angry1 [growly](https://freesound.org/people/Reitanna/sounds/344010/)
+
+Angry2 [large growl](https://freesound.org/people/Reitanna/sounds/343919/)
+
+Angry3 [so anger a](https://freesound.org/people/Reitanna/sounds/344003/)
+
+Angry4 [so anger b](https://freesound.org/people/Reitanna/sounds/344003/)
+
+&nbsp;
+&nbsp;
+
 Grunt1 [heavy grunt](https://freesound.org/people/Reitanna/sounds/344004/)
 
 &nbsp;
@@ -272,6 +297,42 @@ Dissapoint2 [bocejo feminino](https://freesound.org/people/EdinaldoApSantos/soun
 &nbsp;
 
 Nya1 [nya](https://freesound.org/people/Mike_bes/sounds/336012/)
+
+&nbsp;
+&nbsp;
+
+### Child
+
+&nbsp;
+&nbsp;
+
+BabyCry1 [baby cry](https://freesound.org/people/mariiao2/sounds/240372/)
+
+BabyLaugh1 [infantlaugh](https://freesound.org/people/gary_in_wv/sounds/449869/)
+
+BabyLaugh2 [children laughing mike koenig 575083331](https://freesound.org/people/arvinsohi29/sounds/462457/)
+
+&nbsp;
+&nbsp;
+
+GirlLaugh1 [child giggle](https://freesound.org/people/FunWithSound/sounds/367493/)
+
+GirlLaugh2 [lkf10](https://freesound.org/people/kim.headlee/sounds/184618/)
+
+&nbsp;
+&nbsp;
+
+GirlOh1 [cartoon uh oh](https://freesound.org/people/Breviceps/sounds/445964/)
+
+&nbsp;
+&nbsp;
+
+GirlScream1 [little girl screaming](https://freesound.org/people/piermic/sounds/397686/)
+
+&nbsp;
+&nbsp;
+
+Cough1 [child coffing](https://freesound.org/people/The_coolguy78/sounds/470120/)
 
 &nbsp;
 &nbsp;
@@ -545,6 +606,23 @@ Eagle2 [ai bang tren khong](https://freesound.org/people/SieuAmThanh/sounds/5565
 
 Cow1 [u jd81cxyq22 cow mooing 343423](https://pixabay.com/sound-effects/nature-cow-mooing-343423/)
 
+Cow2 [moo](https://freesound.org/people/Bird_man/sounds/275154/)
+
+Cow3 [z moo01](https://freesound.org/people/Zozzy/sounds/59245/)
+
+Cow4 [animalhowling](https://freesound.org/people/DiArchangeli/sounds/112068/)
+
+&nbsp;
+&nbsp;
+
+Sheep1 [sheeplings a](https://freesound.org/people/edschaefer/sounds/380042/)
+
+Sheep2 [sheeplings b](https://freesound.org/people/edschaefer/sounds/380042/)
+
+Sheep3 [sheep baaing 3 norwegian sheep expressing itself concisely](https://freesound.org/people/michaelperfect/sounds/710298/)
+
+Sheep4 [sheep baaing 1 norwegian sheep expressing itself concisely](https://freesound.org/people/michaelperfect/sounds/710296/)
+
 &nbsp;
 &nbsp;
 
@@ -741,6 +819,11 @@ Shit6 [eaglaxle gun shot 3 530790](https://pixabay.com/sound-effects/film-specia
 &nbsp;
 
 GrenLaunch1 [grenade launcher](https://freesound.org/people/LeMudCrab/sounds/163458/)
+
+&nbsp;
+&nbsp;
+
+Flamethrower1 [flamethrower](https://freesound.org/people/SamsterBirdies/sounds/490166/)
 
 &nbsp;
 &nbsp;
