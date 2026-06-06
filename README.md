@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (469)
+## Effect List (472)
 ### Action
 
 Grab1 [grab item](https://freesound.org/people/1bob/sounds/651515/)
@@ -720,6 +720,18 @@ Bat2 [freesound community double squeak 2 103875 b](https://pixabay.com/sound-ef
 Bat3 [the vampires monster bat chirping type 2 355965 a](https://pixabay.com/sound-effects/nature-bat-chirping-type-2-355965/)
 
 Bat4 [the vampires monster bat chirping type 2 355965 b](https://pixabay.com/sound-effects/nature-bat-chirping-type-2-355965/)
+
+&nbsp;
+&nbsp;
+
+Frog1 [frog](https://freesound.org/people/egomassive/sounds/536759/)
+
+Frog2 [frog quak](https://freesound.org/people/katzlbt/sounds/361117/)
+
+&nbsp;
+&nbsp;
+
+Cicada1 [crickets katydids cicadas insect sound at night](https://freesound.org/people/Attia.phonatics/sounds/829810/)
 
 &nbsp;
 &nbsp;

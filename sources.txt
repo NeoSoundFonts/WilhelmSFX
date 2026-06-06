@@ -312,6 +312,11 @@ freesound_community-double-squeak-2-103875_b            https://pixabay.com/soun
 the-vampires-monster-bat-chirping-type-2-355965_a       https://pixabay.com/sound-effects/nature-bat-chirping-type-2-355965/
 the-vampires-monster-bat-chirping-type-2-355965_b       https://pixabay.com/sound-effects/nature-bat-chirping-type-2-355965/
 
+536759__egomassive__frog                                https://freesound.org/people/egomassive/sounds/536759/
+361117__katzlbt__frog_quak                              https://freesound.org/people/katzlbt/sounds/361117/
+
+829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night https://freesound.org/people/Attia.phonatics/sounds/829810/
+
 389634__stubb__wing-flap-1                              https://freesound.org/people/_stubb/sounds/389634/
 freesound_community-wing-flap-1-6434                    https://pixabay.com/sound-effects/film-special-effects-wing-flap-1-6434/
 dragon-studio-dragon-flapping-wings-364476              https://pixabay.com/sound-effects/film-special-effects-dragon-flapping-wings-364476/

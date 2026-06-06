@@ -330,6 +330,13 @@ Presets:
     Bat3: the-vampires-monster-bat-chirping-type-2-355965_a
     Bat4: the-vampires-monster-bat-chirping-type-2-355965_b
     
+    Frog1: 536759__egomassive__frog
+    Frog2: 361117__katzlbt__frog_quak
+    
+    Cicada1:
+      - 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night
+      - End: all
+    
     WingFlap1:
       - 389634__stubb__wing-flap-1
       - End: all
