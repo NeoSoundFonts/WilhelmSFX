@@ -206,7 +206,7 @@ if (processReadme)
             tagGroup = newTagGroup;
         }
 
-        readme += $"{realName} [{name}]({src})\n\n";
+        readme += $"[{realName}]({src} \"{name}\") ";
 
         count++;
     }
@@ -232,7 +232,7 @@ if (processReadme)
             tagList.RemoveAt(i);
 
             var tags = string.Join(", ", tagVal.Select(n => $"`{n}`"));
-            readme = readme.Replace("!TAGS!", $"*{tags}*\n\n");
+            readme = readme.Replace("!TAGS!", $"\n\n*{tags}*\n\n");
             break;
         }
     }
