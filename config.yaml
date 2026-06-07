@@ -380,12 +380,8 @@ Presets:
     WingFlap1:
       - 389634__stubb__wing-flap-1
       - End: all
-        
-    WingFlap2:
-      - freesound_community-wing-flap-1-6434
-      - End: all
     
-    WingFlap3:
+    WingFlap2:
       - dragon-studio-dragon-flapping-wings-364476
       - End: all
     

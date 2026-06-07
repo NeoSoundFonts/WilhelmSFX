@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (490)
+## Effect List (492)
 ### Action
 
 Grab1 [grab item](https://freesound.org/people/1bob/sounds/651515/)
@@ -634,6 +634,13 @@ ChorusFrog1 [yell ChorusFrogs](https://www.nps.gov/yell/learn/photosmultimedia/s
 &nbsp;
 &nbsp;
 
+ChorusCicada1 [cicadas](https://freesound.org/people/laughatlantic/sounds/320113/)
+
+ChorusCicada2 [periodical cicada chorus at keystone state park pennsylvania](https://freesound.org/people/heyheymaimai/sounds/493058/)
+
+&nbsp;
+&nbsp;
+
 Chicken1 [chicken single alarm call](https://freesound.org/people/Rudmer_Rotteveel/sounds/316920/)
 
 Chicken2 [birdfowl rooster crow boisterous cock cocorico](https://freesound.org/people/harrisonlace/sounds/842587/)
@@ -781,14 +788,14 @@ Frog2 [frog quak](https://freesound.org/people/katzlbt/sounds/361117/)
 
 Cicada1 [crickets katydids cicadas insect sound at night](https://freesound.org/people/Attia.phonatics/sounds/829810/)
 
+Cicada2 [cicada insect loop](https://freesound.org/people/soundofsong/sounds/640718/)
+
 &nbsp;
 &nbsp;
 
 WingFlap1 [wing flap 1](https://freesound.org/people/_stubb/sounds/389634/)
 
-WingFlap2 [freesound community wing flap 1 6434](https://pixabay.com/sound-effects/film-special-effects-wing-flap-1-6434/)
-
-WingFlap3 [dragon studio dragon flapping wings 364476](https://pixabay.com/sound-effects/film-special-effects-dragon-flapping-wings-364476/)
+WingFlap2 [dragon studio dragon flapping wings 364476](https://pixabay.com/sound-effects/film-special-effects-dragon-flapping-wings-364476/)
 
 &nbsp;
 &nbsp;
