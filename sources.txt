@@ -17,9 +17,6 @@ No protection is claimed in original U.S. Government works
 318090__drkvixn91__sigh_5_male_deep                     https://freesound.org/people/Drkvixn91/sounds/318090/
 391939__ssierra1202__anger                              https://freesound.org/people/ssierra1202/sounds/391939/
 
-166944__qubodup__grunts-of-pain-by-military-soldiers_a  https://freesound.org/people/qubodup/sounds/166944/
-166944__qubodup__grunts-of-pain-by-military-soldiers_b  https://freesound.org/people/qubodup/sounds/166944/
-
 272023__aldenroth2__male-scream                         https://freesound.org/people/aldenroth2/sounds/272023/
 823508__riippumattog__pain-yell-male                    https://freesound.org/people/riippumattog/sounds/823508/
 267480__islandan__male-scream                           https://freesound.org/people/islandan/sounds/267480/
@@ -43,17 +40,8 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 416839__tonsil5__grunt1-death-pain                      https://freesound.org/people/tonsil5/sounds/416839/
 90164__snaginneb__gruntsound                            https://freesound.org/people/snaginneb/sounds/90164/
 547209__mrfossy__voice_adultmale_paingrunts_09          https://freesound.org/people/MrFossy/sounds/547209/
-
-26216__walter_odington__grim-fart                       https://freesound.org/people/Walter_Odington/sounds/26216/
-558741__samsterbirdies__fart-sound                      https://freesound.org/people/SamsterBirdies/sounds/558741/
-94989__deleted_user_1391979__bad-chili-fart             https://freesound.org/people/deleted_user_1391979/sounds/94989/
-324453__katavlogsyt__small-fart                         https://freesound.org/people/KataVlogsYT/sounds/324453/
-840755__bassimat__fart-005                              https://freesound.org/people/bassimat/sounds/840755/
-249583__ycbcr__short-definite-fart                      https://freesound.org/people/ycbcr/sounds/249583/
-346143__dleigh__fart3                                   https://freesound.org/people/dleigh/sounds/346143/
-346145__dleigh__fart4                                   https://freesound.org/people/dleigh/sounds/346145/
-553480__samsterbirdies__fart                            https://freesound.org/people/SamsterBirdies/sounds/553480/
-561535__jixolros__small-realpoot117                     https://freesound.org/people/Jixolros/sounds/561535/
+166944__qubodup__grunts-of-pain-by-military-soldiers_a  https://freesound.org/people/qubodup/sounds/166944/
+166944__qubodup__grunts-of-pain-by-military-soldiers_b  https://freesound.org/people/qubodup/sounds/166944/
 
 26244__bitsmart__ohm                                    https://freesound.org/people/bitsmart/sounds/26244/
 
@@ -170,6 +158,17 @@ dragon-studio-crowd-booing-494319                       https://pixabay.com/soun
 185046__justeluis__flush                                https://freesound.org/people/justeluis/sounds/185046/
 
 771698__frenkfurth__poop-fall-into-toilet-1             https://freesound.org/people/frenkfurth/sounds/771698/
+
+26216__walter_odington__grim-fart                       https://freesound.org/people/Walter_Odington/sounds/26216/
+558741__samsterbirdies__fart-sound                      https://freesound.org/people/SamsterBirdies/sounds/558741/
+94989__deleted_user_1391979__bad-chili-fart             https://freesound.org/people/deleted_user_1391979/sounds/94989/
+324453__katavlogsyt__small-fart                         https://freesound.org/people/KataVlogsYT/sounds/324453/
+840755__bassimat__fart-005                              https://freesound.org/people/bassimat/sounds/840755/
+249583__ycbcr__short-definite-fart                      https://freesound.org/people/ycbcr/sounds/249583/
+346143__dleigh__fart3                                   https://freesound.org/people/dleigh/sounds/346143/
+346145__dleigh__fart4                                   https://freesound.org/people/dleigh/sounds/346145/
+553480__samsterbirdies__fart                            https://freesound.org/people/SamsterBirdies/sounds/553480/
+561535__jixolros__small-realpoot117                     https://freesound.org/people/Jixolros/sounds/561535/
 
 12730__pingel__burp                                     https://freesound.org/people/Pingel/sounds/12730/
 324514__deleted_user_2104797__burp                      https://freesound.org/people/deleted_user_2104797/sounds/324514/

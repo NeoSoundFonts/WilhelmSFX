@@ -1,12 +1,11 @@
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
 Angry Growl snarl huff deep sigh grumble frustration annoyed
-Grunt Groan strain effort military soldier exertion
 Agony Pain hurt roar suffering anguish wounded injured
 Snore Snoring breathing sleeping asleep slumber rest apnea
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
-Fart Flatulence poot toot fart gas gross bathroom funny comedy poop intestinal
+Grunt Groan strain effort military soldier exertion
 Ohm Om meditation drone mantra spiritual chant
 Moan Groan sigh pleasure soft gasp
 Kiss Smooch peck mwah lip affection romance love
@@ -30,6 +29,7 @@ ClimbLadder climbing rung stepping scaling
 Boil bubbling cooking hot kitchen potion
 ToiletFlush Commode swirling drainage lavatory bathroom
 PoopFall Splash toilet gross comedy
+Fart Flatulence poot toot fart gas gross bathroom funny comedy poop intestinal
 Burp eructation belch gross funny digestion
 Poke Gagging retching vomit throat nausea sick
 Chew Bite crunch munching eating mastication food

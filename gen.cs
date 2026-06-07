@@ -204,7 +204,9 @@ if (processReadme)
             AddTags();
             
             tagGroup = newTagGroup;
+            realName = realName[..^1] + " 1";
         }
+        else realName = realName[^1..];
 
         readme += $"[{realName}]({src} \"{name}\") ";
 
