@@ -31,6 +31,7 @@ const string samplesOutput = "SamplesOgg";
 var q = Math.Clamp(ArgsInt("-q") ?? 2, -1, 10);
 var processSamples = !ArgsContains("--skip-process");
 var processReadme = !ArgsContains("--skip-readme");
+var onlyReadme = ArgsContains("--only-readme");
 var sampleRate = ArgsInt("--sample-rate") ?? 22_050;
 var lowpass = ArgsInt("--lowpass") ?? sampleRate;
 var bitcrush = ArgsInt("--bitcrush") ?? 32;
@@ -108,6 +109,26 @@ Console.WriteLine("Samples: " + sampleLen);
 if (processReadme)
 {
     Console.WriteLine("Process Readme ...");
+    
+    // Tags
+    var tagList = new List<(string, HashSet<string>)>();
+    
+    foreach (var line in
+             File.ReadAllText("tags.txt").Split(Environment.NewLine))
+    {
+        if (line.IsWhiteSpace()) continue;
+        
+        var list = line.Split(' ');
+        var name = list[0].ToLowerInvariant();
+        var tags = list[1..].Select(n => n.ToLowerInvariant()).ToHashSet();
+
+        if (tags.Count == 0)
+            throw new Exception("Tag count cannot be 0: " + name);
+        
+        tagList.Add((name, tags));
+    }
+
+    // Readme
     var readme = 
         """
         # Wilhelm SFX
@@ -137,6 +158,8 @@ if (processReadme)
     var urls = new HashSet<string>();
     var count = 0;
     var firstGroup = true;
+    var tagGroup = "-";
+    var needTag = false;
     
     foreach (var line in sourcesTxt.Split(Environment.NewLine))
     {
@@ -146,7 +169,9 @@ if (processReadme)
         
         if (line.IsWhiteSpace())
         {
+            if (needTag) readme += "!TAGS!";
             readme += "&nbsp;\n&nbsp;\n\n";
+            needTag = false;
             continue;
         }
 
@@ -170,10 +195,23 @@ if (processReadme)
         name = name.Replace("_", " ");
         name = name.Replace("-", " ");
 
+        if (!realName.StartsWith(
+                tagGroup,
+                StringComparison.InvariantCultureIgnoreCase))
+        {
+            needTag = true;
+            var newTagGroup = realName[..^1].ToLowerInvariant();
+            AddTags();
+            
+            tagGroup = newTagGroup;
+        }
+
         readme += $"{realName} [{name}]({src})\n\n";
 
         count++;
     }
+    
+    AddTags();
 
     readme = string.Format(
         readme, 
@@ -181,6 +219,23 @@ if (processReadme)
         count);
     
     File.WriteAllText("README.md", readme);
+
+    if (onlyReadme) return;
+
+    void AddTags()
+    {
+        for (var i = 0; i < tagList.Count; i++)
+        {
+            var (tagKey, tagVal) = tagList[i];
+            if (!tagGroup.StartsWith(tagKey)) continue;
+
+            tagList.RemoveAt(i);
+
+            var tags = string.Join(", ", tagVal.Select(n => $"`{n}`"));
+            readme = readme.Replace("!TAGS!", $"*{tags}*\n\n");
+            break;
+        }
+    }
 }
 
 // Process samples
