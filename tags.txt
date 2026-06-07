@@ -23,7 +23,7 @@ Applause Clapping ovation
 Aww sympathy sigh pity
 Boo Booing jeering disapproval
 Loud roar celebration arena
-Grab Pickup take loot  inventory item collect
+Grab Pickup take loot inventory item collect
 Swallow Gulp drinking chugging throat chug
 ClimbLadder climbing rung stepping scaling
 Boil bubbling cooking hot kitchen potion

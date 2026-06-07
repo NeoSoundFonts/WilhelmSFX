@@ -448,12 +448,12 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 
 337235__anthousai__bullet-shells-linearly-01_a          https://freesound.org/people/Anthousai/sounds/337235/
 337235__anthousai__bullet-shells-linearly-01_b          https://freesound.org/people/Anthousai/sounds/337235/
-
 337235__anthousai__bullet-shells-linearly-01_c          https://freesound.org/people/Anthousai/sounds/337235/
 337235__anthousai__bullet-shells-linearly-01_d          https://freesound.org/people/Anthousai/sounds/337235/
 
 570484__nox_sound__foley_object_metal_chest_openclose_mono_a    https://freesound.org/people/Nox_Sound/sounds/570484/
 570484__nox_sound__foley_object_metal_chest_openclose_mono_b    https://freesound.org/people/Nox_Sound/sounds/570484/
+
 570484__nox_sound__foley_object_metal_chest_openclose_mono_c    https://freesound.org/people/Nox_Sound/sounds/570484/
 
 632489__ani_music__opening-a-steel-padlock-shackle-take-c   https://freesound.org/people/ani_music/sounds/632489/
@@ -536,10 +536,10 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 448364__stepgames__noise_long                           https://freesound.org/people/StepGames/sounds/448364/
 
 50699__rutgermuller__cell-phone-interference-noise-1    https://freesound.org/people/RutgerMuller/sounds/50699/
+
 467200__thunderquads__phone-hangup                      https://freesound.org/people/ThunderQuads/sounds/467200/
 
 466832__breviceps__phone-dial                           https://freesound.org/people/Breviceps/sounds/466832/
-
 324693__univ_lyon3__vandierdonck-joan-2015-2016-numbering-phone https://freesound.org/people/univ_lyon3/sounds/324693/
 
 392972__morganpurkis__radio-wave                        https://freesound.org/people/morganpurkis/sounds/392972/
@@ -568,10 +568,10 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 
 universfield-gunshot-352466                             https://pixabay.com/sound-effects/film-special-effects-gunshot-352466/
 universfield-pistol-gun-shot-278821                     https://pixabay.com/sound-effects/film-special-effects-pistol-gun-shot-278821/
-eaglaxle-gun-shot-1-530788                              https://pixabay.com/sound-effects/film-special-effects-gun-shot-1-530788/
-
 406476__kretopi__synthguns-001                          https://freesound.org/people/kretopi/sounds/406476/
 344142__brokenphono__gunshot_002                        https://freesound.org/people/Brokenphono/sounds/344142/
+eaglaxle-gun-shot-1-530788                              https://pixabay.com/sound-effects/film-special-effects-gun-shot-1-530788/
+eaglaxle-gun-shot-3-530790                              https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/
 
 255716__paul368__silenced-pistol-layered-powerful       https://freesound.org/people/Paul368/sounds/255716/
 188499__underlineddesigns__silenced-shotgun-gunshot     https://freesound.org/people/UnderlinedDesigns/sounds/188499/
@@ -593,7 +593,6 @@ eaglaxle-gun-shot-1-530788                              https://pixabay.com/soun
 448987__lilmati__weapon-ready                           https://freesound.org/people/LilMati/sounds/448987/
 dragon-studio-gun-reload-511309                         https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/
 dragon-studio-gun-reload-2-511308                       https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/
-eaglaxle-gun-shot-3-530790                              https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/
 
 163458__lemudcrab__grenade-launcher                     https://freesound.org/people/LeMudCrab/sounds/163458/
 

@@ -268,7 +268,7 @@ Used sites:
 
 [Grab 1](https://freesound.org/people/1bob/sounds/651515/ "grab item") [2](https://freesound.org/people/qubodup/sounds/841596/ "grab item") 
 
-*`pickup`, `take`, `loot`, ``, `inventory`, `item`, `collect`*
+*`pickup`, `take`, `loot`, `inventory`, `item`, `collect`*
 
 
 
@@ -302,13 +302,13 @@ Used sites:
 
 
 
-[Fart 1](https://freesound.org/people/Walter_Odington/sounds/26216/ "grim fart") [2](https://freesound.org/people/SamsterBirdies/sounds/558741/ "fart sound") [3](https://freesound.org/people/deleted_user_1391979/sounds/94989/ "bad chili fart") [4](https://freesound.org/people/KataVlogsYT/sounds/324453/ "small fart") [5](https://freesound.org/people/bassimat/sounds/840755/ "fart 005") [6](https://freesound.org/people/ycbcr/sounds/249583/ "short definite fart") [7](https://freesound.org/people/dleigh/sounds/346143/ "fart3") [8](https://freesound.org/people/dleigh/sounds/346145/ "fart4") [9](https://freesound.org/people/SamsterBirdies/sounds/553480/ "fart") [0](https://freesound.org/people/Jixolros/sounds/561535/ "small realpoot117") 
+[Fart 1](https://freesound.org/people/Walter_Odington/sounds/26216/ "grim fart") [2](https://freesound.org/people/SamsterBirdies/sounds/558741/ "fart sound") [3](https://freesound.org/people/deleted_user_1391979/sounds/94989/ "bad chili fart") [4](https://freesound.org/people/KataVlogsYT/sounds/324453/ "small fart") [5](https://freesound.org/people/bassimat/sounds/840755/ "fart 005") [6](https://freesound.org/people/ycbcr/sounds/249583/ "short definite fart") [7](https://freesound.org/people/dleigh/sounds/346143/ "fart3") [8](https://freesound.org/people/dleigh/sounds/346145/ "fart4") [9](https://freesound.org/people/SamsterBirdies/sounds/553480/ "fart") [10](https://freesound.org/people/Jixolros/sounds/561535/ "small realpoot117") 
 
 *`flatulence`, `poot`, `toot`, `fart`, `gas`, `gross`, `bathroom`, `funny`, `comedy`, `poop`, `intestinal`*
 
 
 
-[Burp 1](https://freesound.org/people/Pingel/sounds/12730/ "burp") [2](https://freesound.org/people/deleted_user_2104797/sounds/324514/ "burp") [3](https://freesound.org/people/santuccie/sounds/26762/ "belch1") [4](https://freesound.org/people/etheron369/sounds/331630/ "burp") [5](https://freesound.org/people/Jeffijoe/sounds/172071/ "small burp") [6](https://freesound.org/people/phatcorns/sounds/466759/ "burp belch") [7](https://freesound.org/people/2mbst1/sounds/245751/ "ruelps 3") [8](https://freesound.org/people/josetb/sounds/678963/ "cartoon burp") [9](https://freesound.org/people/phatcorns/sounds/683053/ "loud burp") [0](https://freesound.org/people/Geruhn/sounds/833381/ "burp single clear") 
+[Burp 1](https://freesound.org/people/Pingel/sounds/12730/ "burp") [2](https://freesound.org/people/deleted_user_2104797/sounds/324514/ "burp") [3](https://freesound.org/people/santuccie/sounds/26762/ "belch1") [4](https://freesound.org/people/etheron369/sounds/331630/ "burp") [5](https://freesound.org/people/Jeffijoe/sounds/172071/ "small burp") [6](https://freesound.org/people/phatcorns/sounds/466759/ "burp belch") [7](https://freesound.org/people/2mbst1/sounds/245751/ "ruelps 3") [8](https://freesound.org/people/josetb/sounds/678963/ "cartoon burp") [9](https://freesound.org/people/phatcorns/sounds/683053/ "loud burp") [10](https://freesound.org/people/Geruhn/sounds/833381/ "burp single clear") 
 
 *`eructation`, `belch`, `gross`, `funny`, `digestion`*
 
@@ -629,7 +629,11 @@ Used sites:
 
 
 
-[2](https://freesound.org/people/BMacZero/sounds/96125/ "bubbles single2") 
+[Bubbles 1](https://freesound.org/people/BMacZero/sounds/96125/ "bubbles single2") 
+
+*`bubbling`, `fizz`, `carbonation`, `effervescence`*
+
+
 
 [Rain 1](https://freesound.org/people/inframatico/sounds/530975/ "rain1") [2](https://freesound.org/people/Cinetony/sounds/672701/ "rain on the roof of car inside 3") 
 
@@ -748,15 +752,19 @@ Used sites:
 
 
 
-[BulletDrop 1](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 a") [2](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 b") 
+[BulletDrop 1](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 a") [2](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 b") [3](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 c") [4](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 d") 
 
 *`casing`, `shell`, `ammo`*
 
 
 
-[3](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 c") [4](https://freesound.org/people/Anthousai/sounds/337235/ "bullet shells linearly 01 d") 
+[ChestOpen 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono a") [2](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono b") 
 
-[ChestOpen 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono a") [2](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono b") [Chestclose 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono c") 
+*`padlock`, `deadbolt`, `latch`, `mechanism`, `key`*
+
+
+
+[ChestClose 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono c") 
 
 *`padlock`, `deadbolt`, `latch`, `mechanism`, `key`*
 
@@ -813,7 +821,11 @@ Used sites:
 
 
 
-[1](https://freesound.org/people/KRAFTWERK2K1/sounds/32416/ "car engine wont start") 
+[MotorDead 1](https://freesound.org/people/KRAFTWERK2K1/sounds/32416/ "car engine wont start") 
+
+*`failed`, `engine`, `struggle`, `cranking`, `dead`*
+
+
 
 [Drill 1](https://freesound.org/people/metrostock99/sounds/345073/ "drill gun") [2](https://freesound.org/people/wjoojoo/sounds/179725/ "impact drill") 
 
@@ -878,19 +890,23 @@ Used sites:
 
 
 
-[PhoneNoise 1](https://freesound.org/people/RutgerMuller/sounds/50699/ "cell phone interference noise 1") [PhoneHang 1](https://freesound.org/people/ThunderQuads/sounds/467200/ "phone hangup") 
+[PhoneNoise 1](https://freesound.org/people/RutgerMuller/sounds/50699/ "cell phone interference noise 1") 
+
+*`cellular`, `buzz`, `signal`*
+
+
+
+[PhoneHang 1](https://freesound.org/people/ThunderQuads/sounds/467200/ "phone hangup") 
 
 *`disconnect`*
 
 
 
-[Dial 1](https://freesound.org/people/Breviceps/sounds/466832/ "phone dial") 
+[Dial 1](https://freesound.org/people/Breviceps/sounds/466832/ "phone dial") [2](https://freesound.org/people/univ_lyon3/sounds/324693/ "vandierdonck joan 2015 2016 numbering phone") 
 
 *`calling`, `tones`*
 
 
-
-[2](https://freesound.org/people/univ_lyon3/sounds/324693/ "vandierdonck joan 2015 2016 numbering phone") 
 
 [Beep 1](https://freesound.org/people/morganpurkis/sounds/392972/ "radio wave") [2](https://freesound.org/people/scy.wav/sounds/721525/ "outro quindar tone") [3](https://freesound.org/people/SEF7/sounds/701314/ "walkie talkie button press tone") [4](https://freesound.org/people/Sadiquecat/sounds/843148/ "795hz monitor blip") 
 
@@ -925,13 +941,11 @@ Used sites:
 
 
 
-[Shot 1](https://pixabay.com/sound-effects/film-special-effects-gunshot-352466/ "universfield gunshot 352466") [4](https://pixabay.com/sound-effects/film-special-effects-pistol-gun-shot-278821/ "universfield pistol gun shot 278821") [5](https://pixabay.com/sound-effects/film-special-effects-gun-shot-1-530788/ "eaglaxle gun shot 1 530788") 
+[Shot 1](https://pixabay.com/sound-effects/film-special-effects-gunshot-352466/ "universfield gunshot 352466") [4](https://pixabay.com/sound-effects/film-special-effects-pistol-gun-shot-278821/ "universfield pistol gun shot 278821") [1](https://freesound.org/people/kretopi/sounds/406476/ "synthguns 001") [2](https://freesound.org/people/Brokenphono/sounds/344142/ "gunshot 002") [5](https://pixabay.com/sound-effects/film-special-effects-gun-shot-1-530788/ "eaglaxle gun shot 1 530788") [6](https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/ "eaglaxle gun shot 3 530790") 
 
 *`blast`, `pistol`*
 
 
-
-[1](https://freesound.org/people/kretopi/sounds/406476/ "synthguns 001") [2](https://freesound.org/people/Brokenphono/sounds/344142/ "gunshot 002") 
 
 [Silenced 1](https://freesound.org/people/Paul368/sounds/255716/ "silenced pistol layered powerful") [2](https://freesound.org/people/UnderlinedDesigns/sounds/188499/ "silenced shotgun gunshot") 
 
@@ -957,9 +971,9 @@ Used sites:
 
 
 
-[Reload 1](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/ "dragon studio gun reload 511309") [7](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/ "dragon studio gun reload 2 511308") [Shot 1](https://pixabay.com/sound-effects/film-special-effects-gun-shot-3-530790/ "eaglaxle gun shot 3 530790") 
+[Reload 1](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/ "dragon studio gun reload 511309") [7](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/ "dragon studio gun reload 2 511308") 
 
-*`grenade`, `projectile`, `mortar`*
+*`cocking`, `magazine`, `chambering`, `round`*
 
 
 

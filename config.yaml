@@ -486,7 +486,7 @@ Presets:
     ChestOpen1: 570484__nox_sound__foley_object_metal_chest_openclose_mono_a
     ChestOpen2: 570484__nox_sound__foley_object_metal_chest_openclose_mono_b
 
-    Chestclose2: 570484__nox_sound__foley_object_metal_chest_openclose_mono_c
+    ChestClose2: 570484__nox_sound__foley_object_metal_chest_openclose_mono_c
 
     Lock1: 632489__ani_music__opening-a-steel-padlock-shackle-take-c
     Lock2: 342713__spacejoe__lock-3-remove-key-3

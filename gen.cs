@@ -120,7 +120,8 @@ if (processReadme)
         
         var list = line.Split(' ');
         var name = list[0].ToLowerInvariant();
-        var tags = list[1..].Select(n => n.ToLowerInvariant()).ToHashSet();
+        var tags = list[1..].Select(
+            n => n.Trim().ToLowerInvariant()).ToHashSet();
 
         if (tags.Count == 0)
             throw new Exception("Tag count cannot be 0: " + name);
@@ -195,9 +196,10 @@ if (processReadme)
         name = name.Replace("_", " ");
         name = name.Replace("-", " ");
 
-        if (!realName.StartsWith(
-                tagGroup,
-                StringComparison.InvariantCultureIgnoreCase))
+        var nameMinusGroup = realName.Replace(
+            tagGroup, null, StringComparison.InvariantCultureIgnoreCase);
+
+        if (!nameMinusGroup.All(char.IsDigit))
         {
             needTag = true;
             var newTagGroup = realName[..^1].ToLowerInvariant();
@@ -206,7 +208,7 @@ if (processReadme)
             tagGroup = newTagGroup;
             realName = realName[..^1] + " 1";
         }
-        else realName = realName[^1..];
+        else realName = nameMinusGroup;
 
         readme += $"[{realName}]({src} \"{name}\") ";
 
