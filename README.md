@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (492)
+## Effect List (511)
 &nbsp;
 ### Man
 
@@ -53,6 +53,12 @@ Used sites:
 [Snore 1](https://freesound.org/people/SortsApostata/sounds/233600/ "snoring") [2](https://freesound.org/people/rdpipo7777/sounds/365372/ "ronquido") [3](https://pixabay.com/sound-effects/people-snore-250959/ "universfield snore 250959") [4](https://pixabay.com/sound-effects/people-snoring-389947/ "magiaz snoring 389947 a") [5](https://pixabay.com/sound-effects/people-snoring-389947/ "magiaz snoring 389947 b") [6](https://pixabay.com/sound-effects/people-snoring-389947/ "magiaz snoring 389947 c") 
 
 *`snoring`, `breathing`, `sleeping`, `asleep`, `slumber`, `rest`, `apnea`*
+
+
+
+[Cough 1](https://freesound.org/people/qubodup/sounds/743360/ "strong double cough") [2](https://freesound.org/people/OwlStorm/sounds/151217/ "cough 3") [3](https://freesound.org/people/monosfera/sounds/319363/ "facet kaszle guy coughs 01 a") [4](https://freesound.org/people/monosfera/sounds/319363/ "facet kaszle guy coughs 01 b") 
+
+*`throat`, `sick`, `illness`, `cold`, `respiratory`, `flu`*
 
 
 
@@ -113,7 +119,7 @@ Used sites:
 
 
 
-[Cough 1](https://freesound.org/people/1980supra/sounds/326096/ "cough cough") 
+[Cough 1](https://freesound.org/people/1980supra/sounds/326096/ "cough cough") [2](https://freesound.org/people/OwlStorm/sounds/151213/ "cough female") [3](https://freesound.org/people/Reitanna/sounds/343880/ "two coughs") 
 
 *`throat`, `sick`, `illness`, `cold`, `respiratory`, `flu`*
 
@@ -163,7 +169,7 @@ Used sites:
 
 [Moan 1](https://freesound.org/people/ritola27/sounds/220654/ "grito mujer8") [2](https://freesound.org/people/ritola27/sounds/220652/ "grito mujer7") [3](https://freesound.org/people/ritola27/sounds/220650/ "grito mujer6") 
 
-*`weeping`, `tantrum`, `fussy`, `upset`, `tears`*
+*`groan`, `sigh`, `pleasure`, `soft`, `gasp`*
 
 
 
@@ -208,7 +214,7 @@ Used sites:
 
 [Cough 1](https://freesound.org/people/The_coolguy78/sounds/470120/ "child coffing") 
 
-*`giggle`, `chuckle`, `snicker`, `chortle`, `guffaw`, `cackle`*
+*`throat`, `sick`, `illness`, `cold`, `respiratory`, `flu`*
 
 
 
@@ -500,6 +506,12 @@ Used sites:
 
 
 
+[Duck 1](https://freesound.org/people/D4XX/sounds/607226/ "ducks a") [2](https://freesound.org/people/D4XX/sounds/607226/ "ducks b") [3](https://freesound.org/people/D4XX/sounds/607226/ "ducks c") 
+
+*`quack`, `honk`, `nasal`*
+
+
+
 [Bison 1](https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm "yell YELLMM8K2005918Bison a") [2](https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm "yell YELLMM8K2005918Bison b") 
 
 *`buffalo`, `beast`*
@@ -647,6 +659,12 @@ Used sites:
 
 
 
+[Waterfall 1](https://freesound.org/people/LXX.70/sounds/165108/ "waterfall") 
+
+*`cascading`, `rushing`*
+
+
+
 [Thunder 1](https://freesound.org/people/SGAK/sounds/467777/ "thunder") [2](https://pixabay.com/sound-effects/film-special-effects-thunder-clap-521194/ "u q2hb2391vb thunder clap 521194") 
 
 *`lightning`, `storm`, `tempest`*
@@ -734,6 +752,24 @@ Used sites:
 
 
 
+[BookClose 1](https://freesound.org/people/ondondvo/sounds/195795/ "closing book") [2](https://freesound.org/people/tcrocker68/sounds/235588/ "book closing") 
+
+*`thud`, `slap`, `muffled`, `puff`*
+
+
+
+[BookDrop 1](https://freesound.org/people/deleted_user_3280201/sounds/178611/ "books dropping") 
+
+*`thud`, `flop`, `dull`*
+
+
+
+[PageTurn 1](https://freesound.org/people/LilMati/sounds/397548/ "page turn 01") [2](https://freesound.org/people/esperri/sounds/119127/ "book turn page 2") [3](https://freesound.org/people/esperri/sounds/119128/ "book turn page 3") 
+
+*`crisp`, `friction`, `paper`, `whoosh`*
+
+
+
 [MoneyBag 1](https://freesound.org/people/PhilSavlem/sounds/338260/ "money bag") [2](https://freesound.org/people/ralph.whitehead/sounds/565699/ "coin bag pickup drop") 
 
 *`coin`, `sack`, `loot`, `pouch`, `wealth`*
@@ -748,7 +784,7 @@ Used sites:
 
 [CoinsDrop 1](https://freesound.org/people/Rickmk2/sounds/162195/ "coin drop") [2](https://freesound.org/people/Gerent/sounds/558991/ "coins falling 022") 
 
-*`casing`, `shell`, `ammo`*
+*`chink`, `clink`, `tinkling`*
 
 
 
@@ -1229,6 +1265,12 @@ Used sites:
 [Paper 1](https://freesound.org/people/ByJesusJP/sounds/485524/ "hoja rota") 
 
 *`tear`, `rip`, `canvas`, `sheet`*
+
+
+
+[Flesh 1](https://freesound.org/people/Pablobd/sounds/511194/ "headshot") [2](https://freesound.org/people/vdovitsky/sounds/411122/ "sword hits the body") [3](https://freesound.org/people/Archos/sounds/433840/ "slime 27") 
+
+*`squish`, `squelch`, `wet`, `gory`, `meaty`, `slash`*
 
 
 

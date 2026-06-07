@@ -35,6 +35,11 @@ Presets:
     Snore5: magiaz-snoring-389947_b
     Snore6: magiaz-snoring-389947_c
 
+    Cough1: 743360__qubodup__strong-double-cough
+    Cough2: 151217__owlstorm__cough-3
+    Cough3: 319363__monosfera__facet-kaszle-guy-coughs-01_a
+    Cough4: 319363__monosfera__facet-kaszle-guy-coughs-01_b
+
     Yawn1: 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning
     Yawn2: 238399__amorralteixe__yawn
     Yawn3: 202105__spookymodem__yawn
@@ -64,6 +69,8 @@ Presets:
     Doubt1: 170768__esperar__hmm-question
 
     Cough1: 326096__1980supra__cough-cough
+    Cough2: 151213__owlstorm__cough-female
+    Cough3: 343880__reitanna__two-coughs
 
     Scream1: 400183__tomattka__girl-screaming_01
     Scream2: 235592__tcrocker68__girl_scream
@@ -302,6 +309,10 @@ Presets:
     Sheep3: 710298__michaelperfect__sheep-baaing-3-norwegian-sheep-expressing-itself-concisely
     Sheep4: 710296__michaelperfect__sheep-baaing-1-norwegian-sheep-expressing-itself-concisely
 
+    Duck1: 607226__d4xx__ducks_a
+    Duck2: 607226__d4xx__ducks_b
+    Duck3: 607226__d4xx__ducks_c
+
     Bison1: yell-YELLMM8K2005918Bison_a
     Bison2: yell-YELLMM8K2005918Bison_b
 
@@ -422,6 +433,10 @@ Presets:
       - 574803__bitlab_coop__collab-20210521_manresa_cascadapontvell_waterfall_river_relaxing_nice
       - End: all
 
+    Waterfall1:
+      - 165108__lxx70__waterfall
+      - End: all
+
     Thunder1: 467777__sgak__thunder
     Thunder2: u_q2hb2391vb-thunder-clap-521194
 
@@ -469,6 +484,15 @@ Presets:
     Keys2: 788310__realsquink__key-pickup
     Keys3: 443956__anational__keys-stash
     Keys4: 405699__apinasaundi__found-keys-1
+
+    BookClose1: 195795__ondondvo__closing-book
+    BookClose2: 235588__tcrocker68__book_closing
+
+    BookDrop1: 178611__deleted_user_3280201__books-dropping
+
+    PageTurn1: 397548__lilmati__page-turn-01
+    PageTurn2: 119127__esperri__book-turn-page-2
+    PageTurn3: 119128__esperri__book-turn-page-3
 
     MoneyBag1: 338260__philsavlem__money-bag
     MoneyBag2: 565699__ralphwhitehead__coin-bag-pickup-drop
@@ -805,6 +829,10 @@ Presets:
     Concrete1: 194688__kingsrow__pieceofconcrete01
     
     Paper1: 485524__byjesusjp__hoja-rota
+
+    Flesh1: 511194__pablobd__headshot
+    Flesh2: 411122__vdovitsky__sword-hits-the-body
+    Flesh3: 433840__archos__slime-27
     
   Bang:
     Boom1: 47252__deleted_user_364925__bad-explosion

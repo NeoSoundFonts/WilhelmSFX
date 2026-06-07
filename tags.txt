@@ -3,6 +3,7 @@ Scream yell shriek howl bellow screech outburst cry shout terror panic horror fe
 Angry Growl snarl huff deep sigh grumble frustration annoyed
 Agony Pain hurt roar suffering anguish wounded injured
 Snore Snoring breathing sleeping asleep slumber rest apnea
+Cough Throat sick illness cold respiratory flu
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Grunt Groan strain effort military soldier exertion
@@ -19,11 +20,13 @@ Grunt Groan strain effort military soldier exertion
 Surprise ooh astonishment Gasp shock startled amazed
 Dissapoint Disappointed sigh letdown groan
 Nya Catgirl meow anime cute kawaii catgirl
+Moan Groan sigh pleasure soft gasp
 BabyCry weeping tantrum fussy upset tears fussy
 BabyLaugh giggle chuckle happy cooing wholesome
 GirlLaugh giggle titter laughing innocent playground
 GirlOh Uh-oh mistake
 GirlScream shriek panic scream scared
+Cough Throat sick illness cold respiratory flu
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Applause Clapping ovation
 WarCry Battle charging horde
@@ -66,6 +69,7 @@ Chicken Rooster cluck cocorico
 Eagle Hawk falcon screech
 Cow Moo cattle bovine farm
 Sheep Baa bleat lamb livestock
+Duck Quack Honk Nasal
 Bison Buffalo beast
 Horse Neigh whinny stallion equine snort
 Donkey Bray ass mule
@@ -89,6 +93,7 @@ Bubble Plop pop air burst
 Bubbles Bubbling fizz carbonation effervescence
 Rain downpour drizzle precipitation
 River Stream rushing flow
+Waterfall Cascading Rushing
 Thunder lightning storm tempest
 Wind Breeze gust gale blowing
 Fire Crackle campfire
@@ -101,8 +106,12 @@ Sharpen Blade scrape friction grindstone
 CashReg register store money
 Scissor Snip shearing cutting cutting
 Keys jingle rattle stash clink
+BookClose Thud slap Muffled puff
+BookDrop Thud Flop Dull
+PageTurn Crisp Friction paper whoosh
 MoneyBag Coin sack loot pouch wealth
 CoinDrop jingle metallic currency
+CoinsDrop chink clink Tinkling
 BulletDrop casing shell ammo
 ChestOpen trunk lid creak locker slam safe container
 ChestClose trunk lid creak locker slam safe container
@@ -171,6 +180,7 @@ Bone snap fracture crack
 Ceramic crumble masonry smash
 Concrete crumble crunch crush
 Paper tear rip canvas sheet
+Flesh Squish Squelch Wet Gory Meaty Slash
 Boom explosion blast detonation bomb burst
 Flashbang stun grenade blast blinding
 Bell ding chime

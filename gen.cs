@@ -228,6 +228,8 @@ if (processReadme)
 
     void AddTags()
     {
+        if (tagGroup == "-") return;
+        
         for (var i = 0; i < tagList.Count; i++)
         {
             var (tagKey, tagVal) = tagList[i];
@@ -237,8 +239,10 @@ if (processReadme)
 
             var tags = string.Join(", ", tagVal.Select(n => $"`{n}`"));
             readme = readme.Replace("!TAGS!", $"\n\n*{tags}*\n\n");
-            break;
+            return;
         }
+
+        throw new Exception($"No tags found for '{tagGroup}'");
     }
 }
 

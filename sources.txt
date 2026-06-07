@@ -30,6 +30,11 @@ magiaz-snoring-389947_a                                 https://pixabay.com/soun
 magiaz-snoring-389947_b                                 https://pixabay.com/sound-effects/people-snoring-389947/
 magiaz-snoring-389947_c                                 https://pixabay.com/sound-effects/people-snoring-389947/
 
+743360__qubodup__strong-double-cough                    https://freesound.org/people/qubodup/sounds/743360/
+151217__owlstorm__cough-3                               https://freesound.org/people/OwlStorm/sounds/151217/
+319363__monosfera__facet-kaszle-guy-coughs-01_a         https://freesound.org/people/monosfera/sounds/319363/
+319363__monosfera__facet-kaszle-guy-coughs-01_b         https://freesound.org/people/monosfera/sounds/319363/
+
 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning          https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564231/
 238399__amorralteixe__yawn                              https://freesound.org/people/amorralteixe/sounds/238399/
 202105__spookymodem__yawn                               https://freesound.org/people/spookymodem/sounds/202105/
@@ -62,6 +67,8 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 170768__esperar__hmm-question                           https://freesound.org/people/esperar/sounds/170768/
 
 326096__1980supra__cough-cough                          https://freesound.org/people/1980supra/sounds/326096/
+151213__owlstorm__cough-female                          https://freesound.org/people/OwlStorm/sounds/151213/
+343880__reitanna__two-coughs                            https://freesound.org/people/Reitanna/sounds/343880/
 
 400183__tomattka__girl-screaming_01                     https://freesound.org/people/tomattka/sounds/400183/
 235592__tcrocker68__girl_scream                         https://freesound.org/people/tcrocker68/sounds/235592/
@@ -303,6 +310,10 @@ u_jd81cxyq22-cow-mooing-343423                          https://pixabay.com/soun
 710298__michaelperfect__sheep-baaing-3-norwegian-sheep-expressing-itself-concisely  https://freesound.org/people/michaelperfect/sounds/710298/
 710296__michaelperfect__sheep-baaing-1-norwegian-sheep-expressing-itself-concisely  https://freesound.org/people/michaelperfect/sounds/710296/
 
+607226__d4xx__ducks_a                                   https://freesound.org/people/D4XX/sounds/607226/
+607226__d4xx__ducks_b                                   https://freesound.org/people/D4XX/sounds/607226/
+607226__d4xx__ducks_c                                   https://freesound.org/people/D4XX/sounds/607226/
+
 yell-YELLMM8K2005918Bison_a                             https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm
 yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell/learn/photosmultimedia/sounds-bison.htm
 
@@ -386,6 +397,8 @@ alexzavesa-water-drop-tap-4-463593                      https://pixabay.com/soun
 368299__radioactive_blueberry__river-loop               https://freesound.org/people/radioactive_blueberry/sounds/368299/
 574803__bitlab_coop__collab-20210521_manresa_cascadapontvell_waterfall_river_relaxing_nice  https://freesound.org/people/bitlab_coop/sounds/574803/
 
+165108__lxx70__waterfall                                https://freesound.org/people/LXX.70/sounds/165108/
+
 467777__sgak__thunder                                   https://freesound.org/people/SGAK/sounds/467777/
 u_q2hb2391vb-thunder-clap-521194                        https://pixabay.com/sound-effects/film-special-effects-thunder-clap-521194/
 
@@ -436,6 +449,15 @@ yodguard-fire-magic-5-378639                            https://pixabay.com/soun
 788310__realsquink__key-pickup                          https://freesound.org/people/RealSquink/sounds/788310/
 443956__anational__keys-stash                           https://freesound.org/people/anational/sounds/443956/
 405699__apinasaundi__found-keys-1                       https://freesound.org/people/apinasaundi/sounds/405699/
+
+195795__ondondvo__closing-book                          https://freesound.org/people/ondondvo/sounds/195795/
+235588__tcrocker68__book_closing                        https://freesound.org/people/tcrocker68/sounds/235588/
+
+178611__deleted_user_3280201__books-dropping            https://freesound.org/people/deleted_user_3280201/sounds/178611/
+
+397548__lilmati__page-turn-01                           https://freesound.org/people/LilMati/sounds/397548/
+119127__esperri__book-turn-page-2                       https://freesound.org/people/esperri/sounds/119127/
+119128__esperri__book-turn-page-3                       https://freesound.org/people/esperri/sounds/119128/
 
 338260__philsavlem__money-bag                           https://freesound.org/people/PhilSavlem/sounds/338260/
 565699__ralphwhitehead__coin-bag-pickup-drop            https://freesound.org/people/ralph.whitehead/sounds/565699/
@@ -723,6 +745,10 @@ universfield-whip-02-242215                             https://pixabay.com/soun
 194688__kingsrow__pieceofconcrete01                     https://freesound.org/people/kingsrow/sounds/194688/
 
 485524__byjesusjp__hoja-rota                            https://freesound.org/people/ByJesusJP/sounds/485524/
+
+511194__pablobd__headshot                               https://freesound.org/people/Pablobd/sounds/511194/
+411122__vdovitsky__sword-hits-the-body                  https://freesound.org/people/vdovitsky/sounds/411122/
+433840__archos__slime-27                                https://freesound.org/people/Archos/sounds/433840/
 
 
 
