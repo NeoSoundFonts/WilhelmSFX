@@ -97,7 +97,7 @@ Used sites:
 
 [Laugh 1](https://freesound.org/people/Reitanna/sounds/241494/ "laugh12") [2](https://freesound.org/people/Reitanna/sounds/343944/ "laugh87") [3](https://freesound.org/people/Reitanna/sounds/343991/ "giggle8") [4](https://freesound.org/people/Reitanna/sounds/343940/ "laugh83") 
 
-*`smooch`, `peck`, `mwah`, `lip`, `affection`, `romance`, `love`*
+*`giggle`, `chuckle`, `snicker`, `chortle`, `guffaw`, `cackle`*
 
 
 
@@ -109,7 +109,7 @@ Used sites:
 
 [Doubt 1](https://freesound.org/people/esperar/sounds/170768/ "hmm question") 
 
-*`throat`, `sick`, `illness`, `cold`, `respiratory`, `flu`*
+*`humming`, `pondering`, `skeptical`, `inquisitive`, `hmm`, `doubting`, `thinking`, `uncertain`, `questioning`*
 
 
 
@@ -121,25 +121,25 @@ Used sites:
 
 [Scream 1](https://freesound.org/people/tomattka/sounds/400183/ "girl screaming 01") [2](https://freesound.org/people/tcrocker68/sounds/235592/ "girl scream") [3](https://freesound.org/people/missozzy/sounds/169811/ "female scream 02") [4](https://freesound.org/people/Reitanna/sounds/344013/ "high pitched ah2") [5](https://freesound.org/people/tcrocker68/sounds/235595/ "girl two screams a") [6](https://freesound.org/people/tcrocker68/sounds/235595/ "girl two screams b") [7](https://freesound.org/people/DarkNightPrincess/sounds/625318/ "female startled scream sound effect voiced by darknightprincess") 
 
-*`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
+*`yell`, `shriek`, `howl`, `bellow`, `screech`, `outburst`, `cry`, `shout`, `terror`, `panic`, `horror`, `fear`*
 
 
 
 [Angry 1](https://freesound.org/people/Reitanna/sounds/344010/ "growly") [2](https://freesound.org/people/Reitanna/sounds/343919/ "large growl") [3](https://freesound.org/people/Reitanna/sounds/344003/ "so anger a") [4](https://freesound.org/people/Reitanna/sounds/344003/ "so anger b") 
 
-*`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
+*`growl`, `snarl`, `huff`, `deep`, `sigh`, `grumble`, `frustration`, `annoyed`*
 
 
 
 [Agony 1](https://freesound.org/people/annatabernero/sounds/219656/ "young girl scream") [2](https://freesound.org/people/ritola27/sounds/220644/ "grito mujer2") 
 
-*`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
+*`pain`, `hurt`, `roar`, `suffering`, `anguish`, `wounded`, `injured`*
 
 
 
 [Grunt 1](https://freesound.org/people/Reitanna/sounds/344004/ "heavy grunt") 
 
-*`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
+*`groan`, `strain`, `effort`, `military`, `soldier`, `exertion`*
 
 
 
@@ -208,7 +208,7 @@ Used sites:
 
 [Cough 1](https://freesound.org/people/The_coolguy78/sounds/470120/ "child coffing") 
 
-*`clapping`, `ovation`*
+*`giggle`, `chuckle`, `snicker`, `chortle`, `guffaw`, `cackle`*
 
 
 
@@ -223,7 +223,7 @@ Used sites:
 
 [Laugh 1](https://freesound.org/people/Alcappuccino/sounds/262983/ "audience laughing50") [2](https://freesound.org/people/deleted_user_2104797/sounds/324894/ "crowd laugh") 
 
-*`clapping`, `ovation`*
+*`giggle`, `chuckle`, `snicker`, `chortle`, `guffaw`, `cackle`*
 
 
 
@@ -760,13 +760,13 @@ Used sites:
 
 [ChestOpen 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono a") [2](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono b") 
 
-*`padlock`, `deadbolt`, `latch`, `mechanism`, `key`*
+*`trunk`, `lid`, `creak`, `locker`, `slam`, `safe`, `container`*
 
 
 
 [ChestClose 1](https://freesound.org/people/Nox_Sound/sounds/570484/ "foley object metal chest openclose mono c") 
 
-*`padlock`, `deadbolt`, `latch`, `mechanism`, `key`*
+*`trunk`, `lid`, `creak`, `locker`, `slam`, `safe`, `container`*
 
 
 
@@ -1078,7 +1078,7 @@ Used sites:
 
 [DoorCreak 1](https://freesound.org/people/JarredGibb/sounds/219499/ "door creak") 
 
-*`slam`, `shut`*
+*`squeak`, `wooden`, `rusty`*
 
 
 
@@ -1216,13 +1216,13 @@ Used sites:
 
 [Ceramic 1](https://freesound.org/people/Fission9/sounds/583310/ "tile breaking") [2](https://freesound.org/people/m_delaparra/sounds/338018/ "mug breaking") [3](https://freesound.org/people/jc.sg/sounds/565642/ "plate break 1") 
 
-*`tear`, `rip`, `canvas`, `sheet`*
+*`crumble`, `masonry`, `smash`*
 
 
 
 [Concrete 1](https://freesound.org/people/kingsrow/sounds/194688/ "pieceofconcrete01") 
 
-*`tear`, `rip`, `canvas`, `sheet`*
+*`crumble`, `crunch`, `crush`*
 
 
 

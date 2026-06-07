@@ -8,8 +8,14 @@ Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain qu
 Grunt Groan strain effort military soldier exertion
 Ohm Om meditation drone mantra spiritual chant
 Moan Groan sigh pleasure soft gasp
+Laugh Giggle chuckle snicker chortle guffaw cackle
 Kiss Smooch peck mwah lip affection romance love
+Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Cough Throat sick illness cold respiratory flu
+Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
+Angry Growl snarl huff deep sigh grumble frustration annoyed
+Agony Pain hurt roar suffering anguish wounded injured
+Grunt Groan strain effort military soldier exertion
 Surprise ooh astonishment Gasp shock startled amazed
 Dissapoint Disappointed sigh letdown groan
 Nya Catgirl meow anime cute kawaii catgirl
@@ -18,8 +24,9 @@ BabyLaugh giggle chuckle happy cooing wholesome
 GirlLaugh giggle titter laughing innocent playground
 GirlOh Uh-oh mistake
 GirlScream shriek panic scream scared
-WarCry Battle charging horde
+Laugh Giggle chuckle snicker chortle guffaw cackle
 Applause Clapping ovation
+WarCry Battle charging horde
 Aww sympathy sigh pity
 Boo Booing jeering disapproval
 Loud roar celebration arena
@@ -97,7 +104,8 @@ Keys jingle rattle stash clink
 MoneyBag Coin sack loot pouch wealth
 CoinDrop jingle metallic currency
 BulletDrop casing shell ammo
-Chest trunk lid creak locker slam safe container
+ChestOpen trunk lid creak locker slam safe container
+ChestClose trunk lid creak locker slam safe container
 Lock Padlock deadbolt latch mechanism key
 Chains Shackles rattle rustle fetters bonds
 Match ignition flame candle lighting
@@ -140,6 +148,7 @@ Robo synthetic bloop android
 Move step whirl stomp
 DoorOpen entrance portal
 DoorSlide pneumatic pressurized hidden
+DoorCreak squeak wooden rusty
 DoorClose slam shut
 Curtain shower fabric
 Swing swipe strike whiff miss
@@ -159,7 +168,8 @@ Branch twig crack stick
 Barrel crate container
 Vase pottery ceramic clay
 Bone snap fracture crack
-Cercamic crumble masonry smash
+Ceramic crumble masonry smash
+Concrete crumble crunch crush
 Paper tear rip canvas sheet
 Boom explosion blast detonation bomb burst
 Flashbang stun grenade blast blinding
