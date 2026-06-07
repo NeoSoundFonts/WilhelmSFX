@@ -61,7 +61,7 @@ if (includeExtra) cfgFileList.Add("config_extra.yaml");
 foreach (var cfgFile in cfgFileList)
 {
     if (!File.Exists(cfgFile)) continue;
-    
+
     Console.WriteLine("Reading cfg: " + cfgFile);
     var mConfig = deserializer.Deserialize<MConfig>(File.ReadAllText(cfgFile));
     
@@ -101,6 +101,7 @@ foreach (var cfgFile in cfgFileList)
     }
 }
 
+Console.WriteLine();
 Console.WriteLine("Samples: " + sampleLen);
 
 // Process Readme
