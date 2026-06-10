@@ -3,8 +3,6 @@ name: Build Sound Bank
 on:
   push:
     branches: [ "master" ]
-    paths:
-      - 'Samples/**'
 
   workflow_dispatch:
 
