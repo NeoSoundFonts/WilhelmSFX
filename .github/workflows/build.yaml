@@ -34,10 +34,11 @@ jobs:
           path: Wilhelm.sf3
 
       - name: Create Release
-        tag_name: latest
-        name: "Latest Build"
-        body: "Automated build from master branch."
-        prerelease: true
+        uses: softprops/action-gh-release@v2
         with:
+          tag_name: latest
+          name: "Latest Build"
+          body: "Automated build from master branch."
+          prerelease: true
           files: |
             Wilhelm.sf3
