@@ -411,6 +411,7 @@ Bluezone_BC0298_designed_water_texture_014              https://sonniss.com/game
 406217__anthousai__water-ice-cooler-dumping-a-cooler-full-of-ice-onto-concrete  https://freesound.org/people/Anthousai/sounds/406217/
 406218__anthousai__water-ice-cooler-dumping-a-cooler-full-of-ice-off-of-a-second-story-railing-01   https://freesound.org/people/Anthousai/sounds/406218/
 
+UWM008                                                  https://sonniss.com/gameaudiogdc/
 Bluezone_BC0298_designed_water_underwater_005           https://sonniss.com/gameaudiogdc/
 
 freesound_community-water-drop-3-84577                  https://pixabay.com/sound-effects/film-special-effects-water-drop-3-84577/
@@ -719,6 +720,8 @@ dragon-studio-car-crash-sound-effect-376874             https://pixabay.com/soun
 
 VEHWagn_Wood_Cart_Roll_On_Stone_Pavement_In_Courtyard_03_DRCA_HOCA_Kmr81i https://sonniss.com/gameaudiogdc/
 
+AEROHeli_InsJ_Helicopter_Flyby_Close_03_Chinook         https://sonniss.com/gameaudiogdc/
+
 VEHCar_TownDrivingAmbience06_InMotionAu                 https://sonniss.com/gameaudiogdc/
 
 AMBTran_TrainInterior09_InMotionAudio                   https://sonniss.com/gameaudiogdc/
@@ -811,6 +814,10 @@ WEAPBlnt_Spear_And_Stick_Impact,_Wooden_MKH_2_344_Audio_Medieval_Weapons_Vol_2  
 638696__captainyulef__pickaxe                           https://freesound.org/people/CaptainYulef/sounds/638696/
 233633__abstraktgeneriert__pickaxe-1                    https://freesound.org/people/abstraktgeneriert/sounds/233633/
 233629__abstraktgeneriert__pickaxe-3                    https://freesound.org/people/abstraktgeneriert/sounds/233629/
+
+DIG043_a                                                https://sonniss.com/gameaudiogdc/
+DIG043_b                                                https://sonniss.com/gameaudiogdc/
+DIG043_c                                                https://sonniss.com/gameaudiogdc/
 
 DSGNImpt_Metal_Hit_Thud_Thump_Low_Ring_Geofon_1_The_Noisery_Moaning_Metal https://sonniss.com/gameaudiogdc/
 638613__captainyulef__metal-thud                        https://freesound.org/people/CaptainYulef/sounds/638613/

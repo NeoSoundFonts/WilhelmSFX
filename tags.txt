@@ -212,6 +212,7 @@ Lock deadbolt click
 Alarm siren antitheft security
 Crash accident smash collision crunch
 Cart rumble rattle grind wagon
+Helicopter chinook rotor chopper aircraft rumble
 CarInterior motion driving rumble hum
 TrainInterior railway commute rumble track hum
 PlaneInterior drone hum aviation
@@ -242,6 +243,7 @@ Stick Impact thud Wood
 Axe cleave slash hit
 Chop hack logging cut lumberjack tree
 PickAxe quarry mining dig
+Shovel scoop dig soil scrap excavate
 MetalThud hit impact thump moan
 Blocked shield armor parry deflect bash
 Racket tennis ball smash stroke plock

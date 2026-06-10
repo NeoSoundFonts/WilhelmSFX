@@ -230,8 +230,12 @@ Presets:
   Move:
     Foot1: 251788__vkproduktion__footstep-01
 
-    Grass1: 464691__branndybottle__grasswalking_step1
-    Grass2: 464690__branndybottle__grasswalking_step2
+    Grass1:
+      - 464691__branndybottle__grasswalking_step1
+      - SkipTrim: true
+    Grass2:
+      - 464690__branndybottle__grasswalking_step2
+      - SkipTrim: true
 
     Leaves1: 517142__wdomino__footsteps_leaves_5
     Leaves2: 517140__wdomino__footsteps_leaves_1
@@ -433,6 +437,10 @@ Presets:
 
     Underwater1:
       - Bluezone_BC0298_designed_water_underwater_005
+      - End: all
+
+    Underwater2:
+      - UWM008
       - End: all
 
     Drop1: freesound_community-water-drop-3-84577
@@ -842,6 +850,10 @@ Presets:
       - VEHWagn_Wood_Cart_Roll_On_Stone_Pavement_In_Courtyard_03_DRCA_HOCA_Kmr81i
       - End: 4.523
 
+    Helicopter1:
+      - AEROHeli_InsJ_Helicopter_Flyby_Close_03_Chinook
+      - End: all
+
     CarInterior1:
       - VEHCar_TownDrivingAmbience06_InMotionAu
       - End: all
@@ -931,6 +943,10 @@ Presets:
     PickAxe1: 638696__captainyulef__pickaxe
     PickAxe2: 233633__abstraktgeneriert__pickaxe-1
     PickAxe3: 233629__abstraktgeneriert__pickaxe-3
+
+    Shovel1: DIG043_a
+    Shovel2: DIG043_b
+    Shovel3: DIG043_c
 
     MetalThud1: DSGNImpt_Metal_Hit_Thud_Thump_Low_Ring_Geofon_1_The_Noisery_Moaning_Metal
     MetalThud2: 638613__captainyulef__metal-thud

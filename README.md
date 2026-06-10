@@ -21,7 +21,7 @@ Used sites:
 
 ***
 
-## Effect List (588)
+## Effect List (593)
 &nbsp;
 ### Man (41)
 
@@ -673,7 +673,7 @@ Used sites:
 
 
 &nbsp;
-### Nature (33)
+### Nature (34)
 
 
 
@@ -689,7 +689,7 @@ Used sites:
 
 
 
-[Underwater 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0298 designed water underwater 005") 
+[Underwater 1](https://sonniss.com/gameaudiogdc/ "UWM008") [1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0298 designed water underwater 005") 
 
 *`submerged`, `subaquatic`, `hydrophone`, `dive`, `bubble`, `swirl`, `fluid`*
 
@@ -1198,7 +1198,7 @@ Used sites:
 
 
 &nbsp;
-### Vehicle (14)
+### Vehicle (15)
 
 
 
@@ -1241,6 +1241,12 @@ Used sites:
 [Cart 1](https://sonniss.com/gameaudiogdc/ "VEHWagn Wood Cart Roll On Stone Pavement In Courtyard 03 DRCA HOCA Kmr81i") 
 
 *`rumble`, `rattle`, `grind`, `wagon`*
+
+
+
+[Helicopter 1](https://sonniss.com/gameaudiogdc/ "AEROHeli InsJ Helicopter Flyby Close 03 Chinook") 
+
+*`chinook`, `rotor`, `chopper`, `aircraft`, `rumble`*
 
 
 
@@ -1333,7 +1339,7 @@ Used sites:
 
 
 &nbsp;
-### Hit (38)
+### Hit (41)
 
 
 
@@ -1412,6 +1418,12 @@ Used sites:
 [PickAxe 1](https://freesound.org/people/CaptainYulef/sounds/638696/ "pickaxe") [2](https://freesound.org/people/abstraktgeneriert/sounds/233633/ "pickaxe 1") [3](https://freesound.org/people/abstraktgeneriert/sounds/233629/ "pickaxe 3") 
 
 *`quarry`, `mining`, `dig`*
+
+
+
+[Shovel 1](https://sonniss.com/gameaudiogdc/ "DIG043 a") [2](https://sonniss.com/gameaudiogdc/ "DIG043 b") [3](https://sonniss.com/gameaudiogdc/ "DIG043 c") 
+
+*`scoop`, `dig`, `soil`, `scrap`, `excavate`*
 
 
 

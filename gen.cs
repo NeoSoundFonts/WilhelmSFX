@@ -277,13 +277,13 @@ if (processSamples)
     outputDir.Refresh();
     outputDir.Create();
 
-    const string argFilterTrim =
-        "silenceremove=start_periods=1:start_threshold=-40dB:stop_periods=1:stop_threshold=-40dB:stop_duration=0.1,";
+    const string argBaseFilterTrim =
+        "silenceremove=start_periods=1:start_threshold={0}dB:stop_periods=1:stop_threshold={0}dB:stop_duration=0.1,";
     const string argQuiet = 
         "-nostats -loglevel error -y -hide_banner ";
     const string argVolNorm = 
         "loudnorm=I=-14:TP=-1.0:LRA=6,";
-
+    // TODO: Don't remove silence if sample is too short
     var baseCmdArgs =
         // Quiet output
        argQuiet +
@@ -295,7 +295,7 @@ if (processSamples)
         // <filter>
         "-af \"" +
         // Trim silence from start/end
-        argFilterTrim +
+        argBaseFilterTrim +
         // Playback rate
         "atempo={2}," +
         // Bit depth
@@ -313,7 +313,7 @@ if (processSamples)
         "{1}";
 
     Console.WriteLine(
-        ">ffmpeg " + baseCmdArgs, 
+        ">ffmpeg " + baseCmdArgs.Replace(argBaseFilterTrim, string.Format(argBaseFilterTrim, -45)),
         "[INPUT]", 
         "[OUTPUT]", 
         "[x]");
@@ -338,9 +338,14 @@ if (processSamples)
 
         var cfg = fileToCfg[name];
         var playbackRate = cfg.Speed ?? 1;
+        var db = -45;
+
+        var argFilterTrim = string.Format(argBaseFilterTrim, db);
 
         var cmdArgs = string.Format(
-            baseCmdArgs,
+            baseCmdArgs.Replace(
+                argBaseFilterTrim,
+                argFilterTrim),
             file,
             output,
             playbackRate);
