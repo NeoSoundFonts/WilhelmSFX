@@ -1,0 +1,37 @@
+name: Build Sound Bank
+
+on:
+  push:
+    branches: [ "master" ]
+    paths:
+      - 'Samples/**'
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+
+      - name: Run Build Script
+        run: ./gen.cs
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: sound-bank-artifact
+          path: dist/
+
+      - name: Create Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            dist/Wilhelm.sf3
