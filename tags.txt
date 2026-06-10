@@ -73,7 +73,8 @@ Gravel Pebble loose
 Water Puddle splash slushy
 Swim splashing pool lake
 Slime squish squelch slimy
-Horse Gallop trot equestrian
+HorseGallop Gallop trot equestrian
+HorseTrot clop equine gait hoofbeat
 
 # Monster
 Roar aggresive creature hostile
@@ -106,6 +107,7 @@ Lion Roar growl snarl apex
 Squirrel Rodent chatter chip
 Rat Mouse squeak rodent chatter pest
 Bat vampire chirp cave
+Bug skitter scurry chitter larvae parasite
 Frog Croak toad quack ribbit amphibian swamp
 Cicada Insect buzz
 WingFlap Flapping airborne
@@ -209,6 +211,7 @@ Horn honk klaxon traffic
 Lock deadbolt click
 Alarm siren antitheft security
 Crash accident smash collision crunch
+Cart rumble rattle grind wagon
 CarInterior motion driving rumble hum
 TrainInterior railway commute rumble track hum
 PlaneInterior drone hum aviation
