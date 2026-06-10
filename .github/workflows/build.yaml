@@ -31,10 +31,10 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: sound-bank-artifact
-          path: dist/
+          path: Wilhelm.sf3
 
       - name: Create Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            dist/Wilhelm.sf3
+            Wilhelm.sf3
