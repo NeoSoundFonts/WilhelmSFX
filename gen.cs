@@ -1,6 +1,6 @@
 #!/usr/bin/env -S dotnet run
 
-#:package SpessaSharp@4.3.8-nightly-00004
+#:package SpessaSharp@4.3.8-nightly-00009
 #:package YamlDotNet@18.0.0
 
 using System.Collections.Concurrent;
@@ -9,7 +9,7 @@ using System.Diagnostics.CodeAnalysis;
 using SpessaSharp.MIDI;
 using SpessaSharp.SoundBank;
 using SpessaSharp.SoundBank.SoundFont;
-
+using SpessaSharp.Synthesizer.Engine.Voice;
 using YamlDotNet.Core;
 using YamlDotNet.Core.Events;
 using YamlDotNet.Serialization;
@@ -426,10 +426,10 @@ foreach (var (presetName, sounds) in presets)
     {
         if (pCfg.ReleaseVolEnv is {} rve)
             instrument.GlobalZone.SetGenerator(
-                Generator.Type.ReleaseVolEnv, SecondsToTimecents(rve));
+                Generator.Type.ReleaseVolEnv, UnitConverter.SecondsToTimecents(rve));
         if (pCfg.ReleaseModEnv is {} rme)
             instrument.GlobalZone.SetGenerator(
-                Generator.Type.ReleaseModEnv, SecondsToTimecents(rme));
+                Generator.Type.ReleaseModEnv, UnitConverter.SecondsToTimecents(rme));
     }
     
     var set = new HashSet<string>();
@@ -492,7 +492,7 @@ foreach (var (presetName, sounds) in presets)
             {
                 var sec = 
                     (sample.LoopEnd / (double)sampleDurLen) * sampleDuration;
-                var tc = SecondsToTimecents(sec);
+                var tc = UnitConverter.SecondsToTimecents(sec);
 
                 zone.Basic.SetGenerator(Generator.Type.SampleModes, 3);
                 zone.Basic.SetGenerator(Generator.Type.ReleaseVolEnv, tc);
@@ -601,15 +601,6 @@ static void Warn(string msg)
     Console.ForegroundColor = ConsoleColor.Yellow;
     Console.WriteLine("[WARN] " + msg);
     Console.ResetColor();
-}
-
-static short SecondsToTimecents(double seconds)
-{
-    if (seconds is <= 0 or double.NaN) return -12_000;
-
-    var timecents = 1_200.0 * Math.Log2(seconds);
-    return (short)Math.Clamp(
-        (long)Math.Round(timecents), -12_000, short.MaxValue);
 }
 
 internal static class Util
