@@ -727,6 +727,9 @@ Presets:
       - 512471__michael_grinnell__electric-zap
       - End: all
 
+    Spark1: 403252__the_chemical_workshop__taserhigh-voltage-discharge_a
+    Spark2: 403252__the_chemical_workshop__taserhigh-voltage-discharge_b
+
     Lever1: Bluezone_BC0302_industrial_lever_switch_014
     Lever2: Bluezone_BC0302_industrial_lever_switch_039
 
@@ -877,6 +880,9 @@ Presets:
     Robo6: 255883__dontgothere__funny-cartoon-robot
 
     Move1: Bluezone_BC0284_soundwave_robot_footsteps_001
+    Move2: footstep_a_mech_mega_01
+    Move3: footstep_a_mech_mega_02
+    Move4: Robot_Big_Footstep_Servo_003
 
   Door:
     Open1: 15419__pagancow__dorm-door-opening

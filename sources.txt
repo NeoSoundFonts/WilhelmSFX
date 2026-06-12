@@ -620,6 +620,9 @@ OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle                 https://sonniss.com/game
 
 512471__michael_grinnell__electric-zap                  https://freesound.org/people/michael_grinnell/sounds/512471/
 
+403252__the_chemical_workshop__taserhigh-voltage-discharge_a  https://freesound.org/people/The_Chemical_Workshop/sounds/403252/
+403252__the_chemical_workshop__taserhigh-voltage-discharge_b  https://freesound.org/people/The_Chemical_Workshop/sounds/403252/
+
 Bluezone_BC0302_industrial_lever_switch_014             https://sonniss.com/gameaudiogdc/
 Bluezone_BC0302_industrial_lever_switch_039             https://sonniss.com/gameaudiogdc/
 
@@ -739,6 +742,9 @@ AEROInt_Airplane_Interior_Small_Plane                   https://sonniss.com/game
 255883__dontgothere__funny-cartoon-robot                https://freesound.org/people/DontGoThere/sounds/255883/
 
 Bluezone_BC0284_soundwave_robot_footsteps_001           https://sonniss.com/gameaudiogdc/
+footstep_a_mech_mega_01                                 https://sonniss.com/gameaudiogdc/
+footstep_a_mech_mega_02                                 https://sonniss.com/gameaudiogdc/
+Robot_Big_Footstep_Servo_003                            https://sonniss.com/gameaudiogdc/
 
 
 

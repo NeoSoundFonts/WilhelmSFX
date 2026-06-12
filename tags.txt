@@ -181,6 +181,7 @@ Click Button press
 Drier motor hair barbershop buzz airflow wind
 Trimmer clipper shaver buzz hum
 Electric Zap circuit spark current discharge voltage
+Spark flicker discharge flash
 Lever switch handle latch toggle clunk lock unlock metallic
 
 # Digit
