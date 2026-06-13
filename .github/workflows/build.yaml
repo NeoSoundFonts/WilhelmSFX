@@ -30,25 +30,28 @@ jobs:
       - name: Run Build Script
         run: ./gen.cs
 
-      - name: Commit and Push Updated README
+      - name: Commit and Push Updated README and .cfg files
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
           git add README.md
+          git add WilhelmSFX.cfg
 
           if ! git diff --cached --quiet; then
-            git commit -m "docs: automated README update from build script [skip ci]"
+            git commit -m "docs: automated README/config update from build script [skip ci]"
             git push origin master
           else
-            echo "No changes detected in README.md. Skipping push."
+            echo "No changes detected in README/config. Skipping push."
           fi
 
       - name: Upload Artifact
         uses: actions/upload-artifact@v6
         with:
           name: sound-bank-artifact
-          path: WilhelmSFX.sf3
+          path: |
+            WilhelmSFX.sf3
+            WilhelmSFX.cfg
 
       - name: Create Release
         uses: softprops/action-gh-release@v3
@@ -59,3 +62,4 @@ jobs:
           prerelease: true
           files: |
             WilhelmSFX.sf3
+            WilhelmSFX.cfg
