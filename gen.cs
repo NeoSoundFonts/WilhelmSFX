@@ -406,13 +406,13 @@ var sep = new string('-', 40) + "\n";
 var comment = $"A sound bank for SFX\nhttps://creativecommons.org/publicdomain/zero/1.0/deed.en\nSettings: {settingsStr}\n\n";
 comment += sep;
 
-var input = "// Start Effect List\n// Patch - Key - Dur   -  Effect\n";
+var input = "// Start Effect List\n// Patch     - Key - Dur   -  Effect\n";
 var p = -1;
 
 foreach (var (presetName, sounds) in presets)
 {
     p++;
-    var patch = new MidiPatch(p % 128, 7 + p / 128, 0, false);
+    var patch = new MidiPatch(p % 128, 7 + p / 128, 7, false);
     
     // Instrument
     var instrument = new BasicInstrument();
@@ -486,7 +486,7 @@ foreach (var (presetName, sounds) in presets)
 
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
-			var mode = sound.LoopMode ?? 1;// TODO: if sample is very short, maybe mode 3 is a sensible default
+            var mode = sound.LoopMode ?? 1;// TODO: if sample is very short, maybe mode 3 is a sensible default
 
             if (sample.LoopEnd < sampleDurLen)
             {
@@ -504,7 +504,7 @@ foreach (var (presetName, sounds) in presets)
         
         bank.Samples.Add(sample);
 
-        input += $"{patch.BankMSB:000}:{patch.Program:000}    {i:000}   {sampleDuration,-8:F3} {sampleName}\n";
+        input += $"{patch.BankLSB:000}:{patch.BankMSB:000}:{patch.Program:000}    {i:000}   {sampleDuration,-8:F3} {sampleName}\n";
     }
 
     input += "\n";
