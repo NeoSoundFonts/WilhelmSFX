@@ -2,7 +2,7 @@ No protection is claimed in original U.S. Government works
 
 
 
-// Man
+// Male
 
 190627__danielsilveira321__hahaha                       https://freesound.org/people/danielsilveira321/sounds/190627/
 VOXLaff_Police_Officer_Laugh_Vocal_Male_1               https://sonniss.com/gameaudiogdc/
@@ -42,6 +42,9 @@ magiaz-snoring-389947_c                                 https://pixabay.com/soun
 
 Ahh,_Relief,_Drink,_Soda,_Exhale,_Male                  https://sonniss.com/gameaudiogdc/
 
+215380__reitanna__male-sigh                             https://freesound.org/people/Reitanna/sounds/215380/
+391880__darkech__exalacion3                             https://freesound.org/people/Darkech/sounds/391880/
+
 469605__bolkmar__voice-male-humming-doubting            https://freesound.org/people/bolkmar/sounds/469605/
 HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1  https://sonniss.com/gameaudiogdc/
 
@@ -55,12 +58,15 @@ HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1  https://sonniss.com/game
 26244__bitsmart__ohm                                    https://freesound.org/people/bitsmart/sounds/26244/
 
 HMNBrth_Human,_Adult,_Male,_Breath,_Surprise,_Gasp_UberDuo_INHL_17  https://sonniss.com/gameaudiogdc/
+677888__ranman22__man-gasping                           https://freesound.org/people/ranman22/sounds/677888/
+427688__efsdcnveoi__07-sorpresa                         https://freesound.org/people/efsdcnveoi/sounds/427688/
+
 
 221550__joseppujol__pleasure-sound                      https://freesound.org/people/joseppujol/sounds/221550/
 
 
 
-// Woman
+// Female
 
 241494__reitanna__laugh12                               https://freesound.org/people/Reitanna/sounds/241494/
 343944__reitanna__laugh87                               https://freesound.org/people/Reitanna/sounds/343944/
@@ -77,6 +83,13 @@ VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://sonniss.com/game
 326096__1980supra__cough-cough                          https://freesound.org/people/1980supra/sounds/326096/
 151213__owlstorm__cough-female                          https://freesound.org/people/OwlStorm/sounds/151213/
 343880__reitanna__two-coughs                            https://freesound.org/people/Reitanna/sounds/343880/
+
+471859__wintuh__46-bostezonina                          https://freesound.org/people/wintuh/sounds/471859/
+672450__cyweb__yawn-baillements                         https://freesound.org/people/CyWeb/sounds/672450/
+
+384992__threadzz__woman-sigh                            https://freesound.org/people/threadzz/sounds/384992/
+252224__reitanna__defeated-sigh                         https://freesound.org/people/Reitanna/sounds/252224/
+377736__bluesiren__girl-sighs                           https://freesound.org/people/BlueSiren/sounds/377736/
 
 400183__tomattka__girl-screaming_01                     https://freesound.org/people/tomattka/sounds/400183/
 235592__tcrocker68__girl_scream                         https://freesound.org/people/tcrocker68/sounds/235592/
@@ -134,7 +147,7 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 
 
 
-// People
+// Child
 
 262983__alcappuccino__audience_laughing50               https://freesound.org/people/Alcappuccino/sounds/262983/
 324894__deleted_user_2104797__crowd-laugh               https://freesound.org/people/deleted_user_2104797/sounds/324894/
@@ -153,6 +166,8 @@ universfield-crowd-disappointment-reaction-352718       https://pixabay.com/soun
 dragon-studio-crowd-booing-494319                       https://pixabay.com/sound-effects/people-crowd-booing-494319/
 
 113698__huubjeroen__goalloop                            https://freesound.org/people/huubjeroen/sounds/113698/
+
+675108__craigsmith__s12-21-kids-yelling-yeah            https://freesound.org/people/craigsmith/sounds/675108/
 
 
 

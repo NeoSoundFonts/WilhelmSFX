@@ -8,7 +8,7 @@ Settings:
 Presets:
   # Alive
 
-  Man:
+  Male:
     Laugh1: 190627__danielsilveira321__hahaha
     Laugh2: VOXLaff_Police_Officer_Laugh_Vocal_Male_1
 
@@ -48,7 +48,10 @@ Presets:
     Yawn2: 238399__amorralteixe__yawn
     Yawn3: 202105__spookymodem__yawn
 
-    Exhile1: Ahh,_Relief,_Drink,_Soda,_Exhale,_Male
+    Exhale1: Ahh,_Relief,_Drink,_Soda,_Exhale,_Male
+
+    Sigh1: 215380__reitanna__male-sigh
+    Sigh2: 391880__darkech__exalacion3
 
     Doubt1: 469605__bolkmar__voice-male-humming-doubting
     Doubt2: HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1
@@ -61,12 +64,14 @@ Presets:
     Grunt6: 166944__qubodup__grunts-of-pain-by-military-soldiers_b
 
     Surprise1: HMNBrth_Human,_Adult,_Male,_Breath,_Surprise,_Gasp_UberDuo_INHL_17
+    Surprise2: 677888__ranman22__man-gasping
+    Surprise3: 427688__efsdcnveoi__07-sorpresa
 
     Ohm1: 26244__bitsmart__ohm
 
     Moan1: 221550__joseppujol__pleasure-sound
 
-  Woman:
+  Female:
     Laugh1: 241494__reitanna__laugh12
     Laugh2: 343944__reitanna__laugh87
     Laugh3: 343991__reitanna__giggle8
@@ -82,6 +87,13 @@ Presets:
     Cough1: 326096__1980supra__cough-cough
     Cough2: 151213__owlstorm__cough-female
     Cough3: 343880__reitanna__two-coughs
+
+    Yawn1: 471859__wintuh__46-bostezonina
+    Yawn2: 672450__cyweb__yawn-baillements
+
+    Sigh1: 384992__threadzz__woman-sigh
+    Sigh2: 252224__reitanna__defeated-sigh
+    Sigh3: 377736__bluesiren__girl-sighs
 
     Scream1: 400183__tomattka__girl-screaming_01
     Scream2: 235592__tcrocker68__girl_scream
@@ -134,7 +146,7 @@ Presets:
 
     Cough1: 470120__the_coolguy78__child-coffing
 
-  People:
+  Crowd:
     Laugh1: 262983__alcappuccino__audience_laughing50
     Laugh2: 324894__deleted_user_2104797__crowd-laugh
 
@@ -154,6 +166,8 @@ Presets:
     Loud1:
       - 113698__huubjeroen__goalloop
       - End: all
+
+    ChildrenYell1: 675108__craigsmith__s12-21-kids-yelling-yeah
 
   Monster:
     Roar1: MonsterPack2_Monster06_Attack13

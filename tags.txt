@@ -1,4 +1,4 @@
-# Man
+# Male
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
 Angry Growl snarl huff deep sigh grumble frustration annoyed
@@ -6,19 +6,22 @@ Agony Pain hurt roar suffering anguish wounded injured
 Snore Snoring breathing sleeping asleep slumber rest apnea
 Cough Throat sick illness cold respiratory flu
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
-Exhile Relief Satisfaction Refreshment
+Exhale Relief Satisfaction Refreshment
+Sigh sob whine moan breathe yearn lament sorrow
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Grunt Groan strain effort military soldier exertion
 Ohm Om meditation drone mantra spiritual chant
 Surprise ooh astonishment Gasp shock startled amazed
 Moan Groan sigh pleasure soft gasp
 
-# Woman
+# Female
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Kiss Smooch peck mwah lip affection romance love
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Cry weep whimper grief distress
 Cough Throat sick illness cold respiratory flu
+Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
+Sigh sob whine moan breathe yearn lament sorrow
 Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
 Angry Growl snarl huff deep sigh grumble frustration annoyed
 Agony Pain hurt roar suffering anguish wounded injured
@@ -37,13 +40,14 @@ GirlOh Uh-oh mistake
 GirlScream shriek panic scream scared
 Cough Throat sick illness cold respiratory flu
 
-# People
+# Crowd
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Applause Clapping ovation
 WarCry Battle charging horde
 Aww sympathy sigh pity
 Boo Booing jeering disapproval
 Loud roar celebration arena
+ChildrenYell loud yeah squeal shriek
 
 # Action
 Grab Pickup take loot inventory item collect
