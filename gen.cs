@@ -6,6 +6,10 @@
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
+using System.Reflection.Metadata;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography;
+using System.Text;
 using SpessaSharp.MIDI;
 using SpessaSharp.SoundBank;
 using SpessaSharp.SoundBank.SoundFont;
@@ -273,9 +277,13 @@ if (processSamples)
 {
     Console.WriteLine("[PROCESS SAMPLES]");
     
-    if (outputDir.Exists) outputDir.Delete(true);
-    outputDir.Refresh();
-    outputDir.Create();
+    SampleCache.Init(samplesOutput);
+
+    if (!outputDir.Exists)
+    {
+        outputDir.Refresh();
+        outputDir.Create();   
+    }
 
     const string argBaseFilterTrim =
         "silenceremove=start_periods=1:start_threshold={0}dB:stop_periods=1:stop_threshold={0}dB:stop_duration=0.1,";
@@ -330,13 +338,12 @@ if (processSamples)
         var name = Path.GetFileNameWithoutExtension(file);
         var output = Path.Join(samplesOutput, $"{name}.ogg");
 
-        if (!fileToCfg.ContainsKey(name))
+        if (!fileToCfg.TryGetValue(name, out var cfg))
         {
             Warn("Unused sample: " + file);
             continue;
         }
 
-        var cfg = fileToCfg[name];
         var playbackRate = cfg.Speed ?? 1;
         var db = -45;
 
@@ -355,11 +362,13 @@ if (processSamples)
         
         if (cfg.SkipNorm is true)
             cmdArgs = cmdArgs.Replace(argVolNorm, null);
+        
+        if (!SampleCache.Add(name, cmdArgs)) continue;
 
         argList.Add(cmdArgs);
     }
 
-    foreach (var cmdArgs in argList)
+    foreach (var cmdArgs in argList) 
         processList.Add(Process.Start("ffmpeg", cmdArgs));
 
     foreach (var process in processList)
@@ -377,10 +386,21 @@ var tasksDur = new List<Task>();
 foreach (var sampleFile in presets.Values
              .SelectMany(s => s.Select(ss => ss.Item2.File)))
 {
+    if (SampleCache.TryGetDuration(sampleFile) is { } duration)
+    {
+        sampleToDuration[sampleFile] = duration;
+        continue;
+    }
+    
     var path = Path.Join(outputDir.Name, sampleFile + ".ogg");
-    var task = Task.Run(() => sampleToDuration[sampleFile] = double.Parse(ProcessRead(
-        "ffprobe",
-        $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {path}").Trim()));
+    var task = Task.Run(() =>
+    {
+        var dur = double.Parse(ProcessRead(
+            "ffprobe",
+            $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {path}").Trim());
+        SampleCache.SetDuration(sampleFile, dur);
+        return sampleToDuration[sampleFile] = dur;
+    });
     tasksDur.Add(task);
 }
 
@@ -554,7 +574,7 @@ Console.WriteLine(
     sbFile.Length / 1024d / 1024d:F1} MB, {
     totalDuration:mm\\:ss} samples duration");
 Console.ResetColor();
-
+SampleCache.End();
 return;
 
 #region utils
@@ -599,12 +619,7 @@ static void Error(string msg)
     throw new Exception(); // Local variable 'X' might not be initialized before accessing
 }
 
-static void Warn(string msg)
-{
-    Console.ForegroundColor = ConsoleColor.Yellow;
-    Console.WriteLine("[WARN] " + msg);
-    Console.ResetColor();
-}
+static void Warn(string msg) => Util.Warn(msg);
 
 internal static class Util
 {
@@ -617,6 +632,77 @@ internal static class Util
         Environment.Exit(1);
         throw new Exception(); // Local variable 'X' might not be initialized before accessing
     }
+    
+    public static void Warn(string msg)
+    {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("[WARN] " + msg);
+        Console.ResetColor();
+    }
+}
+
+internal static class SampleCache
+{
+    private const int VERSION = 0;
+    
+    private static readonly Dictionary<string, (string, double?)> Cache = [];
+    private static readonly Lock Lock = new();
+
+    private static string _cacheFile = "";
+
+    public static bool Add(string filename, string args) =>
+        Cache.TryAdd(Hash(filename), (Hash(args), null));
+
+    public static double? TryGetDuration(string filename)
+    {
+        using var _ = Lock.EnterScope();
+        return Cache.TryGetValue(Hash(filename), out var val) ? val.Item2 : null;
+    }
+
+    public static void SetDuration(string filename, double dur)
+    {
+        using var _ = Lock.EnterScope();
+        ref var val = ref CollectionsMarshal.GetValueRefOrNullRef(
+            Cache, Hash(filename));
+        val.Item2 = dur;
+    }
+
+    public static void Init(string folder)
+    {
+        _cacheFile = Path.Join(folder, "_cache.txt");
+        if (!File.Exists(_cacheFile)) return;
+        var lines = File.ReadAllLines(_cacheFile);
+
+        if (int.Parse(lines[0]) != VERSION) return;
+
+        try
+        {
+            foreach (var line in lines.AsSpan(1))
+            {
+                if (line.Split(' ', 3) is not [var key, var args, var dur])
+                    throw new Exception("Wrong cache line: " + line);
+                Cache[key] = (args, double.Parse(dur));
+            }
+        }
+        catch (Exception e)
+        {
+            Util.Warn("Error parsing _cache.txt: " + e.Message);
+        }
+    }
+
+    public static void End()
+    {
+        var sb = new StringBuilder();
+        sb.AppendLine(VERSION.ToString());
+        foreach (var (key, val) in Cache)
+            sb.AppendLine($"{key} {val.Item1} {val.Item2}");
+        File.WriteAllText(_cacheFile, sb.ToString().TrimEnd());
+    }
+
+    private static string Hash(string str) =>
+        Convert.ToHexString(SHA1.HashData(
+            Encoding.UTF8.GetBytes(str)));
+
 }
 #endregion
 
