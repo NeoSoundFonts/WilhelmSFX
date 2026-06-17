@@ -21,9 +21,9 @@ Used sites:
 
 ***
 
-## Effect List (593)
+## Effect List (605)
 &nbsp;
-### Man (41)
+### Male (45)
 
 
 
@@ -63,9 +63,21 @@ Used sites:
 
 
 
-[Yawn 1](https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564231/ "yawnyawning") [2](https://freesound.org/people/amorralteixe/sounds/238399/ "yawn") [3](https://freesound.org/people/spookymodem/sounds/202105/ "yawn") [Exhile 1](https://sonniss.com/gameaudiogdc/ "Ahh, Relief, Drink, Soda, Exhale, Male") 
+[Yawn 1](https://freesound.org/people/njjjjjjjjjjjjjjjjjjjjjjjj/sounds/564231/ "yawnyawning") [2](https://freesound.org/people/amorralteixe/sounds/238399/ "yawn") [3](https://freesound.org/people/spookymodem/sounds/202105/ "yawn") 
+
+*`yawning`, `sleepiness`, `vocalization`, `fatigue`, `sigh`, `tired`, `sleepy`, `exhaustion`, `waking`*
+
+
+
+[Exhale 1](https://sonniss.com/gameaudiogdc/ "Ahh, Relief, Drink, Soda, Exhale, Male") 
 
 *`relief`, `satisfaction`, `refreshment`*
+
+
+
+[Sigh 1](https://freesound.org/people/Reitanna/sounds/215380/ "male sigh") [2](https://freesound.org/people/Darkech/sounds/391880/ "exalacion3") 
+
+*`sob`, `whine`, `moan`, `breathe`, `yearn`, `lament`, `sorrow`*
 
 
 
@@ -87,9 +99,11 @@ Used sites:
 
 
 
-[Surprise 1](https://sonniss.com/gameaudiogdc/ "HMNBrth Human, Adult, Male, Breath, Surprise, Gasp UberDuo INHL 17") 
+[Surprise 1](https://sonniss.com/gameaudiogdc/ "HMNBrth Human, Adult, Male, Breath, Surprise, Gasp UberDuo INHL 17") [2](https://freesound.org/people/ranman22/sounds/677888/ "man gasping") [3](https://freesound.org/people/efsdcnveoi/sounds/427688/ "07 sorpresa") 
 
 *`ooh`, `astonishment`, `gasp`, `shock`, `startled`, `amazed`*
+
+
 
 
 
@@ -104,7 +118,7 @@ Used sites:
 
 
 &nbsp;
-### Woman (36)
+### Female (41)
 
 
 
@@ -135,6 +149,18 @@ Used sites:
 [Cough 1](https://freesound.org/people/1980supra/sounds/326096/ "cough cough") [2](https://freesound.org/people/OwlStorm/sounds/151213/ "cough female") [3](https://freesound.org/people/Reitanna/sounds/343880/ "two coughs") 
 
 *`throat`, `sick`, `illness`, `cold`, `respiratory`, `flu`*
+
+
+
+[Yawn 1](https://freesound.org/people/wintuh/sounds/471859/ "46 bostezonina") [2](https://freesound.org/people/CyWeb/sounds/672450/ "yawn baillements") 
+
+*`yawning`, `sleepiness`, `vocalization`, `fatigue`, `sigh`, `tired`, `sleepy`, `exhaustion`, `waking`*
+
+
+
+[Sigh 1](https://freesound.org/people/threadzz/sounds/384992/ "woman sigh") [2](https://freesound.org/people/Reitanna/sounds/252224/ "defeated sigh") [3](https://freesound.org/people/BlueSiren/sounds/377736/ "girl sighs") 
+
+*`sob`, `whine`, `moan`, `breathe`, `yearn`, `lament`, `sorrow`*
 
 
 
@@ -242,7 +268,7 @@ Used sites:
 
 
 &nbsp;
-### People (12)
+### Child (10)
 
 
 
@@ -282,6 +308,12 @@ Used sites:
 
 
 
+[ChildrenYell 1](https://freesound.org/people/craigsmith/sounds/675108/ "s12 21 kids yelling yeah") 
+
+*`loud`, `yeah`, `squeal`, `shriek`*
+
+
+
 
 
 
@@ -303,13 +335,11 @@ Used sites:
 
 
 
-[ClimbLadder 1](https://freesound.org/people/deleted_user_10023915/sounds/478052/ "ladderclimb4") [2](https://freesound.org/people/deleted_user_10023915/sounds/478055/ "ladderclimb1") [3](https://freesound.org/people/deleted_user_10023915/sounds/478054/ "ladderclimb2") [4](https://freesound.org/people/deleted_user_10023915/sounds/478053/ "ladderclimb3") 
+[ClimbLadder 1](https://freesound.org/people/deleted_user_10023915/sounds/478052/ "ladderclimb4") [2](https://freesound.org/people/deleted_user_10023915/sounds/478055/ "ladderclimb1") [3](https://freesound.org/people/deleted_user_10023915/sounds/478054/ "ladderclimb2") [4](https://freesound.org/people/deleted_user_10023915/sounds/478053/ "ladderclimb3") [5](https://sonniss.com/gameaudiogdc/ "LADDER Metal Small Rattle a") [6](https://sonniss.com/gameaudiogdc/ "LADDER Metal Small Rattle b") [7](https://sonniss.com/gameaudiogdc/ "LADDER Metal Small Rattle c") 
 
 *`climbing`, `rung`, `stepping`, `scaling`*
 
 
-
-[5](https://sonniss.com/gameaudiogdc/ "LADDER Metal Small Rattle a") [6](https://sonniss.com/gameaudiogdc/ "LADDER Metal Small Rattle b") [7](https://sonniss.com/gameaudiogdc/ "LADDER Metal Small Rattle c") 
 
 [Boil 1](https://freesound.org/people/14FPanska_Nemec_Petr/sounds/420228/ "37 17 boi") 
 
@@ -689,7 +719,7 @@ Used sites:
 
 
 
-[Underwater 1](https://sonniss.com/gameaudiogdc/ "UWM008") [1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0298 designed water underwater 005") 
+[Underwater 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0298 designed water underwater 005") [2](https://sonniss.com/gameaudiogdc/ "UWM008") 
 
 *`submerged`, `subaquatic`, `hydrophone`, `dive`, `bubble`, `swirl`, `fluid`*
 
@@ -973,7 +1003,7 @@ Used sites:
 
 
 &nbsp;
-### Machine (39)
+### Machine (41)
 
 
 
@@ -1064,6 +1094,12 @@ Used sites:
 [Electric 1](https://freesound.org/people/michael_grinnell/sounds/512471/ "electric zap") 
 
 *`zap`, `circuit`, `spark`, `current`, `discharge`, `voltage`*
+
+
+
+[Spark 1](https://freesound.org/people/The_Chemical_Workshop/sounds/403252/ "taserhigh voltage discharge a") [2](https://freesound.org/people/The_Chemical_Workshop/sounds/403252/ "taserhigh voltage discharge b") 
+
+*`flicker`, `discharge`, `flash`*
 
 
 
@@ -1169,7 +1205,7 @@ Used sites:
 
 
 
-[Reload 1](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/ "dragon studio gun reload 511309") [7](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/ "dragon studio gun reload 2 511308") 
+[Reload 1](https://freesound.org/people/martian/sounds/182276/ "kg gun cock 02") [2](https://freesound.org/people/21100354/sounds/595051/ "gun reloading") [3](https://freesound.org/people/SpliceSound/sounds/153560/ "winchester rifle cock reload") [4](https://freesound.org/people/Paul368/sounds/200966/ "shotgun cock reload layered powerful") [5](https://freesound.org/people/LilMati/sounds/448987/ "weapon ready") [6](https://pixabay.com/sound-effects/film-special-effects-gun-reload-511309/ "dragon studio gun reload 511309") [7](https://pixabay.com/sound-effects/film-special-effects-gun-reload-2-511308/ "dragon studio gun reload 2 511308") 
 
 *`cocking`, `magazine`, `chambering`, `round`*
 
@@ -1283,7 +1319,7 @@ Used sites:
 
 
 
-[Move 1](https://freesound.org/people/ErikH2000/sounds/178345/ "stomps robot walk") [2](https://freesound.org/people/Speedenza/sounds/318559/ "short servo burst 1") [3](https://freesound.org/people/keemocore/sounds/148309/ "robot step short medium heavy") [4](https://sonniss.com/gameaudiogdc/ "Bluezone BC0284 soundwave robot footsteps 001") 
+[Move 1](https://sonniss.com/gameaudiogdc/ "Bluezone BC0284 soundwave robot footsteps 001") [2](https://sonniss.com/gameaudiogdc/ "footstep a mech mega 01") [3](https://sonniss.com/gameaudiogdc/ "footstep a mech mega 02") [4](https://sonniss.com/gameaudiogdc/ "Robot Big Footstep Servo 003") 
 
 *`step`, `whirl`, `stomp`*
 
