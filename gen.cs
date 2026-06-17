@@ -650,8 +650,11 @@ internal static class SampleCache
 
     private static string _cacheFile = "";
 
-    public static bool Add(string filename, string args) =>
-        Cache.TryAdd(Hash(filename), (Hash(args), null));
+    public static bool Add(string filename, string args)
+    {
+        using var _ = Lock.EnterScope();
+        return Cache.TryAdd(Hash(filename), (Hash(args), null));
+    }
 
     public static double? TryGetDuration(string filename)
     {
@@ -669,6 +672,8 @@ internal static class SampleCache
 
     public static void Init(string folder)
     {
+        using var _ = Lock.EnterScope();
+        
         _cacheFile = Path.Join(folder, "_cache.txt");
         if (!File.Exists(_cacheFile)) return;
         var lines = File.ReadAllLines(_cacheFile);
@@ -692,6 +697,7 @@ internal static class SampleCache
 
     public static void End()
     {
+        using var _ = Lock.EnterScope();
         var sb = new StringBuilder();
         sb.AppendLine(VERSION.ToString());
         foreach (var (key, val) in Cache)
