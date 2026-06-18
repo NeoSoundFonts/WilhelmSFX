@@ -23,6 +23,7 @@ VOXLaff_Police_Officer_Laugh_Vocal_Male_1               https://sonniss.com/game
 267480__islandan__male-scream                           https://freesound.org/people/islandan/sounds/267480/
 546123__pepsimanfan__young-man-being-hurt               https://freesound.org/people/pepsimanfan/sounds/546123/
 528839__th3romeo__human-roar-1                          https://freesound.org/people/th3romeo/sounds/528839/
+265554__augustsandberg__studio-roar                     https://freesound.org/people/AugustSandberg/sounds/265554/
 
 233600__sortsapostata__snoring                          https://freesound.org/people/SortsApostata/sounds/233600/
 365372__rdpipo7777__ronquido                            https://freesound.org/people/rdpipo7777/sounds/365372/
@@ -94,6 +95,8 @@ VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://sonniss.com/game
 
 471859__wintuh__46-bostezonina                          https://freesound.org/people/wintuh/sounds/471859/
 672450__cyweb__yawn-baillements                         https://freesound.org/people/CyWeb/sounds/672450/
+
+425781__thatkellytrna__girl-exhale                      https://freesound.org/people/thatkellytrna/sounds/425781/
 
 384992__threadzz__woman-sigh                            https://freesound.org/people/threadzz/sounds/384992/
 252224__reitanna__defeated-sigh                         https://freesound.org/people/Reitanna/sounds/252224/
@@ -579,6 +582,7 @@ many_coins_12                                           https://sonniss.com/game
 724126__saha213131__lightergas                          https://freesound.org/people/saha213131/sounds/724126/
 
 OBJMisc_Spray_Bottle,_Spray_1_344_Audio_Barbershop_Vol_1  https://sonniss.com/gameaudiogdc/
+476839__richwise__spray-can                             https://freesound.org/people/richwise/sounds/476839/
 
 GAMECas_Pick_Up_Multiple_Cards_At_Once_5_344_Audio_Casino_Cards_Vol_1 https://sonniss.com/gameaudiogdc/
 
@@ -856,6 +860,10 @@ WEAPArmr_Metal_Shield_Block_Hits_JSE_MW_c               https://sonniss.com/game
 
 338122__jacklilley__tennis-ball-being-hit               https://freesound.org/people/jacklilley/sounds/338122/
 
+185370__cower__rolling-can-sound-2_a                    https://freesound.org/people/cower/sounds/185370/
+185370__cower__rolling-can-sound-2_b                    https://freesound.org/people/cower/sounds/185370/
+185370__cower__rolling-can-sound-2_c                    https://freesound.org/people/cower/sounds/185370/
+
 
 
 // Break
@@ -904,6 +912,8 @@ GORESplt_Gore_Splatter_01_JSE_GMP_b                     https://sonniss.com/game
 Bluezone_BC0287_annihilation_debris_falling_rock_001    https://sonniss.com/gameaudiogdc/
 Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010  https://sonniss.com/gameaudiogdc/
 
+452126__key-sto__zoom0030_mn_a                          https://freesound.org/people/key-sto/sounds/452126/
+452126__key-sto__zoom0030_mn_b                          https://freesound.org/people/key-sto/sounds/452126/
 
 
 // Bang

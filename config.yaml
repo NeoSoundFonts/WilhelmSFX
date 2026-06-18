@@ -28,6 +28,7 @@ Presets:
     Agony3: 267480__islandan__male-scream
     Agony4: 546123__pepsimanfan__young-man-being-hurt
     Agony5: 528839__th3romeo__human-roar-1
+    Agony6: 265554__augustsandberg__studio-roar
 
     Snore1: 233600__sortsapostata__snoring
     Snore2: 365372__rdpipo7777__ronquido
@@ -98,6 +99,8 @@ Presets:
 
     Yawn1: 471859__wintuh__46-bostezonina
     Yawn2: 672450__cyweb__yawn-baillements
+
+    Exhale1: 425781__thatkellytrna__girl-exhale
 
     Sigh1: 384992__threadzz__woman-sigh
     Sigh2: 252224__reitanna__defeated-sigh
@@ -631,6 +634,10 @@ Presets:
       - End: all
 
     Spray1: OBJMisc_Spray_Bottle,_Spray_1_344_Audio_Barbershop_Vol_1
+    Spray2:
+      - 476839__richwise__spray-can
+      - Start: .1
+      - End: .75
 
     Card1:
       - GAMECas_Pick_Up_Multiple_Cards_At_Once_5_344_Audio_Casino_Cards_Vol_1
@@ -644,7 +651,6 @@ Presets:
     Cloth2: FOLYClth_ClothMovement24_InMotionAudio_FoleyT-Shirt_b
 
     Scratch1: OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard
-
 
   Machine:
     Motor1:
@@ -986,6 +992,10 @@ Presets:
 
     Racket1: 338122__jacklilley__tennis-ball-being-hit
 
+    Can1: 185370__cower__rolling-can-sound-2_a
+    Can2: 185370__cower__rolling-can-sound-2_b
+    Can3: 185370__cower__rolling-can-sound-2_c
+
   Break:
     Glass1: 141563__avrahamy__glass-break
     Glass2: 369070__lazylids__breaking_mirror
@@ -1030,6 +1040,9 @@ Presets:
 
     Debris1: Bluezone_BC0287_annihilation_debris_falling_rock_001
     Debris2: Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010
+
+    Can1: 452126__key-sto__zoom0030_mn_a
+    Can2: 452126__key-sto__zoom0030_mn_b
 
   Bang:
     Boom1: 47252__deleted_user_364925__bad-explosion

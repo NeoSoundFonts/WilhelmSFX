@@ -22,6 +22,7 @@ Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain qu
 Cry weep whimper grief distress
 Cough Throat sick illness cold respiratory flu
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
+Exhale Relief Satisfaction Refreshment Gasp Phew
 Sigh sob whine moan breathe yearn lament sorrow
 Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
 Angry Growl snarl huff deep sigh grumble frustration annoyed
@@ -253,6 +254,7 @@ Shovel scoop dig soil scrap excavate
 MetalThud hit impact thump moan
 Blocked shield armor parry deflect bash
 Racket tennis ball smash stroke plock
+Can tin roll rattle metallic clatter
 
 # Break
 Glass shatter smash
@@ -270,6 +272,7 @@ Cloth fabric rip tear textile soft
 Flesh Squish Squelch Wet Gory Meaty Slash
 Gore splatter squish flesh gruesome visceral
 Debris rock collapse landslide fragmentation scattering
+Can tin aluminum crush crunch
 
 # Bang
 Boom explosion blast detonation bomb burst
