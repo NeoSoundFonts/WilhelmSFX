@@ -254,6 +254,17 @@ Presets:
     Scrub1: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_a
     Scrub2: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b
 
+    Push1:
+      - 391960__ssierra1202__dragged
+      - Start: .05
+      - End: .25
+      - SkipTrim: true
+
+    Push2:
+      - 146408__crashoverride6__sand-on-paper-dragged-long
+      - Start: .5
+      - End: 1.7
+
   Move:
     Foot1: 251788__vkproduktion__footstep-01
 
@@ -567,6 +578,9 @@ Presets:
 
     Zipper1: NEO008_a
     Zipper2: NEO008_b
+
+    Blinds1: 347892__newagesoup__window-blinds-raise-01
+    Blinds2: 347886__newagesoup__window-blinds-lower02
 
     Keys1: 97481__egolessdub__keys9
     Keys2: 788310__realsquink__key-pickup
@@ -932,6 +946,10 @@ Presets:
 
     Curtain1: 272436__ryanharding95__opening-shower-curtain
     Curtain2: 106132__j1987__showercurtain
+
+    Chain1:
+      - 198470__miguelstar2__dr05___0205_sandau
+      - End: all
 
   Hit:
     Swing1: 389590__jofae__swing-woosh

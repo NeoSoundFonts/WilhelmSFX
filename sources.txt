@@ -249,6 +249,8 @@ velisophigus-vomiting-301069                            https://pixabay.com/soun
 FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_a https://sonniss.com/gameaudiogdc/
 FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b https://sonniss.com/gameaudiogdc/
 
+391960__ssierra1202__dragged                            https://freesound.org/people/ssierra1202/sounds/391960/
+146408__crashoverride6__sand-on-paper-dragged-long      https://freesound.org/people/crashoverride6/sounds/146408/
 
 
 // Move
@@ -517,6 +519,9 @@ OBJTape_VelcroRip29_InMotionAudio_Velcro                https://sonniss.com/game
 
 NEO008_a                                                https://sonniss.com/gameaudiogdc/
 NEO008_b                                                https://sonniss.com/gameaudiogdc/
+
+347892__newagesoup__window-blinds-raise-01              https://freesound.org/people/newagesoup/sounds/347892/
+347886__newagesoup__window-blinds-lower02               https://freesound.org/people/newagesoup/sounds/347886/
 
 97481__egolessdub__keys9                                https://freesound.org/people/egolessdub/sounds/97481/
 788310__realsquink__key-pickup                          https://freesound.org/people/RealSquink/sounds/788310/
@@ -797,6 +802,8 @@ DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_
 
 272436__ryanharding95__opening-shower-curtain           https://freesound.org/people/ryanharding95/sounds/272436/
 106132__j1987__showercurtain                            https://freesound.org/people/j1987/sounds/106132/
+
+198470__miguelstar2__dr05___0205_sandau                 https://freesound.org/people/miguelstar2/sounds/198470/
 
 
 

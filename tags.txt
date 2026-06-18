@@ -65,6 +65,7 @@ Chew Bite crunch munching eating mastication food
 BrushTeeth friction hygiene dental
 SandWood scraping friction foley workshop
 Scrub wash laundry thud shuffling
+Push scrape slide friction drag
 
 # Move
 Foot step stride pace walking
@@ -148,6 +149,7 @@ CashReg register store money
 Scissor Snip shearing cutting cutting
 Velcro peel rip tear crisp
 Zipper fastener track friction raspy
+Blinds slide swipe squeak curtain
 Keys jingle rattle stash clink
 BookClose Thud slap Muffled puff
 BookDrop Thud Flop Dull
@@ -235,6 +237,7 @@ Metal gate screech rusty creak
 Creak squeak wooden rusty
 Close slam shut
 Curtain shower fabric
+Chain anchor mechanism drawbridge metallic bolt
 
 # Hit
 Swing swipe strike whiff miss
