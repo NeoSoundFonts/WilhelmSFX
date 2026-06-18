@@ -40,14 +40,14 @@ var q = Math.Clamp(ArgsInt("-q") ?? 2, -1, 10);
 var processReadme = !ArgsContains("--skip-readme");
 var onlyReadme = ArgsContains("--only-readme");
 var sampleRate = ArgsInt("--sample-rate") ?? 22_050;
-var lowpass = ArgsInt("--lowpass") ?? sampleRate;
+var lowpass = ArgsInt("--lowpass");
 var bitcrush = ArgsInt("--bitcrush");
 var saveDuration = ArgsContains("--save-duration");
 var includeExtra = ArgsContains("--include-extra");
 
 var sourcesTxt = File.ReadAllText("sources.txt");
 
-var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass}, BitCrush={bitcrush?.ToString() ?? "no"}";
+var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass.ToString() ?? "no"}, BitCrush={bitcrush?.ToString() ?? "no"}";
 Console.WriteLine("[SETTINGS]");
 Console.WriteLine(settingsStr);
 
@@ -344,7 +344,8 @@ if (!outputDir.Exists)
             cmd += string.Format(filterBitCrusher, bc);
 
         // Lowpass
-        cmd += string.Format(filterLowPass, lowpass);
+        if (lowpass is {} lp)
+            cmd += string.Format(filterLowPass, lp);
 
         // Normalize volume,
         if (cfg.SkipNorm is not true)
@@ -359,6 +360,8 @@ if (!outputDir.Exists)
             // Output
             output
         ;
+
+        cmd = cmd.Replace("-af \"\"", null);
 
         
         if (!SampleCache.Add(name, cmd)) continue;
