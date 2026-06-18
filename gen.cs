@@ -356,7 +356,7 @@ if (!outputDir.Exists)
             "\" " +
 
             // Compress to vorbis (q = quality)
-            string.Format(argCompress, sampleRate, q) +
+            string.Format(argCompress, cfg.SampleRate ?? sampleRate, cfg.Q ?? q) +
             // Output
             $"\"{output}\""
         ;
@@ -740,6 +740,8 @@ internal sealed class SampleCfg
     public double? Speed;
     public bool? SkipTrim;
     public bool? SkipNorm;
+    public int? Q;
+    public int? SampleRate;
 }
 
 internal class MConfig
@@ -770,6 +772,12 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
             Consume<MappingStart>();
             switch (Consume<Scalar>().Value)
             {
+                case "SampleRate":
+                    cfg.SampleRate = GetInt();
+                    break;
+                case "Q":
+                    cfg.Q = Math.Clamp(GetInt(), 0, 10);
+                    break;
                 case "SkipTrim":
                     cfg.SkipTrim = GetBool();
                     break;
