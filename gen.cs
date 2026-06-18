@@ -36,10 +36,10 @@ SampleCache.Init(samplesOutput);
 var sw = Stopwatch.StartNew();
 
 // Read command line
-var q = Math.Clamp(ArgsInt("-q") ?? 2, -1, 10);
+var q = Math.Clamp(ArgsInt("-q") ?? 6, 0, 10);
 var processReadme = !ArgsContains("--skip-readme");
 var onlyReadme = ArgsContains("--only-readme");
-var sampleRate = ArgsInt("--sample-rate") ?? 22_050;
+var sampleRate = ArgsInt("--sample-rate") ?? 44_100;
 var lowpass = ArgsInt("--lowpass");
 var bitcrush = ArgsInt("--bitcrush");
 var saveDuration = ArgsContains("--save-duration");
@@ -47,7 +47,7 @@ var includeExtra = ArgsContains("--include-extra");
 
 var sourcesTxt = File.ReadAllText("sources.txt");
 
-var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass.ToString() ?? "no"}, BitCrush={bitcrush?.ToString() ?? "no"}";
+var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass?.ToString() ?? "no"}, BitCrush={bitcrush?.ToString() ?? "no"}";
 Console.WriteLine("[SETTINGS]");
 Console.WriteLine(settingsStr);
 
@@ -323,7 +323,7 @@ if (!outputDir.Exists)
             // Quiet output
             argQuiet +
             // Input
-            $"-i {file} " +
+            $"-i \"{file}\" " +
             // Remove embedded pictures
             "-vn " +
 
@@ -358,15 +358,12 @@ if (!outputDir.Exists)
             // Compress to vorbis (q = quality)
             string.Format(argCompress, sampleRate, q) +
             // Output
-            output
+            $"\"{output}\""
         ;
 
         cmd = cmd.Replace("-af \"\"", null);
 
-        
-        if (!SampleCache.Add(name, cmd)) continue;
-
-        argList.Add(cmd);
+        if (SampleCache.Add(name, cmd)) argList.Add(cmd);
     }
 
     foreach (var cmdArgs in argList) 
