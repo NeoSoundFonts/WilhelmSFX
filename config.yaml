@@ -72,9 +72,9 @@ Presets:
     Grunt5: 166944__qubodup__grunts-of-pain-by-military-soldiers_a
     Grunt6: 166944__qubodup__grunts-of-pain-by-military-soldiers_b
 
-    Surprise1: HMNBrth_Human,_Adult,_Male,_Breath,_Surprise,_Gasp_UberDuo_INHL_17
-    Surprise2: 677888__ranman22__man-gasping
-    Surprise3: 427688__efsdcnveoi__07-sorpresa
+    Gasp1: HMNBrth_Human,_Adult,_Male,_Breath,_Surprise,_Gasp_UberDuo_INHL_17
+    Gasp2: 677888__ranman22__man-gasping
+    Gasp3: 427688__efsdcnveoi__07-sorpresa
 
     Ohm1: 26244__bitsmart__ohm
 
@@ -125,9 +125,9 @@ Presets:
 
     Grunt1: 344004__reitanna__heavy-grunt
 
-    Surprise1: 509883__slamaxu__female_gasp
-    Surprise2: 323707__reitanna__ooh
-    Surprise3: 343878__reitanna__big-gasp
+    Gasp1: 509883__slamaxu__female_gasp
+    Gasp2: 323707__reitanna__ooh
+    Gasp3: 343878__reitanna__big-gasp
 
     Dissapoint1: 170765__esperar__oh-disappointed
     Dissapoint2: 391896__edinaldoapsantos__bocejo_feminino
@@ -148,8 +148,18 @@ Presets:
     BabyLaugh1: 449869__gary_in_wv__infantlaugh
     BabyLaugh2: 462457__arvinsohi29__children_laughing-mike_koenig-575083331
 
+    BoyLaugh1: 365632__obxjohn__boy-or-young-child-laughing_a
+    BoyLaugh2: 365632__obxjohn__boy-or-young-child-laughing_b
+
+    BoyGrunt1: 260188__splicesound__young-boy-grunts-for-body-impact_a
+    BoyGrunt2: 260188__splicesound__young-boy-grunts-for-body-impact_b
+
+    BoyGasp1: 260188__splicesound__young-boy-grunts-for-body-impact_c
+    BoyGasp2: 188209__splicesound__individual-child-gasps
+
     GirlLaugh1: 367493__funwithsound__child-giggle
     GirlLaugh2: 184618__kimheadlee__lkf10
+    GirlLaugh3: 135387__ashjenx__child-laughing
 
     GirlOh1: 445964__breviceps__cartoon-uh-oh
 
@@ -158,6 +168,8 @@ Presets:
     GirlScream3: 360465__topschool__scream01
 
     Cough1: 470120__the_coolguy78__child-coffing
+
+    Snore1: 198325__schafferdavid__sleepingchild
 
   Crowd:
     Laugh1: 262983__alcappuccino__audience_laughing50
@@ -773,6 +785,10 @@ Presets:
 
     Spark1: 403252__the_chemical_workshop__taserhigh-voltage-discharge_a
     Spark2: 403252__the_chemical_workshop__taserhigh-voltage-discharge_b
+
+    Steam1: 90143__pengo_au__steam_burst
+    Steam2: 234782__wubitog__steamhiss
+    Steam3: 442671__qubodup__steam
 
     Lever1: Bluezone_BC0302_industrial_lever_switch_014
     Lever2: Bluezone_BC0302_industrial_lever_switch_039

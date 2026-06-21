@@ -3,7 +3,7 @@ Laugh Giggle chuckle snicker chortle guffaw cackle
 Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
 Angry Growl snarl huff deep sigh grumble frustration annoyed
 Agony Pain hurt roar suffering anguish wounded injured
-Snore Snoring breathing sleeping asleep slumber rest apnea
+Snore breathing sleeping asleep slumber rest apnea
 Cough Throat sick illness cold respiratory flu
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
 Exhale Relief Satisfaction Refreshment Gasp Phew
@@ -12,7 +12,7 @@ Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain qu
 Cry weep whimper grief distress
 Grunt Groan strain effort military soldier exertion
 Ohm Om meditation drone mantra spiritual chant
-Surprise ooh astonishment Gasp shock startled amazed
+Gasp ooh astonishment surprise shock startled amazed
 Moan Groan sigh pleasure soft gasp
 
 # Female
@@ -28,7 +28,7 @@ Scream yell shriek howl bellow screech outburst cry shout terror panic horror fe
 Angry Growl snarl huff deep sigh grumble frustration annoyed
 Agony Pain hurt roar suffering anguish wounded injured
 Grunt Groan strain effort military soldier exertion
-Surprise ooh astonishment Gasp shock startled amazed
+Gasp ooh astonishment surprise shock startled amazed
 Dissapoint Disappointed sigh letdown groan
 Nya Catgirl meow anime cute kawaii catgirl
 Sniff inhale smelling congestion
@@ -37,10 +37,14 @@ Moan Groan sigh pleasure soft gasp
 # Child
 BabyCry weeping tantrum fussy upset tears fussy
 BabyLaugh giggle chuckle happy cooing wholesome
+BoyGrunt groan strain effort exertion
+BoyLaugh giggle titter laughing innocent playground
+BoyGasp ooh astonishment surprise shock startled amazed
 GirlLaugh giggle titter laughing innocent playground
 GirlOh Uh-oh mistake
 GirlScream shriek panic scream scared
 Cough Throat sick illness cold respiratory flu
+Snore breathing sleeping asleep slumber rest apnea
 
 # Crowd
 Laugh Giggle chuckle snicker chortle guffaw cackle
@@ -190,6 +194,7 @@ Drier motor hair barbershop buzz airflow wind
 Trimmer clipper shaver buzz hum
 Electric Zap circuit spark current discharge voltage
 Spark flicker discharge flash
+Steam hiss vapor sizzle pneumatic release
 Lever switch handle latch toggle clunk lock unlock metallic
 
 # Digit

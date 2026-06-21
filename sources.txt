@@ -147,8 +147,18 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 449869__gary_in_wv__infantlaugh                         https://freesound.org/people/gary_in_wv/sounds/449869/
 462457__arvinsohi29__children_laughing-mike_koenig-575083331    https://freesound.org/people/arvinsohi29/sounds/462457/
 
+365632__obxjohn__boy-or-young-child-laughing_a          https://freesound.org/people/OBXJohn/sounds/365632/
+365632__obxjohn__boy-or-young-child-laughing_b          https://freesound.org/people/OBXJohn/sounds/365632/
+
+260188__splicesound__young-boy-grunts-for-body-impact_a https://freesound.org/people/SpliceSound/sounds/260188/
+260188__splicesound__young-boy-grunts-for-body-impact_b https://freesound.org/people/SpliceSound/sounds/260188/
+
+260188__splicesound__young-boy-grunts-for-body-impact_c https://freesound.org/people/SpliceSound/sounds/260188/
+188209__splicesound__individual-child-gasps             https://freesound.org/people/SpliceSound/sounds/188209/
+
 367493__funwithsound__child-giggle                      https://freesound.org/people/FunWithSound/sounds/367493/
 184618__kimheadlee__lkf10                               https://freesound.org/people/kim.headlee/sounds/184618/
+135387__ashjenx__child-laughing                         https://freesound.org/people/ashjenx/sounds/135387/
 
 445964__breviceps__cartoon-uh-oh                        https://freesound.org/people/Breviceps/sounds/445964/
 
@@ -157,6 +167,8 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 360465__topschool__scream01                             https://freesound.org/people/Topschool/sounds/360465/
 
 470120__the_coolguy78__child-coffing                    https://freesound.org/people/The_coolguy78/sounds/470120/
+
+198325__schafferdavid__sleepingchild                    https://freesound.org/people/schafferdavid/sounds/198325/
 
 
 
@@ -657,6 +669,10 @@ OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle                 https://sonniss.com/game
 
 403252__the_chemical_workshop__taserhigh-voltage-discharge_a  https://freesound.org/people/The_Chemical_Workshop/sounds/403252/
 403252__the_chemical_workshop__taserhigh-voltage-discharge_b  https://freesound.org/people/The_Chemical_Workshop/sounds/403252/
+
+90143__pengo_au__steam_burst                            https://freesound.org/people/pengo_au/sounds/90143/
+234782__wubitog__steamhiss                              https://freesound.org/people/wubitog/sounds/234782/
+442671__qubodup__steam                                  https://freesound.org/people/qubodup/sounds/442671/
 
 Bluezone_BC0302_industrial_lever_switch_014             https://sonniss.com/gameaudiogdc/
 Bluezone_BC0302_industrial_lever_switch_039             https://sonniss.com/gameaudiogdc/
