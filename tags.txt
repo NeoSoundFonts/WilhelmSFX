@@ -176,6 +176,7 @@ Card pick deck inventory flick crisp
 Dice tabletop roll tumbling bouncing rattling clattering
 Cloth foley cotton soft subtle
 Scratch tapping friction scrape
+Cutlery metal clink dinner clash fork spoon porcelain plate ceramic
 
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike

@@ -678,6 +678,11 @@ Presets:
 
     Scratch1: OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard
 
+    Cutlery1: 322394__glitchedtones__cutlery-clash-01
+    Cutlery2: 322395__glitchedtones__cutlery-clash-02
+    Cutlery3: 370298__closetwalrus__plate
+    Cutlery4: 735514__slv443__falling-spoon
+
   Machine:
     Motor1:
       - 325809__soundjoao__motor-loop-3
