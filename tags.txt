@@ -186,6 +186,7 @@ Vynil record scratch stop
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike
 MotorDead Failed engine struggle cranking dead
+Elevator lift
 Pneumatic Hydraulic Piston compression servo valve hiss whistling
 Drill electric hardware power
 Fan extractor ventilation hum airflow suction
@@ -249,6 +250,7 @@ Creak squeak wooden rusty
 Close slam shut
 Curtain shower fabric
 Chain anchor mechanism drawbridge metallic bolt
+Elevator machine mechanic lift
 
 # Hit
 Swing swipe strike whiff miss

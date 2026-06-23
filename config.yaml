@@ -743,6 +743,19 @@ Presets:
       - Start: .251
       - End: all
 
+    Elevator1:
+      - 83227__smokum__elevator
+      - End: all
+
+    Elevator2:
+      - 217471__jarredgibb__lift-3
+      - End: all
+      - SkipTrim: true
+
+    Elevator3:
+      - 182331__simplen00b__elev_loop
+      - End: all
+
     Pneumatic1: Bluezone_BC0290_demolisher_pneumatic_texture_007
 
     Drill1:
@@ -992,6 +1005,10 @@ Presets:
     Chain1:
       - 198470__miguelstar2__dr05___0205_sandau
       - End: all
+
+    Elevator1: 233307__tonitobe__automatic-elevator-door
+    Elevator2: 322132__vacuumfan7072__elevator-opening
+    Elevator3: 675538__craigsmith__s16-20-elevator-door-open-close
 
   Hit:
     Swing1: 389590__jofae__swing-woosh

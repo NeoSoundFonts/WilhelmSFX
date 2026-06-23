@@ -645,6 +645,10 @@ BOATMotr_Diesel_Engine_Boat_Idle_Steady                 https://sonniss.com/game
 
 32416__kraftwerk2k1__car_engine_wont-start              https://freesound.org/people/KRAFTWERK2K1/sounds/32416/
 
+83227__smokum__elevator                                 https://freesound.org/people/smokum/sounds/83227/
+217471__jarredgibb__lift-3                              https://freesound.org/people/JarredGibb/sounds/217471/
+182331__simplen00b__elev_loop                           https://freesound.org/people/simplen00b/sounds/182331/
+
 Bluezone_BC0290_demolisher_pneumatic_texture_007        https://sonniss.com/gameaudiogdc/
 
 345073__metrostock99__drill-gun                         https://freesound.org/people/metrostock99/sounds/345073/
@@ -839,6 +843,10 @@ DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_
 106132__j1987__showercurtain                            https://freesound.org/people/j1987/sounds/106132/
 
 198470__miguelstar2__dr05___0205_sandau                 https://freesound.org/people/miguelstar2/sounds/198470/
+
+233307__tonitobe__automatic-elevator-door               https://freesound.org/people/ToniTobe/sounds/233307/
+322132__vacuumfan7072__elevator-opening                 https://freesound.org/people/vacuumfan7072/sounds/322132/
+675538__craigsmith__s16-20-elevator-door-open-close     https://freesound.org/people/craigsmith/sounds/675538/
 
 
 
