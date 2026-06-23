@@ -5,6 +5,13 @@ Settings:
       ReleaseVolEnv: 2.0
       ReleaseModEnv: 2.0
 
+  # Per group settings (ie Male.Laugh*)
+  Groups:
+    Nature.Waves:
+      ReleaseVolEnv: 4.0
+      ReleaseModEnv: 4.0
+
+
 Presets:
   # Alive
 
@@ -393,6 +400,8 @@ Presets:
     Crow2: 512780__iwanplays__croworraven2
     Crow3: 56234__qk__crows_02
 
+    Seagull1: 166707__snapper4298__seagull-2
+
     Cow1: u_jd81cxyq22-cow-mooing-343423
     Cow2: 275154__bird_man__moo
     Cow3: 59245__zozzy__z-moo01
@@ -485,6 +494,10 @@ Presets:
       - End: all
 
   Nature:
+    Waves1: 751567__leszek_szary__ocean-6
+    Waves2: 441852__yarmonics__w_1-wave
+    Waves3: 442944__qubodup__ocean-wave
+
     WaterSplash1: 316744__bird_man__big-splash
     WaterSplash2: 96725__ryding__plask
     WaterSplash3: 398032__swordofkings128__splash
@@ -688,6 +701,8 @@ Presets:
     Cutlery2: 322395__glitchedtones__cutlery-clash-02
     Cutlery3: 370298__closetwalrus__plate
     Cutlery4: 735514__slv443__falling-spoon
+
+    Vynil1: 74385__dland__to-hell-with-vinyl
 
   Machine:
     Motor1:

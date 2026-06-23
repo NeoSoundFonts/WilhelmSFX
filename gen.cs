@@ -62,6 +62,7 @@ var deserializer = new DeserializerBuilder()
 var fileToName = new Dictionary<string, string>();
 var fileToCfg = new Dictionary<string, SampleCfg>();
 var presetToCfg = new Dictionary<string, GroupCfg>();
+var groupToCfg = new Dictionary<string, GroupCfg>();
 
 var presets = new Dictionary<string, List<(string, SampleCfg)>>();
 var sampleLen = 0;
@@ -107,6 +108,9 @@ foreach (var cfgFile in cfgFileList)
             if (entry.Key.Equals("Presets"))
                 foreach (var (preset, cfg) in entry.Value)
                     presetToCfg[preset] = cfg;
+            else if (entry.Key.Equals("Groups"))
+                foreach (var (preset, cfg) in entry.Value)
+                    groupToCfg[preset] = cfg;
             else Error("Unknown settings key: " + entry.Key);
 }
 
@@ -471,6 +475,8 @@ foreach (var (presetName, sounds) in presets)
         var sampleDuration = sampleToDuration[fileName];
         var sampleDurLen = (int)(sampleDuration * sampleRate);
 
+        var gCfg = GetGroupCfg(sampleName);
+
         if (!set.Add(sampleName))
             Error($"Duplicated sample name: '{sampleName}'");
         
@@ -504,6 +510,16 @@ foreach (var (presetName, sounds) in presets)
 
         var zone = instrument.CreateZone(sample);
         zone.Basic.KeyRange = (i, i);
+
+        if (gCfg != null)
+        {
+            if (gCfg.ReleaseVolEnv is {} rve)
+                zone.Basic.SetGenerator(
+                    Generator.Type.ReleaseVolEnv, UnitConverter.SecondsToTimecents(rve));
+            if (gCfg.ReleaseModEnv is {} rme)
+                zone.Basic.SetGenerator(
+                    Generator.Type.ReleaseModEnv, UnitConverter.SecondsToTimecents(rme));
+        }
 
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
@@ -608,6 +624,14 @@ string ProcessRead(string cmd, string args = "")
     if (errMsg != "") Error(errMsg);
     
     return reader.ReadToEnd();
+}
+
+GroupCfg GetGroupCfg(string sampleName)
+{
+    var groupName = sampleName.AsSpan();
+    while (char.IsDigit(groupName[^1]))
+        groupName = groupName[..^1];
+    return groupToCfg.GetValueOrDefault(groupName.ToString());
 }
 
 [DoesNotReturn]
@@ -749,6 +773,9 @@ internal class MConfig
 {
     public Dictionary<
         string, Dictionary<string, GroupCfg>>? Settings;
+
+    public Dictionary<
+        string, Dictionary<string, GroupCfg>>? Groups;
 
     public Dictionary<
         string, Dictionary<string, SampleCfg>> Presets;

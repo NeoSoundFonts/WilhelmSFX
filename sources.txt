@@ -412,6 +412,8 @@ yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell
 512780__iwanplays__croworraven2                         https://freesound.org/people/iwanPlays/sounds/512780/
 56234__qk__crows_02                                     https://freesound.org/people/Q.K./sounds/56234/
 
+166707__snapper4298__seagull-2                          https://freesound.org/people/Snapper4298/sounds/166707/
+
 442906__qubodup__pig-oink                               https://freesound.org/people/qubodup/sounds/442906/
 ANMLFarm_Pig_Squeal_and_Snort-18_MWSFX_FA               https://sonniss.com/gameaudiogdc/
 442904__qubodup__pig-squeak                             https://freesound.org/people/qubodup/sounds/442904/
@@ -450,6 +452,10 @@ dragon-studio-dragon-flapping-wings-364476              https://pixabay.com/soun
 
 
 // Nature
+
+751567__leszek_szary__ocean-6                           https://freesound.org/people/Leszek_Szary/sounds/751567/
+441852__yarmonics__w_1-wave                             https://freesound.org/people/Yarmonics/sounds/441852/
+442944__qubodup__ocean-wave                             https://freesound.org/people/qubodup/sounds/442944/
 
 316744__bird_man__big-splash                            https://freesound.org/people/Bird_man/sounds/316744/
 96725__ryding__plask                                    https://freesound.org/people/Ryding/sounds/96725/
@@ -621,6 +627,8 @@ OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard https://sonniss.
 322395__glitchedtones__cutlery-clash-02                 https://freesound.org/people/Glitchedtones/sounds/322395/
 370298__closetwalrus__plate                             https://freesound.org/people/Closetwalrus/sounds/370298/
 735514__slv443__falling-spoon                           https://freesound.org/people/SLV443/sounds/735514/
+
+74385__dland__to-hell-with-vinyl                        https://freesound.org/people/dland/sounds/74385/
 
 
 

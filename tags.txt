@@ -113,6 +113,7 @@ Horse Neigh whinny stallion equine snort
 Donkey Bray ass mule
 Bird Chirp tweet warble
 Crow Caw raven rook ominous
+Seagull bird chirp ocean
 Pig Oink grunt squeal swine
 Elephant Trumpet safari pachyderm
 Monkey Chatter screech ape primate jungle
@@ -126,6 +127,7 @@ Cicada Insect buzz
 WingFlap Flapping airborne
 
 # Nature
+Waves beach coast ocean sea shore water
 WaterSplash Splash plop plask water
 WaterDump spill
 Underwater submerged subaquatic hydrophone dive bubble swirl fluid
@@ -179,6 +181,7 @@ Dice tabletop roll tumbling bouncing rattling clattering
 Cloth foley cotton soft subtle
 Scratch tapping friction scrape
 Cutlery metal clink dinner clash fork spoon porcelain plate ceramic
+Vynil record scratch stop
 
 # Machine
 Motor Engine hum grinder diesel machinery boat car bike
