@@ -64,7 +64,7 @@ ToiletFlush Commode swirling drainage lavatory bathroom
 PoopFall Splash toilet gross comedy
 Fart Flatulence poot toot fart gas gross bathroom funny comedy poop intestinal
 Burp eructation belch gross funny digestion
-Poke Gagging retching vomit throat nausea sick
+Puke gage retching vomit throat nausea sick spew
 Chew Bite crunch munching eating mastication food
 BrushTeeth friction hygiene dental
 SandWood scraping friction foley workshop
@@ -138,7 +138,7 @@ Bubble Plop pop air burst
 Bubbles Bubbling fizz carbonation effervescence
 Rain downpour drizzle precipitation
 RainInterior storm window indoor car patter
-Wind cyclone gale muffled
+Wind cyclone gale muffled gust
 River Stream rushing flow
 Waterfall Cascading Rushing
 Thunder lightning storm tempest
@@ -219,7 +219,7 @@ Empty dry click
 Shot blast pistol
 Silenced supressed stealth muffled
 MachineGun automatic burst heavy assault
-ShotGun scatter pump
+Shotgun scatter pump
 Rifle sniper marsman
 Reload cocking magazine chambering round
 InsertMagazine reload slow slide lock
