@@ -399,6 +399,7 @@ yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell
 184503__madklown__horse                                 https://freesound.org/people/madklown/sounds/184503/
 269571__shadowisp__horse-neigh-shortened                https://freesound.org/people/shadoWisp/sounds/269571/
 475483__o_ciz__horsesnort_3                             https://freesound.org/people/o_ciz/sounds/475483/
+dragon-studio-horse-whinny-copyright-free-515978        https://pixabay.com/sound-effects/nature-horse-whinny-copyright-free-515978/
 
 392029__rafaelpicoli__jumento                           https://freesound.org/people/rafaelpicoli/sounds/392029/
 
@@ -452,6 +453,7 @@ CREASmall__Small_Species_A_Voices_Skitter_Squeak_Phrase_02_HZBIT_Microbes https:
 
 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night https://freesound.org/people/Attia.phonatics/sounds/829810/
 640718__soundofsong__cicada-insect-loop                 https://freesound.org/people/soundofsong/sounds/640718/
+515053__nox_sound__animal_cicada_solo_loop              https://freesound.org/people/Nox_Sound/sounds/515053/
 
 389634__stubb__wing-flap-1                              https://freesound.org/people/_stubb/sounds/389634/
 244982__ani_music__wing-flap-flag-flapping-5a           https://freesound.org/people/ani_music/sounds/244982/

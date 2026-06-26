@@ -10,6 +10,7 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
+using System.Text.RegularExpressions;
 using SpessaSharp.MIDI;
 using SpessaSharp.SoundBank;
 using SpessaSharp.SoundBank.SoundFont;
@@ -44,6 +45,7 @@ var lowpass = ArgsInt("--lowpass");
 var bitcrush = ArgsInt("--bitcrush");
 var saveDuration = ArgsContains("--save-duration");
 var includeExtra = ArgsContains("--include-extra");
+var filterOrigin = ArgsString("--filter-origin");
 
 var sourcesTxt = File.ReadAllText("sources.txt");
 
@@ -51,18 +53,38 @@ var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass?.ToString()
 Console.WriteLine("[SETTINGS]");
 Console.WriteLine(settingsStr);
 
+var fileToName = new Dictionary<string, string>();
+var fileToCfg = new Dictionary<string, SampleCfg>();
+var presetToCfg = new Dictionary<string, GroupCfg>();
+var groupToCfg = new Dictionary<string, GroupCfg>();
+var fileToUrl = new Dictionary<string, string>();
 
-// ----------------------------------------------------------------------------
+
+// -----------------------------------------------------------------------------
+// Read Sample Origin
+foreach (var line in sourcesTxt
+        .ReplaceLineEndings()
+        .Split(Environment.NewLine))
+{
+    if (line.IsWhiteSpace() || line.StartsWith("//"))
+        continue;
+
+    var idx = line.TrimEnd().LastIndexOf(' ');
+    if (idx == -1) Error($"Wrong source format: '{line}'");
+
+    var name = line[..idx].Trim();
+    var src = line[idx..].Trim();
+
+    fileToUrl[name] = src;
+}
+
+
+// -----------------------------------------------------------------------------
 // Read Config
 var deserializer = new DeserializerBuilder()
     .WithNamingConvention(PascalCaseNamingConvention.Instance)
     .WithTypeConverter(new SampleCfgConverter())
     .Build();
-
-var fileToName = new Dictionary<string, string>();
-var fileToCfg = new Dictionary<string, SampleCfg>();
-var presetToCfg = new Dictionary<string, GroupCfg>();
-var groupToCfg = new Dictionary<string, GroupCfg>();
 
 var presets = new Dictionary<string, List<(string, SampleCfg)>>();
 var sampleLen = 0;
@@ -82,18 +104,19 @@ foreach (var cfgFile in cfgFileList)
     
     foreach (var entry in mConfig.Presets)
     {
-        sampleLen += entry.Value.Count;
-    
         Console.Write($"{entry.Key} ({entry.Value.Count}), ");
         if (i++ % 6 == 0) Console.WriteLine();
     
         var list = new List<(string, SampleCfg)>();
         foreach (var (name, value) in entry.Value)
         {
+            if (SkipSample(fileToUrl[value.File])) continue;
+
             fileToName[value.File] = name;
             fileToCfg[value.File] = value;
             
             list.Add((name, value));
+            sampleLen++;
         }
 
         if (!presets.ContainsKey(entry.Key))
@@ -117,7 +140,7 @@ foreach (var cfgFile in cfgFileList)
 Console.WriteLine("Samples: " + sampleLen);
 Console.WriteLine();
 
-// ----------------------------------------------------------------------------
+// -----------------------------------------------------------------------------
 // Process Readme
 if (processReadme)
 {
@@ -143,8 +166,9 @@ if (processReadme)
             Error("No tags found: " + name);
         
         var exists = presets.Values.Any(e => e.Any(e => 
-            e.Item1[..^1].Equals(name, StringComparison.InvariantCultureIgnoreCase)));
-        if (!exists) Error($"No effect exists for tag '{name}'");
+            e.Item1[..^1].Equals(
+                name, StringComparison.InvariantCultureIgnoreCase)));
+        if (!exists) Warn($"No effect exists for tag '{name}'");
         
         tagList.Add((name, tags));
     }
@@ -209,12 +233,12 @@ if (processReadme)
         }
 
         var idx = line.TrimEnd().LastIndexOf(' ');
-
-        if (idx == -1)
-            Error($"Wrong source format: '{line}'");
+        if (idx == -1) Error($"Wrong source format: '{line}'");
 
         var name = line[..idx].Trim();
         var src = line[idx..].Trim();
+
+        if (SkipSample(src)) continue;
 
         urls.Add(new Uri(src).Host);
         
@@ -465,10 +489,14 @@ foreach (var (presetName, sounds) in presets)
         i++;
 
         var fileName = sound.File;
+
+        if (SkipSample(fileToUrl[fileName]))
+            continue;
+
         var file = new FileInfo(Path.Join(samplesOutput, fileName + ".ogg"));
         if (!file.Exists) Error(
             "Sound preset file not found: " + file.FullName);
-     
+
         // Sample
         var audioData = File.ReadAllBytes(file.FullName);
         var sampleName = presetName + "." + soundName;
@@ -633,6 +661,9 @@ GroupCfg? GetGroupCfg(string sampleName)
         groupName = groupName[..^1];
     return groupToCfg.GetValueOrDefault(groupName.ToString());
 }
+
+bool SkipSample(string sampleOrigin) =>
+    filterOrigin != null && !Regex.IsMatch(sampleOrigin, filterOrigin);
 
 [DoesNotReturn]
 static void Error(string msg)
