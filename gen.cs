@@ -6,7 +6,6 @@
 using System.Collections.Concurrent;
 using System.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography;
 using System.Text;
@@ -31,9 +30,10 @@ using YamlDotNet.Serialization.NamingConventions;
 // General Settings
 const string bankName = "WilhelmSFX";
 const string author = "WhiteDuke";
-const string samplesOutput = "SamplesOgg";
+const string cache = ".cache";
+const string samplesIn = "Samples";
 
-SampleCache.Init(samplesOutput);
+SampleCache.Init(cache);
 var sw = Stopwatch.StartNew();
 
 // Read command line
@@ -43,7 +43,6 @@ var onlyReadme = ArgsContains("--only-readme");
 var sampleRate = ArgsInt("--sample-rate") ?? 44_100;
 var lowpass = ArgsInt("--lowpass");
 var bitcrush = ArgsInt("--bitcrush");
-var saveDuration = ArgsContains("--save-duration");
 var includeExtra = ArgsContains("--include-extra");
 var filterOrigin = ArgsString("--filter-origin");
 
@@ -58,6 +57,9 @@ var fileToCfg = new Dictionary<string, SampleCfg>();
 var presetToCfg = new Dictionary<string, GroupCfg>();
 var groupToCfg = new Dictionary<string, GroupCfg>();
 var fileToUrl = new Dictionary<string, string>();
+
+var outputDir = new DirectoryInfo(cache);
+var inputDir = new DirectoryInfo(samplesIn);
 
 
 // -----------------------------------------------------------------------------
@@ -78,6 +80,13 @@ foreach (var line in sourcesTxt
     fileToUrl[name] = src;
 }
 
+// -----------------------------------------------------------------------------
+// Read samples
+var sampleList = new List<string>();
+
+sampleList.AddRange(Directory.GetFiles(inputDir.FullName));
+if (includeExtra && Directory.Exists("ExtraSamples"))
+    sampleList.AddRange(Directory.GetFiles("ExtraSamples"));
 
 // -----------------------------------------------------------------------------
 // Read Config
@@ -94,6 +103,7 @@ if (includeExtra) cfgFileList.Add("config_extra.yaml");
 
 Console.WriteLine();
 Console.WriteLine("[PROCESS CONFIG FILES]");
+var tempSampleList = sampleList[..];
 foreach (var cfgFile in cfgFileList)
 {
     if (!File.Exists(cfgFile)) continue;
@@ -110,6 +120,16 @@ foreach (var cfgFile in cfgFileList)
         var list = new List<(string, SampleCfg)>();
         foreach (var (name, value) in entry.Value)
         {
+            var pIdx = tempSampleList.FindIndex(
+                s => Path.GetFileNameWithoutExtension(s) == value.File);
+            if (pIdx is -1) Error("Sample does not exist: " + value.File);
+            
+            value.Preset = entry.Key;
+            value.Name = name;
+            value.Ext = Path.GetExtension(tempSampleList[pIdx]);
+            
+            tempSampleList.RemoveAt(pIdx);
+
             if (SkipSample(fileToUrl[value.File])) continue;
 
             fileToName[value.File] = name;
@@ -303,13 +323,11 @@ if (processReadme)
 
 // ----------------------------------------------------------------------------
 // Process samples
-var outputDir = new DirectoryInfo(samplesOutput);
 if (!outputDir.Exists)
 {
     outputDir.Refresh();
     outputDir.Create();   
 }
-
 {
     Console.WriteLine("[PROCESS SAMPLES]");
 
@@ -327,25 +345,20 @@ if (!outputDir.Exists)
     const string filterLowPass = "lowpass=f={0}:p=2,";
 
     var processList = new List<Process>();
-    var files = Directory.GetFiles("Samples").ToList();
-    if (includeExtra && Directory.Exists("ExtraSamples"))
-        files.AddRange(Directory.GetFiles("ExtraSamples"));
+    var files = sampleList;
 
     var argList = new List<string>();
     
     foreach (var file in files)
     {
         var name = Path.GetFileNameWithoutExtension(file);
-        var output = Path.Join(samplesOutput, $"{name}.ogg");
+        var output = Path.Join(cache, $"{name}.ogg");
 
         if (!fileToCfg.TryGetValue(name, out var cfg))
         {
             Warn("Unused sample: " + file);
             continue;
         }
-
-
-        var db = -45;
 
         var cmd =
             // Quiet output
@@ -360,7 +373,7 @@ if (!outputDir.Exists)
 
         // Trim silence from start/end
         if (cfg.Trim ?? true)
-            filters += string.Format(filterTrim, db);
+            filters += string.Format(filterTrim, cfg.TrimDb ?? -45);
 
         // Playback rate
         if (cfg.Speed is {} speed)
@@ -409,37 +422,55 @@ Console.WriteLine("[PROCESS SAMPLES DURATION]");
 
 var sampleToDuration = new ConcurrentDictionary<string, double>();
 var tasksDur = new List<Task>();
-foreach (var sampleFile in presets.Values
-             .SelectMany(s => s.Select(ss => ss.Item2.File)))
+foreach (var sCfg in presets.Values
+             .SelectMany(s => s.Select(ss => ss.Item2)))
 {
+    var sampleFile = sCfg.File;
+    var sampleExt = sCfg.Ext;
+
     if (SampleCache.TryGetDuration(sampleFile) is { } duration)
     {
-        sampleToDuration[sampleFile] = duration;
+        WarnDuration(duration);
+        sampleToDuration[sampleFile] = duration.New;
         continue;
     }
-    
-    var path = Path.Join(outputDir.Name, sampleFile + ".ogg");
+
     var task = Task.Run(() =>
     {
-        var dur = double.Parse(ProcessRead(
-            "ffprobe",
-            $"-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 {path}").Trim());
-        SampleCache.SetDuration(sampleFile, dur);
-        return sampleToDuration[sampleFile] = dur;
+        var pathOld = Path.Join(inputDir.Name, sampleFile + sampleExt);
+        var pathNew = Path.Join(outputDir.Name, sampleFile + ".ogg");
+        
+        var durOld = GetDuration(pathOld);
+        var durNew = GetDuration(pathNew);
+
+        WarnDuration((durOld, durNew));
+        SampleCache.SetDuration(sampleFile, (durOld, durNew));
+        return sampleToDuration[sampleFile] = durNew;
+        
+        double GetDuration(string file)
+        {
+            const string args = "-v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 ";
+            return double.Parse(ProcessRead("ffprobe", args + file).Trim());
+        }
     });
+
     tasksDur.Add(task);
+
+    continue;
+
+    void WarnDuration((double Old, double New) dur)
+    {
+        if (dur.New >= .15) return;
+        if (dur.New / dur.Old > .51) return;
+        
+        Warn(
+            $"'{sCfg.Preset}.{sCfg.Name}' excesive trim (Old={
+            dur.Old:F3}, New={dur.New:F3})");
+    }
 }
 
 Task.WaitAll(tasksDur.ToArray());
 
-if (saveDuration)
-{
-    var durTxt = "";
-    foreach (var entry in sampleToDuration) 
-        durTxt += $"{entry.Value,-8:F4} {entry.Key}\n";
-
-    File.WriteAllText("duration.txt", durTxt);   
-}
 
 // ----------------------------------------------------------------------------
 // We are cooking
@@ -493,7 +524,7 @@ foreach (var (presetName, sounds) in presets)
         if (SkipSample(fileToUrl[fileName]))
             continue;
 
-        var file = new FileInfo(Path.Join(samplesOutput, fileName + ".ogg"));
+        var file = new FileInfo(Path.Join(cache, fileName + ".ogg"));
         if (!file.Exists) Error(
             "Sound preset file not found: " + file.FullName);
 
@@ -609,13 +640,11 @@ File.WriteAllText(bankName + ".cfg", input.TrimEnd());
 var totalDuration = TimeSpan.FromSeconds(
     sampleToDuration.Sum(i => i.Value));
 
-Console.ForegroundColor = ConsoleColor.Green;
-Console.WriteLine(
+Util.Info(
     $"[SUCCESS({(int)sw.Elapsed.TotalSeconds}sec)]: {
     sbFile.Name}, {
     sbFile.Length / 1024d / 1024d:F1} MB, {
-    totalDuration:mm\\:ss} samples duration");
-Console.ResetColor();
+    totalDuration:mm\\:ss} total duration");
 SampleCache.End();
 return;
 
@@ -676,18 +705,30 @@ static void Warn(string msg) => Util.Warn(msg);
 
 internal static class Util
 {
+    private static readonly Lock Lock = new ();
+    
     [DoesNotReturn]
     public static void Error(string msg)
     {
+        using var _ = Lock.EnterScope();
         Console.ForegroundColor = ConsoleColor.Red;
         Console.WriteLine("[ERROR] " + msg);
         Console.ResetColor();
         Environment.Exit(1);
         throw new Exception(); // Local variable 'X' might not be initialized before accessing
     }
+
+    public static void Info(string msg)
+    {
+        using var _ = Lock.EnterScope();
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine(msg);
+        Console.ResetColor();
+    }
     
     public static void Warn(string msg)
     {
+        using var _ = Lock.EnterScope();
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.WriteLine("[WARN] " + msg);
         Console.ResetColor();
@@ -697,10 +738,13 @@ internal static class Util
 internal static class SampleCache
 {
     private const string CACHE_NAME = "0000_cache.txt";
-    private const int VERSION = 0;
+    private const int VERSION = 1;
     
     private static readonly Dictionary<
-        string, (string Args, double? Duration)> Cache = [];
+        string,
+        (string Args,
+        (double Old, double New)? Duration)> Cache = [];
+
     private static readonly Lock Lock = new();
 
     private static string _cacheFile = "";
@@ -710,8 +754,10 @@ internal static class SampleCache
         using var _ = Lock.EnterScope();
 
         var key = Hash(filename);
-        var val = (Args: Hash(args), Duration: (double?)null);
-        
+        var val = (
+            Args: Hash(args), 
+            Duration: ((double, double)?)null);
+
         if (!Cache.TryGetValue(key, out var value))
             return Cache.TryAdd(key, val);
 
@@ -722,19 +768,19 @@ internal static class SampleCache
         return true;
     }
 
-    public static double? TryGetDuration(string filename)
+    public static (double Old, double New)? TryGetDuration(string filename)
     {
         using var _ = Lock.EnterScope();
         return Cache.TryGetValue(
             Hash(filename), out var val) ? val.Duration : null;
     }
 
-    public static void SetDuration(string filename, double dur)
+    public static void SetDuration(string filename, (double, double) duration)
     {
         using var _ = Lock.EnterScope();
         ref var val = ref CollectionsMarshal.GetValueRefOrNullRef(
             Cache, Hash(filename));
-        val.Duration = dur;
+        val.Duration = duration;
     }
 
     public static void Init(string folder)
@@ -751,9 +797,11 @@ internal static class SampleCache
         {
             foreach (var line in lines.AsSpan(1))
             {
-                if (line.Split(' ', 3) is not [var key, var args, var dur])
+                if (line.Split(' ', 4) is not [
+                        var key, var args, var durOld, var durNew])
                     throw new Exception("Wrong cache line: " + line);
-                Cache[key] = (args, double.Parse(dur));
+                Cache[key] = 
+                    (args, (double.Parse(durOld), double.Parse(durNew)));
             }
         }
         catch (Exception e)
@@ -768,14 +816,18 @@ internal static class SampleCache
         var sb = new StringBuilder();
         sb.AppendLine(VERSION.ToString());
         foreach (var (key, val) in Cache)
-            sb.AppendLine($"{key} {val.Args} {val.Duration}");
+            sb.AppendLine(
+                $"{key} {
+                val.Args} {
+                val.Duration!.Value.Old} {
+                val.Duration!.Value.New}");
+
         File.WriteAllText(_cacheFile, sb.ToString().TrimEnd());
     }
 
     private static string Hash(string str) =>
         Convert.ToHexString(SHA1.HashData(
             Encoding.UTF8.GetBytes(str)));
-
 }
 #endregion
 
@@ -788,13 +840,19 @@ internal sealed class GroupCfg
 
 internal sealed class SampleCfg
 {
+    public string Preset = "";
+    public string Name = "";
+
     public string File = "";
+    public string Ext = "";
+    
     public double? LoopStart;
     public object? LoopEnd;
     public int? LoopMode;
 
     public double? Speed;
     public bool? Trim;
+    public int? TrimDb;
     public bool? Norm;
     public int? Q;
     public int? SampleRate;
@@ -829,7 +887,8 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
         while (!TryConsume<SequenceEnd>(out _))
         {
             Consume<MappingStart>();
-            switch (Consume<Scalar>().Value)
+            var key = Consume<Scalar>().Value;
+            switch (key)
             {
                 case "SampleRate":
                     cfg.SampleRate = GetInt();
@@ -839,6 +898,9 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
                     break;
                 case "Trim":
                     cfg.Trim = GetBool();
+                    break;
+                case "TrimDb":
+                    cfg.TrimDb = GetInt();
                     break;
                 case "Norm":
                     cfg.Norm = GetBool();
@@ -866,6 +928,9 @@ internal sealed class SampleCfgConverter : IYamlTypeConverter
                 break;
                 case "Speed":
                     cfg.Speed = GetDouble();
+                    break;
+                default:
+                    Error("Unknown Key: " + key);
                     break;
             }
             Consume<MappingEnd>();

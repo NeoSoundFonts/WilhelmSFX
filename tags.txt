@@ -21,6 +21,7 @@ Kiss Smooch peck mwah lip affection romance love
 Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
 Cry weep whimper grief distress
 Cough Throat sick illness cold respiratory flu
+Sneeze cold blow sternutation
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
 Exhale Relief Satisfaction Refreshment Gasp Phew
 Sigh sob whine moan breathe yearn lament sorrow
@@ -33,6 +34,9 @@ Dissapoint Disappointed sigh letdown groan
 Nya Catgirl meow anime cute kawaii catgirl
 Sniff inhale smelling congestion
 Moan Groan sigh pleasure soft gasp
+Hum sing
+Whimper breath gasp surprise
+Agree yes
 
 # Child
 BabyCry weeping tantrum fussy upset tears fussy

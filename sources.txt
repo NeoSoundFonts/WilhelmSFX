@@ -93,6 +93,10 @@ VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://sonniss.com/game
 151213__owlstorm__cough-female                          https://freesound.org/people/OwlStorm/sounds/151213/
 343880__reitanna__two-coughs                            https://freesound.org/people/Reitanna/sounds/343880/
 
+370761__jes5ika__sneeze                                 https://freesound.org/people/jes5ika/sounds/370761/
+451736__starplatinums__sneeze                           https://freesound.org/people/starplatinums/sounds/451736/
+580831__vanalosswen__sneeze-female                      https://freesound.org/people/Vanalosswen/sounds/580831/
+
 471859__wintuh__46-bostezonina                          https://freesound.org/people/wintuh/sounds/471859/
 672450__cyweb__yawn-baillements                         https://freesound.org/people/CyWeb/sounds/672450/
 
@@ -135,6 +139,14 @@ HMNBrth_Human,_Adult,_Female,_Sniff,_Nose_7_UberDuo_INHL  https://sonniss.com/ga
 220654__ritola27__grito_mujer8                          https://freesound.org/people/ritola27/sounds/220654/
 220652__ritola27__grito_mujer7                          https://freesound.org/people/ritola27/sounds/220652/
 220650__ritola27__grito_mujer6                          https://freesound.org/people/ritola27/sounds/220650/
+565696__nefarious_needs__female-moaning-1               https://freesound.org/people/NeFarIous_NeeDs/sounds/565696/
+
+727696__owstu__female-vocal-melody-humming              https://freesound.org/people/NeFarIous_NeeDs/sounds/565696/
+727694__owstu__female-vocal-2-higher-notes              https://freesound.org/people/owstu/sounds/727694/
+
+318078__drkvixn91__whimper_gasp_1_female                https://freesound.org/people/Drkvixn91/sounds/318078/
+
+752227__puzzleandy__female_speaking_mhm                 https://freesound.org/people/PuzzleAndy/sounds/752227/
 
 
 

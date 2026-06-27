@@ -37,7 +37,10 @@ Presets:
     Agony5: 528839__th3romeo__human-roar-1
     Agony6: 265554__augustsandberg__studio-roar
 
-    Snore1: 233600__sortsapostata__snoring
+    Snore1:
+      - 233600__sortsapostata__snoring
+      - Trim: false
+
     Snore2: 365372__rdpipo7777__ronquido
     Snore3: universfield-snore-250959
     Snore4: magiaz-snoring-389947_a
@@ -104,6 +107,10 @@ Presets:
     Cough2: 151213__owlstorm__cough-female
     Cough3: 343880__reitanna__two-coughs
 
+    Sneeze1: 370761__jes5ika__sneeze
+    Sneeze2: 451736__starplatinums__sneeze
+    Sneeze3: 580831__vanalosswen__sneeze-female
+
     Yawn1: 471859__wintuh__46-bostezonina
     Yawn2: 672450__cyweb__yawn-baillements
 
@@ -146,6 +153,16 @@ Presets:
     Moan1: 220654__ritola27__grito_mujer8
     Moan2: 220652__ritola27__grito_mujer7
     Moan3: 220650__ritola27__grito_mujer6
+    Moan4: 565696__nefarious_needs__female-moaning-1
+
+    Hum1: 727696__owstu__female-vocal-melody-humming
+    Hum2: 727694__owstu__female-vocal-2-higher-notes
+
+    Whimper1:
+      - 318078__drkvixn91__whimper_gasp_1_female
+      - Trim: false
+
+    Agree1: 752227__puzzleandy__female_speaking_mhm
 
   Child:
     BabyCry1: 240372__mariiao2__baby-cry
@@ -587,9 +604,18 @@ Presets:
     Fire2: djartmusic-short-fire-whoosh_1-317280
     Fire3: yodguard-fire-magic-5-378639
 
-    Embers1: 471158__audroger__embers-4
-    Embers2: 471161__audroger__embers-1
-    Embers3: 471159__audroger__embers-3
+    Embers1:
+      - 471158__audroger__embers-4
+      - Trim: false
+      - End: all
+    Embers2:
+      - 471161__audroger__embers-1
+      - Trim: false
+      - End: all
+    Embers3:
+      - 471159__audroger__embers-3
+      - Trim: false
+      - End: all
 
   # Dead
 
@@ -617,7 +643,9 @@ Presets:
 
     CashReg1: 184438__capslok__cash-register-fake
 
-    Scissor1: 175522__mywhats__scissors-cut
+    Scissor1:
+      - 175522__mywhats__scissors-cut
+      - Trim: false
     Scissor2: 127153__daphne_in_wonderland__scissors
 
     Velcro1: OBJTape_VelcroRip29_InMotionAudio_Velcro
@@ -758,6 +786,7 @@ Presets:
 
     MotorDead1:
       - 32416__kraftwerk2k1__car_engine_wont-start
+      - TrimDb: -40
       - Start: .251
       - End: all
 
@@ -1011,7 +1040,9 @@ Presets:
     Metal1: DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_01_a
     Metal2: DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_01_b
 
-    Creak1: 219499__jarredgibb__door-creak
+    Creak1:
+      - 219499__jarredgibb__door-creak
+      - Trim: false
 
     Close1: 117614__soundmary__door-close
     Close2: 48980__lunardrive__metal-door-slam_soundsmith

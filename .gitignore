@@ -1,4 +1,4 @@
-SamplesOgg/
+.cache/
 ExtraSamples/*
 config_extra.yaml
 duration.txt
