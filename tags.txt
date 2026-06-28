@@ -59,6 +59,7 @@ Boo Booing jeering disapproval
 Panic hysteria chaos riot scream shout
 Gasp surprise
 Loud roar celebration arena
+Protest demostration rally outcry revolt
 ChildrenYell loud yeah squeal shriek
 
 # Action
@@ -142,6 +143,7 @@ Drop Droplet drip water tap condensation
 SmokePoof Poof cloud magic steam
 Bubble Plop pop air burst
 Bubbles Bubbling fizz carbonation effervescence
+TreeFall crash forest woodcutting wood snap collapse lumberjack
 Rain downpour drizzle precipitation
 RainInterior storm window indoor car patter
 Wind cyclone gale muffled gust
@@ -311,3 +313,4 @@ School bell ring recess
 # Ring
 Door intercom ring buzz
 Phone ring office
+Siren air alarm army raid

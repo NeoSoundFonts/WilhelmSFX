@@ -34,6 +34,7 @@ const string cache = ".cache";
 const string samplesIn = "Samples";
 
 SampleCache.Init(cache);
+Log.Init(cache);
 var sw = Stopwatch.StartNew();
 
 // Read command line
@@ -45,12 +46,15 @@ var lowpass = ArgsInt("--lowpass");
 var bitcrush = ArgsInt("--bitcrush");
 var includeExtra = ArgsContains("--include-extra");
 var filterOrigin = ArgsString("--filter-origin");
+var deletedUnused = ArgsContains("--delete-unused");
 
 var sourcesTxt = File.ReadAllText("sources.txt");
 
 var settingsStr = $"SampleRate={sampleRate}, Q={q}, Lowpass={lowpass?.ToString() ?? "no"}, BitCrush={bitcrush?.ToString() ?? "no"}";
 Console.WriteLine("[SETTINGS]");
 Console.WriteLine(settingsStr);
+
+Log.Line(settingsStr);
 
 var fileToName = new Dictionary<string, string>();
 var fileToCfg = new Dictionary<string, SampleCfg>();
@@ -124,13 +128,15 @@ foreach (var cfgFile in cfgFileList)
                 s => Path.GetFileNameWithoutExtension(s) == value.File);
             if (pIdx is -1) Error("Sample does not exist: " + value.File);
             
+            value.Folder = Path.GetDirectoryName(tempSampleList[pIdx]);
             value.Preset = entry.Key;
             value.Name = name;
             value.Ext = Path.GetExtension(tempSampleList[pIdx]);
             
             tempSampleList.RemoveAt(pIdx);
 
-            if (SkipSample(fileToUrl[value.File])) continue;
+            if (fileToUrl.TryGetValue(value.File, out var url) &&
+                SkipSample(url)) continue;
 
             fileToName[value.File] = name;
             fileToCfg[value.File] = value;
@@ -356,7 +362,13 @@ if (!outputDir.Exists)
 
         if (!fileToCfg.TryGetValue(name, out var cfg))
         {
-            Warn("Unused sample: " + file);
+            if (deletedUnused)
+            {
+                Warn("Deleting unused sample: " + file);
+                File.Delete(file);
+            }
+            else
+                Warn("Unused sample: " + file);
             continue;
         }
 
@@ -397,18 +409,31 @@ if (!outputDir.Exists)
         if (filters != "")
             filters = "-af \"" + filters.TrimEnd(',') + "\" ";
 
+        var sRate = cfg.SampleRate ??
+            gCfg?.SampleRate ?? pCfg?.SampleRate ?? sampleRate;
+        var sQ = cfg.Q ??
+            gCfg?.Q ?? pCfg?.Q ?? q;
+
+        sRate = (int)Math.Round(sRate *
+            (cfg.MulSampleRate ?? gCfg?.MulSampleRate ?? pCfg?.MulSampleRate ?? 1));
+        sQ = (int)Math.Round(sQ *
+            (cfg.MulQ ?? gCfg?.MulQ ?? pCfg?.MulQ ?? 1));
+
+        // TODO: Save original samplerate
+        sRate = int.Clamp(sRate, 750, 96_000);
+        sQ = int.Clamp(sQ, 0, 10);
+
         cmd +=
             // Filters
             filters +
 
             // Compress to vorbis (q = quality)
-            string.Format(
-                argCompress,
-                cfg.SampleRate ?? gCfg?.SampleRate ?? pCfg?.SampleRate ?? sampleRate,
-                cfg.Q ?? gCfg?.Q ?? pCfg?.Q ?? q) +
+            string.Format(argCompress, sRate, sQ) +
             // Output
             $"\"{output}\""
         ;
+
+        Log.Line($"[ffmpeg] {name}({output}) - {cmd}");
 
         if (SampleCache.Add(name, cmd)) argList.Add(cmd);
     }
@@ -443,7 +468,7 @@ foreach (var sCfg in presets.Values
 
     var task = Task.Run(() =>
     {
-        var pathOld = Path.Join(inputDir.Name, sampleFile + sampleExt);
+        var pathOld = Path.Join(sCfg.Folder, sampleFile + sampleExt);
         var pathNew = Path.Join(outputDir.Name, sampleFile + ".ogg");
         
         var durOld = GetDuration(pathOld);
@@ -527,8 +552,9 @@ foreach (var (presetName, sounds) in presets)
 
         var fileName = sound.File;
 
-        if (SkipSample(fileToUrl[fileName]))
-            continue;
+
+        if (fileToUrl.TryGetValue(fileName, out var url) &&
+            SkipSample(url)) continue;
 
         var file = new FileInfo(Path.Join(cache, fileName + ".ogg"));
         if (!file.Exists) Error(
@@ -718,7 +744,9 @@ internal static class Util
     {
         using var _ = Lock.EnterScope();
         Console.ForegroundColor = ConsoleColor.Red;
-        Console.WriteLine("[ERROR] " + msg);
+        msg = "[ERROR] " + msg;
+        Log.Line(msg);
+        Console.WriteLine(msg);
         Console.ResetColor();
         Environment.Exit(1);
         throw new Exception(); // Local variable 'X' might not be initialized before accessing
@@ -728,6 +756,7 @@ internal static class Util
     {
         using var _ = Lock.EnterScope();
         Console.ForegroundColor = ConsoleColor.Green;
+        Log.Line("[INFO] " + msg);
         Console.WriteLine(msg);
         Console.ResetColor();
     }
@@ -736,7 +765,9 @@ internal static class Util
     {
         using var _ = Lock.EnterScope();
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine("[WARN] " + msg);
+        msg = "[WARN] " + msg;
+        Log.Line(msg);
+        Console.WriteLine(msg);
         Console.ResetColor();
     }
 }
@@ -837,6 +868,27 @@ internal static class SampleCache
 }
 #endregion
 
+#region Log
+internal static class Log
+{
+    private static readonly StringBuilder Sb = new ();
+    private static readonly Lock Lock = new ();
+
+    public static void Init(string cache)
+    {
+        var outputFile = Path.Join(cache, "0000_log.txt");
+        AppDomain.CurrentDomain.ProcessExit += (_, _) =>
+            File.WriteAllText(outputFile, Sb.ToString().TrimEnd());
+    }
+
+    public static void Line(string str)
+    {
+        using var _ = Lock.EnterScope();
+        Sb.AppendLine(str);
+    }
+}
+#endregion
+
 #region Model
 internal sealed class GroupCfg
 {
@@ -844,10 +896,14 @@ internal sealed class GroupCfg
     public double? ReleaseModEnv;
     public int? Q;
     public int? SampleRate;
+
+    public double? MulQ;
+    public double? MulSampleRate;
 }
 
 internal sealed class SampleCfg
 {
+    public string Folder = "";
     public string Preset = "";
     public string Name = "";
 
@@ -864,6 +920,9 @@ internal sealed class SampleCfg
     public bool? Norm;
     public int? Q;
     public int? SampleRate;
+
+    public double? MulQ;
+    public double? MulSampleRate;
 }
 
 internal class MConfig

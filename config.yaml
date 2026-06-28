@@ -198,6 +198,7 @@ Presets:
   Crowd:
     Laugh1: 262983__alcappuccino__audience_laughing50
     Laugh2: 324894__deleted_user_2104797__crowd-laugh
+    Laugh3: 752711__nox_sound__voice_crowd_small_expression_laugh_stereo
 
     Applause1: 277022__sandermotions__applause-1
     Applause2: 432333__jentlemen__medium-crowd-clapping-6
@@ -208,7 +209,7 @@ Presets:
     WarCry4: 527740__khenshom__hey-men-shouting-together-jewish-wedding
 
     Aww1: 431134__quartetofantastico__aaww
-    Aww2: universfield-crowd-disappointment-reaction-352718
+    Aww2: 752706__nox_sound__voice_crowd_small_expression_awww_stereo
 
     Boo1: 403060__valeriebbb96__boooh
 
@@ -222,6 +223,10 @@ Presets:
 
     Loud1:
       - 113698__huubjeroen__goalloop
+      - End: all
+
+    Protest1:
+      - 271425__karymronda__protest02
       - End: all
 
     ChildrenYell1: 675108__craigsmith__s12-21-kids-yelling-yeah
@@ -567,6 +572,8 @@ Presets:
     Bubble2: 506545__lilmati__pop-02
 
     Bubbles2: 96125__bmaczero__bubbles_single2
+
+    TreeFall1: 139952__ecfike__a-tree-falling-down
 
     Rain1:
       - 530975__inframatico__rain1
@@ -1003,7 +1010,22 @@ Presets:
       - 150981__soundingoffagain__caralarm
       - End: all
 
-    Crash1: dragon-studio-car-crash-sound-effect-376874
+    Alarm2:
+      - 811201__designerschoice__vehalrm-cu_car-alarm-horn-honks-looped_nicholas-judy_tdc
+      - End: all
+
+    Alarm3:
+      - 51747__erkanozan__car-alarm-in-parking-structure
+      - End: all
+
+    Alarm4:
+      - 54086__guitarguy1985__horn
+      - End: all
+
+    # TODO: Move noises to Ring
+
+    Crash1: 592388__magnuswaker__car-crash-with-glass
+    Crash2: 420356__cogfirestudios__crash
 
     Cart1:
       - VEHWagn_Wood_Cart_Roll_On_Stone_Pavement_In_Courtyard_03_DRCA_HOCA_Kmr81i
@@ -1215,3 +1237,8 @@ Presets:
     Phone1: 106744__nixsound__80s_car_phone1
     Phone2: 65535__eliasheuninck__1x_telefoon
     Phone3: 345805__knufds__ringtone-1960s-office-phone
+
+    Siren1:
+      - 412171__poligonstudio__air-raid-siren-alarm
+      - Start: 0.8
+      - End: 12.75
