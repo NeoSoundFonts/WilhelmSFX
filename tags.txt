@@ -1,6 +1,6 @@
 # Male
 Laugh Giggle chuckle snicker chortle guffaw cackle
-Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
+Scream yell shriek bellow screech shout terror panic horror
 Angry Growl snarl huff deep sigh grumble frustration annoyed
 Agony Pain hurt roar suffering anguish wounded injured
 Snore breathing sleeping asleep slumber rest apnea
@@ -8,7 +8,7 @@ Cough Throat sick illness cold respiratory flu
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
 Exhale Relief Satisfaction Refreshment Gasp Phew
 Sigh sob whine moan breathe yearn lament sorrow
-Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
+Doubt hum ponder skeptical inquisitive hmm think uncertain questioning
 Cry weep whimper grief distress
 Grunt Groan strain effort military soldier exertion
 Ohm Om meditation drone mantra spiritual chant
@@ -18,14 +18,14 @@ Moan Groan sigh pleasure soft gasp
 # Female
 Laugh Giggle chuckle snicker chortle guffaw cackle
 Kiss Smooch peck mwah lip affection romance love
-Doubt Humming pondering skeptical inquisitive hmm doubting thinking uncertain questioning
+Doubt hum ponder skeptical inquisitive hmm think uncertain questioning
 Cry weep whimper grief distress
 Cough Throat sick illness cold respiratory flu
 Sneeze cold blow sternutation
 Yawn Yawning sleepiness vocalization fatigue sigh tired sleepy exhaustion waking
 Exhale Relief Satisfaction Refreshment Gasp Phew
 Sigh sob whine moan breathe yearn lament sorrow
-Scream yell shriek howl bellow screech outburst cry shout terror panic horror fear
+Scream yell shriek bellow screech shout terror panic horror
 Angry Growl snarl huff deep sigh grumble frustration annoyed
 Agony Pain hurt roar suffering anguish wounded injured
 Grunt Groan strain effort military soldier exertion
@@ -69,7 +69,7 @@ ClimbLadder climbing rung stepping scaling
 Boil bubbling cooking hot kitchen potion
 ToiletFlush Commode swirling drainage lavatory bathroom
 PoopFall Splash toilet gross comedy
-Fart Flatulence poot toot fart gas gross bathroom funny comedy poop intestinal
+Fart Flatulence poot toot gas gross bathroom funny comedy poop
 Burp eructation belch gross funny digestion
 Puke gage retching vomit throat nausea sick spew
 Chew Bite crunch munching eating mastication food
