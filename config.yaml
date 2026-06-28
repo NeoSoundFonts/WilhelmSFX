@@ -38,8 +38,8 @@ Presets:
     Agony6: 265554__augustsandberg__studio-roar
 
     Snore1:
-      - 233600__sortsapostata__snoring
-      - Trim: false
+      File: 233600__sortsapostata__snoring
+      Trim: false
 
     Snore2: 365372__rdpipo7777__ronquido
     Snore3: universfield-snore-250959
@@ -53,8 +53,8 @@ Presets:
     Cough4: 319363__monosfera__facet-kaszle-guy-coughs-01_b
 
     Yawn1:
-      - 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning
-      - Trim: false
+      File: 564231__njjjjjjjjjjjjjjjjjjjjjjjj__yawnyawning
+      Trim: false
 
     Yawn2: 238399__amorralteixe__yawn
     Yawn3: 202105__spookymodem__yawn
@@ -159,8 +159,8 @@ Presets:
     Hum2: 727694__owstu__female-vocal-2-higher-notes
 
     Whimper1:
-      - 318078__drkvixn91__whimper_gasp_1_female
-      - Trim: false
+      File: 318078__drkvixn91__whimper_gasp_1_female
+      Trim: false
 
     Agree1: 752227__puzzleandy__female_speaking_mhm
 
@@ -214,20 +214,20 @@ Presets:
     Boo1: 403060__valeriebbb96__boooh
 
     Panic1:
-      - 491405__ienba__crowd-in-panic
-      - Start: 1.396
-      - End: 7.715
+      File: 491405__ienba__crowd-in-panic
+      LoopStart: 1.396
+      LoopEnd: 7.715
 
     Gasp1: 232263__zerocarina__gasp
     Gasp2: 353924__dr_skitz__gasp
 
     Loud1:
-      - 113698__huubjeroen__goalloop
-      - End: all
+      File: 113698__huubjeroen__goalloop
+      LoopEnd: all
 
     Protest1:
-      - 271425__karymronda__protest02
-      - End: all
+      File: 271425__karymronda__protest02
+      LoopEnd: all
 
     ChildrenYell1: 675108__craigsmith__s12-21-kids-yelling-yeah
 
@@ -276,8 +276,8 @@ Presets:
 
     Burp1: 12730__pingel__burp
     Burp2:
-      - 324514__deleted_user_2104797__burp
-      - Trim: false
+      File: 324514__deleted_user_2104797__burp
+      Trim: false
     Burp3: 26762__santuccie__belch1
     Burp4: 331630__etheron369__burp
     Burp5: 172071__jeffijoe__small-burp
@@ -289,8 +289,8 @@ Presets:
 
     Puke1: 606981__ravenbluefeather__gage
     Puke2:
-      - 135415__turroe22__gagging-1
-      - Trim: false
+      File: 135415__turroe22__gagging-1
+      Trim: false
 
     Chew1: 275015__wadaltmon__bite-apple
     Chew2: 528962__steenish__crunch
@@ -306,15 +306,15 @@ Presets:
     Scrub2: FOLYMisc_WashingBasket_Pats&Movement12_InMotionAudio_WashingBasketFoley_b
 
     Push1:
-      - 391960__ssierra1202__dragged
-      - Start: .05
-      - End: .25
-      - Trim: false
+      File: 391960__ssierra1202__dragged
+      LoopStart: .05
+      LoopEnd: .25
+      Trim: false
 
     Push2:
-      - 146408__crashoverride6__sand-on-paper-dragged-long
-      - Start: .5
-      - End: 1.7
+      File: 146408__crashoverride6__sand-on-paper-dragged-long
+      LoopStart: .5
+      LoopEnd: 1.7
 
     FingerSnap1: 332604__vckhaze__single-finger-snap
     FingerSnap2: 151214__owlstorm__click-finger-snap
@@ -326,11 +326,11 @@ Presets:
     Foot1: 251788__vkproduktion__footstep-01
 
     Grass1:
-      - 464691__branndybottle__grasswalking_step1
-      - Trim: false
+      File: 464691__branndybottle__grasswalking_step1
+      Trim: false
     Grass2:
-      - 464690__branndybottle__grasswalking_step2
-      - Trim: false
+      File: 464690__branndybottle__grasswalking_step2
+      Trim: false
 
     Leaves1: 517142__wdomino__footsteps_leaves_5
     Leaves2: 517140__wdomino__footsteps_leaves_1
@@ -402,8 +402,8 @@ Presets:
 
     Wolf1: universfield-wolf-howling-140235
     Wolf2:
-      - dragon-studio-wolf-howl-2-359870
-      - Speed: 1.5
+      File: dragon-studio-wolf-howl-2-359870
+      Speed: 1.5
 
     Wolf3: dragon-studio-a-lone-wolf-cries-359871
     Wolf4: yell-YELLWolvesDec252013
@@ -428,16 +428,16 @@ Presets:
     Bird4: 607242__d4xx__great-tit
     Bird5: 607223__d4xx__bird-sound
     Bird6:
-      - 47599__readeonly__
-      - Trim: false
+      File: 47599__readeonly__
+      Trim: false
     Bird7: 85404__readeonly__canaryartie-4
     Bird8:
-      - 519105__lilmati__bird-02
-      - Trim: false
+      File: 519105__lilmati__bird-02
+      Trim: false
     Bird9: 98448__williew705__bird-song-at-spfd-lake
     Bird10:
-      - 365668__lilmati__bird-thrush-nightingale-04
-      - Trim: false
+      File: 365668__lilmati__bird-thrush-nightingale-04
+      Trim: false
 
     Owl1: 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044
 
@@ -470,8 +470,8 @@ Presets:
     Horse4: 347036__kubuzz__horses-whinny
 
     Donkey1:
-      - 392029__rafaelpicoli__jumento
-      - Trim: false
+      File: 392029__rafaelpicoli__jumento
+      Trim: false
 
     Pig1: 442906__qubodup__pig-oink
     Pig2: ANMLFarm_Pig_Squeal_and_Snort-18_MWSFX_FA
@@ -503,40 +503,40 @@ Presets:
     Frog2: 361117__katzlbt__frog_quak
 
     Cicada1:
-      - 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night
-      - End: all
-      - LoopMode: UntilRelease
+      File: 829810__attiaphonatics__crickets-katydids-cicadas-insect-sound-at-night
+      LoopEnd: all
+      LoopMode: UntilRelease
 
     Cicada2:
-      - 640718__soundofsong__cicada-insect-loop
-      - End: all
-      - LoopMode: UntilRelease
+      File: 640718__soundofsong__cicada-insect-loop
+      LoopEnd: all
+      LoopMode: UntilRelease
 
     Cicada3:
-      - 515053__nox_sound__animal_cicada_solo_loop
-      - End: all
-      - LoopMode: UntilRelease
+      File: 515053__nox_sound__animal_cicada_solo_loop
+      LoopEnd: all
+      LoopMode: UntilRelease
 
     ChorusFrog1:
-      - yell-ChorusFrogs
-      - Start: 1.2
-      - End: all
+      File: yell-ChorusFrogs
+      LoopStart: 1.2
+      LoopEnd: all
 
     ChorusCicada1:
-      - 320113__laughatlantic__cicadas
-      - End: all
+      File: 320113__laughatlantic__cicadas
+      LoopEnd: all
 
     ChorusCicada2:
-      - 493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania
-      - End: all
+      File: 493058__heyheymaimai__periodical-cicada-chorus-at-keystone-state-park-pennsylvania
+      LoopEnd: all
 
     WingFlap1:
-      - 389634__stubb__wing-flap-1
-      - End: all
+      File: 389634__stubb__wing-flap-1
+      LoopEnd: all
 
     WingFlap2:
-      - 244982__ani_music__wing-flap-flag-flapping-5a
-      - End: all
+      File: 244982__ani_music__wing-flap-flag-flapping-5a
+      LoopEnd: all
 
   Nature:
     Waves1: 751567__leszek_szary__ocean-6
@@ -552,12 +552,12 @@ Presets:
     WaterDump2: 406218__anthousai__water-ice-cooler-dumping-a-cooler-full-of-ice-off-of-a-second-story-railing-01
 
     Underwater1:
-      - Bluezone_BC0298_designed_water_underwater_005
-      - End: all
+      File: Bluezone_BC0298_designed_water_underwater_005
+      LoopEnd: all
 
     Underwater2:
-      - UWM008
-      - End: all
+      File: UWM008
+      LoopEnd: all
 
     Drop1: freesound_community-water-drop-3-84577
     Drop2: freesound_community-water-drip-45622
@@ -576,61 +576,61 @@ Presets:
     TreeFall1: 139952__ecfike__a-tree-falling-down
 
     Rain1:
-      - 530975__inframatico__rain1
-      - End: all
+      File: 530975__inframatico__rain1
+      LoopEnd: all
 
     RainInterior1:
-      - 672701__cinetony__rain-on-the-roof-of-car-inside-3
-      - Start: 0.198
-      - End: all
+      File: 672701__cinetony__rain-on-the-roof-of-car-inside-3
+      LoopStart: 0.198
+      LoopEnd: all
 
     RainInterior2:
-      - RAINInt_Heavy_Rain_on_Window,__Constant
-      - End: all
+      File: RAINInt_Heavy_Rain_on_Window,__Constant
+      LoopEnd: all
 
     Wind1:
-      - 146932__crashoverride6__wind-gust
-      - End: all
+      File: 146932__crashoverride6__wind-gust
+      LoopEnd: all
 
     Wind2:
-      - WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi
-      - End: all
+      File: WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi
+      LoopEnd: all
 
     River1:
-      - 368299__radioactive_blueberry__river-loop
-      - End: all
+      File: 368299__radioactive_blueberry__river-loop
+      LoopEnd: all
 
     River2:
-      - 574803__bitlab_coop__collab-20210521_manresa_cascadapontvell_waterfall_river_relaxing_nice
-      - End: all
+      File: 574803__bitlab_coop__collab-20210521_manresa_cascadapontvell_waterfall_river_relaxing_nice
+      LoopEnd: all
 
     Waterfall1:
-      - 165108__lxx70__waterfall
-      - End: all
+      File: 165108__lxx70__waterfall
+      LoopEnd: all
 
     Thunder1: 467777__sgak__thunder
     Thunder2: 195439__littlebrojay__strike-3-sec
 
     Fire1:
-      - storegraphic-crackling-fire-sound-309634
-      - Start: .665
-      - End: 5.437
+      File: storegraphic-crackling-fire-sound-309634
+      LoopStart: .665
+      LoopEnd: 5.437
 
     Fire2: djartmusic-short-fire-whoosh_1-317280
     Fire3: yodguard-fire-magic-5-378639
 
     Embers1:
-      - 471158__audroger__embers-4
-      - Trim: false
-      - End: all
+      File: 471158__audroger__embers-4
+      Trim: false
+      LoopEnd: all
     Embers2:
-      - 471161__audroger__embers-1
-      - Trim: false
-      - End: all
+      File: 471161__audroger__embers-1
+      Trim: false
+      LoopEnd: all
     Embers3:
-      - 471159__audroger__embers-3
-      - Trim: false
-      - End: all
+      File: 471159__audroger__embers-3
+      Trim: false
+      LoopEnd: all
 
   # Dead
 
@@ -659,8 +659,8 @@ Presets:
     CashReg1: 184438__capslok__cash-register-fake
 
     Scissor1:
-      - 175522__mywhats__scissors-cut
-      - Trim: false
+      File: 175522__mywhats__scissors-cut
+      Trim: false
     Scissor2: 127153__daphne_in_wonderland__scissors
 
     Velcro1: OBJTape_VelcroRip29_InMotionAudio_Velcro
@@ -732,20 +732,20 @@ Presets:
     DrawSword4: 394338__denysfontanarosa__drawing-a-sword
 
     Gas1:
-      - 724126__saha213131__lightergas
-      - Trim: false
-      - End: all
+      File: 724126__saha213131__lightergas
+      Trim: false
+      LoopEnd: all
 
     Spray1: OBJMisc_Spray_Bottle,_Spray_1_344_Audio_Barbershop_Vol_1
     Spray2:
-      - 476839__richwise__spray-can
-      - Start: .1
-      - End: .75
+      File: 476839__richwise__spray-can
+      LoopStart: .1
+      LoopEnd: .75
 
     Card1:
-      - GAMECas_Pick_Up_Multiple_Cards_At_Once_5_344_Audio_Casino_Cards_Vol_1
-      - Trim: false
-      - Norm: false
+      File: GAMECas_Pick_Up_Multiple_Cards_At_Once_5_344_Audio_Casino_Cards_Vol_1
+      Trim: false
+      Norm: false
 
     Dice1: GAMEBoard_Dice,_Contact,_Die,_Roll,_On_Table_UberDuo_Game_a
     Dice2: GAMEBoard_Dice,_Contact,_Die,_Roll,_On_Table_UberDuo_Game_b
@@ -762,94 +762,94 @@ Presets:
 
     Vinyl1: 74385__dland__to-hell-with-vinyl
     Vinyl2:
-      - 162493__tasmanianpower__vinyl-rewind
-      - Speed: 1.7
+      File: 162493__tasmanianpower__vinyl-rewind
+      Speed: 1.7
 
   Machine:
     Motor1:
-      - 325809__soundjoao__motor-loop-3
-      - End: all
+      File: 325809__soundjoao__motor-loop-3
+      LoopEnd: all
 
     Motor2:
-      - 242741__marlonhj__engcad1
-      - Start: .272
-      - End: 1.465
+      File: 242741__marlonhj__engcad1
+      LoopStart: .272
+      LoopEnd: 1.465
 
     Motor3:
-      - 386235__ldezem__pneumatic-angle-grinder-fuji-f7vh-run-1a-short
-      - End: all
+      File: 386235__ldezem__pneumatic-angle-grinder-fuji-f7vh-run-1a-short
+      LoopEnd: all
 
     Motor4:
-      - 747794__fercraft64__renfe-333-motor-idle
-      - End: all
+      File: 747794__fercraft64__renfe-333-motor-idle
+      LoopEnd: all
 
     Motor5:
-      - 828754__chungus43a__mississauga-transit
-      - End: all
+      File: 828754__chungus43a__mississauga-transit
+      LoopEnd: all
 
     Motor6:
-      - VEHSkid_Honda_CB500F_Engine_Start_Tires
-      - End: all
+      File: VEHSkid_Honda_CB500F_Engine_Start_Tires
+      LoopEnd: all
 
     Motor7:
-      - 264864__augustsandberg__marine-diesel-engine
-      - End: all
+      File: 264864__augustsandberg__marine-diesel-engine
+      LoopEnd: all
 
     Motor8:
-      - BOATMotr_Diesel_Engine_Boat_Idle_Steady
-      - End: all
+      File: BOATMotr_Diesel_Engine_Boat_Idle_Steady
+      LoopEnd: all
 
     MotorDead1:
-      - 32416__kraftwerk2k1__car_engine_wont-start
-      - TrimDb: -40
-      - Start: .251
-      - End: all
+      File: 32416__kraftwerk2k1__car_engine_wont-start
+      TrimDb: -40
+      LoopStart: .251
+      LoopEnd: all
 
     Elevator1:
-      - 83227__smokum__elevator
-      - End: all
+      File: 83227__smokum__elevator
+      LoopEnd: all
 
     Elevator2:
-      - 217471__jarredgibb__lift-3
-      - End: all
-      - Trim: false
+      File: 217471__jarredgibb__lift-3
+      LoopEnd: all
+      Trim: false
 
     Elevator3:
-      - 182331__simplen00b__elev_loop
-      - End: all
+      File: 182331__simplen00b__elev_loop
+      LoopEnd: all
 
     Pneumatic1: Bluezone_BC0290_demolisher_pneumatic_texture_007
 
     Drill1:
-      - 345073__metrostock99__drill-gun
-      - Start: .167
-      - End: .376
+      File: 345073__metrostock99__drill-gun
+      LoopStart: .167
+      LoopEnd: .376
 
     Drill2:
-      - 179725__wjoojoo__impact_drill
-      - Start: .335
-      - End: .709
+      File: 179725__wjoojoo__impact_drill
+      LoopStart: .335
+      LoopEnd: .709
 
     Fan1:
-      - 219491__jarredgibb__extractor-fan-01
-      - End: all
+      File: 219491__jarredgibb__extractor-fan-01
+      LoopEnd: all
 
     Train1:
-      - 69005__heigh-hoo__freight_on_bridge
-      - End: all
+      File: 69005__heigh-hoo__freight_on_bridge
+      LoopEnd: all
 
     Minecart1:
-      - 351382__wmquincy101__minecart
-      - End: all
+      File: 351382__wmquincy101__minecart
+      LoopEnd: all
 
     Break1:
-      - 58150__monnie101__car_stop_breaks_screech_engine-rev_by-monnie101mp4_a
-      - Start: .308
-      - End: .713
+      File: 58150__monnie101__car_stop_breaks_screech_engine-rev_by-monnie101mp4_a
+      LoopStart: .308
+      LoopEnd: .713
     Break2:
-      - 58150__monnie101__car_stop_breaks_screech_engine-rev_by-monnie101mp4_b
-      - Start: .096
-      - End: .429
+      File: 58150__monnie101__car_stop_breaks_screech_engine-rev_by-monnie101mp4_b
+      LoopStart: .096
+      LoopEnd: .429
 
     Shutter1: 61059__xef6__350d-shutter
     Shutter2: 231286__ulose2piranha__5dmkii-shutter-sound
@@ -873,16 +873,16 @@ Presets:
     Click7: 478197__jonnyruss01__click_1
 
     Drier1:
-      - OBJMisc_Hair_Dryer,_On,_Idle,_Off_4_344
-      - End: all
+      File: OBJMisc_Hair_Dryer,_On,_Idle,_Off_4_344
+      LoopEnd: all
 
     Trimmer1:
-      - OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle
-      - End: all
+      File: OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle
+      LoopEnd: all
 
     Electric1:
-      - 512471__michael_grinnell__electric-zap
-      - End: all
+      File: 512471__michael_grinnell__electric-zap
+      LoopEnd: all
 
     Spark1: 403252__the_chemical_workshop__taserhigh-voltage-discharge_a
     Spark2: 403252__the_chemical_workshop__taserhigh-voltage-discharge_b
@@ -896,14 +896,14 @@ Presets:
 
   Digit:
     Radio1:
-      - 724706__9voltplasma__glitchy-radio-static-industrial-sfx
-      - End: all
+      File: 724706__9voltplasma__glitchy-radio-static-industrial-sfx
+      LoopEnd: all
     Radio2:
-      - 257878__zmobie__short-wave-radio-noise-3
-      - End: all
+      File: 257878__zmobie__short-wave-radio-noise-3
+      LoopEnd: all
     Radio3:
-      - 448364__stepgames__noise_long
-      - End: all
+      File: 448364__stepgames__noise_long
+      LoopEnd: all
 
     PhoneNoise1: 50699__rutgermuller__cell-phone-interference-noise-1
     PhoneHang1: 467200__thunderquads__phone-hangup
@@ -917,23 +917,23 @@ Presets:
     Beep4: 843148__sadiquecat__795hz-monitor-blip
 
     Radar1:
-      - 751577__leszek_szary__radar-4
-      - End: all
+      File: 751577__leszek_szary__radar-4
+      LoopEnd: all
     Radar2:
-      - 751576__leszek_szary__radar-3
-      - End: all
+      File: 751576__leszek_szary__radar-3
+      LoopEnd: all
     Radar3:
-      - 751575__leszek_szary__radar-2
-      - End: all
+      File: 751575__leszek_szary__radar-2
+      LoopEnd: all
     Radar4:
-      - 445723__lilmati__radar-something-detected-01-sec
-      - End: all
+      File: 445723__lilmati__radar-something-detected-01-sec
+      LoopEnd: all
     Radar5:
-      - 539957__samsterbirdies__sonar-ping
-      - End: all
+      File: 539957__samsterbirdies__sonar-ping
+      LoopEnd: all
     Radar6:
-      - 32093__jbum__jsyd_ping
-      - End: all
+      File: 32093__jbum__jsyd_ping
+      LoopEnd: all
 
   Gun:
     Laser1: Bluezone_BC0295_sci_fi_weapon_gun_shot_008
@@ -956,26 +956,26 @@ Presets:
     Silenced2: 188499__underlineddesigns__silenced-shotgun-gunshot
 
     MachineGun1:
-      - 274559__mrjohnweez__auto-machine-gun
-      - End: all
+      File: 274559__mrjohnweez__auto-machine-gun
+      LoopEnd: all
 
     MachineGun2:
-      - 122103__greatmganga__dshk_01
-      - Start: 0.027
-      - End: 0.171
+      File: 122103__greatmganga__dshk_01
+      LoopStart: 0.027
+      LoopEnd: 0.171
 
     Shotgun1: 427595__michorvath__20-gauge-shotgun-gunshot
     Shotgun2: 473846__lilmati__shotgun-shot-03
 
     Rifle1: 163460__lemudcrab__sniper-shot
     Rifle2:
-      - 258198__wadaltmon__thompson-smg-shot
-      - Start: .008
-      - End: .114
+      File: 258198__wadaltmon__thompson-smg-shot
+      LoopStart: .008
+      LoopEnd: .114
 
     Rifle3:
-      - 482120__qubodup__rifle-burst
-      - End: all
+      File: 482120__qubodup__rifle-burst
+      LoopEnd: all
 
     Reload1: 182276__martian__kg-gun-cock-02
     Reload2: 595051__21100354__gun-reloading
@@ -990,8 +990,8 @@ Presets:
     GrenLaunch1: 163458__lemudcrab__grenade-launcher
 
     Flamethrower1:
-      - 490166__samsterbirdies__flamethrower
-      - End: all
+      File: 490166__samsterbirdies__flamethrower
+      LoopEnd: all
 
   Vehicle:
     Open1: 335102__rnl__opening_car_door
@@ -1007,20 +1007,20 @@ Presets:
     Lock1: 50888__rutgermuller__car-door-porter-unlocking
 
     Alarm1:
-      - 150981__soundingoffagain__caralarm
-      - End: all
+      File: 150981__soundingoffagain__caralarm
+      LoopEnd: all
 
     Alarm2:
-      - 811201__designerschoice__vehalrm-cu_car-alarm-horn-honks-looped_nicholas-judy_tdc
-      - End: all
+      File: 811201__designerschoice__vehalrm-cu_car-alarm-horn-honks-looped_nicholas-judy_tdc
+      LoopEnd: all
 
     Alarm3:
-      - 51747__erkanozan__car-alarm-in-parking-structure
-      - End: all
+      File: 51747__erkanozan__car-alarm-in-parking-structure
+      LoopEnd: all
 
     Alarm4:
-      - 54086__guitarguy1985__horn
-      - End: all
+      File: 54086__guitarguy1985__horn
+      LoopEnd: all
 
     # TODO: Move noises to Ring
 
@@ -1028,24 +1028,24 @@ Presets:
     Crash2: 420356__cogfirestudios__crash
 
     Cart1:
-      - VEHWagn_Wood_Cart_Roll_On_Stone_Pavement_In_Courtyard_03_DRCA_HOCA_Kmr81i
-      - End: 4.523
+      File: VEHWagn_Wood_Cart_Roll_On_Stone_Pavement_In_Courtyard_03_DRCA_HOCA_Kmr81i
+      LoopEnd: 4.523
 
     Helicopter1:
-      - AEROHeli_InsJ_Helicopter_Flyby_Close_03_Chinook
-      - End: all
+      File: AEROHeli_InsJ_Helicopter_Flyby_Close_03_Chinook
+      LoopEnd: all
 
     CarInterior1:
-      - VEHCar_TownDrivingAmbience06_InMotionAu
-      - End: all
+      File: VEHCar_TownDrivingAmbience06_InMotionAu
+      LoopEnd: all
 
     TrainInterior1:
-      - AMBTran_TrainInterior09_InMotionAudio
-      - End: all
+      File: AMBTran_TrainInterior09_InMotionAudio
+      LoopEnd: all
 
     PlaneInterior1:
-      - AEROInt_Airplane_Interior_Small_Plane
-      - End: all
+      File: AEROInt_Airplane_Interior_Small_Plane
+      LoopEnd: all
 
   Robot:
     Robo1: 275654__deleted_user_4798915__robot_yes-sir
@@ -1071,8 +1071,8 @@ Presets:
     Metal2: DOORGate_Metal_Gate_Spring_Latch_Mechanism,_Screech_Jake_Fielding_Squeaky_Gates_01_b
 
     Creak1:
-      - 219499__jarredgibb__door-creak
-      - Trim: false
+      File: 219499__jarredgibb__door-creak
+      Trim: false
 
     Close1: 117614__soundmary__door-close
     Close2: 48980__lunardrive__metal-door-slam_soundsmith
@@ -1082,8 +1082,8 @@ Presets:
     Curtain2: 106132__j1987__showercurtain
 
     Chain1:
-      - 198470__miguelstar2__dr05___0205_sandau
-      - End: all
+      File: 198470__miguelstar2__dr05___0205_sandau
+      LoopEnd: all
 
     Elevator1: 233307__tonitobe__automatic-elevator-door
     Elevator2: 322132__vacuumfan7072__elevator-opening
@@ -1181,8 +1181,8 @@ Presets:
     Stone1: Bluezone_BC0297_stone_impact_041
 
     Wood1:
-      - WOODBrk_Snap09_InMotionAudio_Wood
-      - Trim: false # TODO This needs some trimming
+      File: WOODBrk_Snap09_InMotionAudio_Wood
+      Trim: false # TODO This needs some trimming
 
     Wood2: 443293__deathscyp__wood-break
     Wood3: 500901__bertsz__wood-crate-destory-2
@@ -1221,8 +1221,8 @@ Presets:
 
   Bell:
     Bell1:
-      - 650317__jotraing__japanese-railway
-      - End: all
+      File: 650317__jotraing__japanese-railway
+      LoopEnd: all
     Bell2: 611113__5ro4__bell-ding-1
 
     Door1: 182879__landub__door-bell-rings
@@ -1239,6 +1239,6 @@ Presets:
     Phone3: 345805__knufds__ringtone-1960s-office-phone
 
     Siren1:
-      - 412171__poligonstudio__air-raid-siren-alarm
-      - Start: 0.8
-      - End: 12.75
+      File: 412171__poligonstudio__air-raid-siren-alarm
+      LoopStart: 0.8
+      LoopEnd: 12.75

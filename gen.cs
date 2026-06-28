@@ -96,7 +96,7 @@ if (includeExtra && Directory.Exists("ExtraSamples"))
 // Read Config
 var deserializer = new DeserializerBuilder()
     .WithNamingConvention(PascalCaseNamingConvention.Instance)
-    .WithTypeConverter(new SampleCfgConverter())
+    .WithNodeDeserializer(new SampleCfgDeserializer(), s => s.OnTop())
     .Build();
 
 var presets = new Dictionary<string, List<(string, SampleCfg)>>();
@@ -124,11 +124,14 @@ foreach (var cfgFile in cfgFileList)
         var list = new List<(string, SampleCfg)>();
         foreach (var (name, value) in entry.Value)
         {
+            if (value.File == "")
+                Error($"Sample '{name}' didn't provide a File property");
+
             var pIdx = tempSampleList.FindIndex(
                 s => Path.GetFileNameWithoutExtension(s) == value.File);
             if (pIdx is -1) Error("Sample does not exist: " + value.File);
             
-            value.Folder = Path.GetDirectoryName(tempSampleList[pIdx]);
+            value.Folder = Path.GetDirectoryName(tempSampleList[pIdx])!;
             value.Preset = entry.Key;
             value.Name = name;
             value.Ext = Path.GetExtension(tempSampleList[pIdx]);
@@ -584,17 +587,14 @@ foreach (var (presetName, sounds) in presets)
         {
             int samples;
 
-            if (lEnd is string end)
-            {
-                if (end == "all")
-                    samples = sampleDurLen;
-                else if (end.EndsWith('%'))
-                    samples = (int)(sampleDuration * sampleRate * double.Parse(end[..^2]));
-                else
-                    Error("Wrong sample loop arg: " + lEnd);
-            }
+            if (lEnd == "all")
+                samples = sampleDurLen;
+            else if (double.TryParse(
+                    lEnd, System.Globalization.CultureInfo.InvariantCulture,
+                    out var parsed))
+                samples = (int)(parsed * sampleRate);
             else
-                samples = (int)((double)lEnd * sampleRate);
+                Error("Wrong sample loop arg: " + lEnd);
 
             sample.LoopEnd = samples;
         }
@@ -614,7 +614,13 @@ foreach (var (presetName, sounds) in presets)
 
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
-            var mode = sound.LoopMode ?? 1;// TODO: if sample is very short, maybe mode 3 is a sensible default
+            // TODO: if sample is very short, maybe mode 3 is a sensible default
+            var mode = sound.LoopMode?.ToLowerInvariant() switch
+            {
+                "untilrelease" => 3,
+                null => 1,
+                var m => int.Parse(m)
+            };
 
             if (sample.LoopEnd < sampleDurLen)
             {
@@ -743,6 +749,10 @@ internal static class Util
     public static void Error(string msg)
     {
         using var _ = Lock.EnterScope();
+
+        if (Console.CursorLeft != 0)
+            Console.WriteLine();
+
         Console.ForegroundColor = ConsoleColor.Red;
         msg = "[ERROR] " + msg;
         Log.Line(msg);
@@ -764,6 +774,10 @@ internal static class Util
     public static void Warn(string msg)
     {
         using var _ = Lock.EnterScope();
+
+        if (Console.CursorLeft != 0)
+            Console.WriteLine();
+
         Console.ForegroundColor = ConsoleColor.Yellow;
         msg = "[WARN] " + msg;
         Log.Line(msg);
@@ -890,18 +904,24 @@ internal static class Log
 #endregion
 
 #region Model
-internal sealed class GroupCfg
+internal abstract class BaseCfg
 {
-    public double? ReleaseVolEnv;
-    public double? ReleaseModEnv;
+    public double? Speed;
+    public bool? Trim;
+    public int? TrimDb;
+    public bool? Norm;
     public int? Q;
     public int? SampleRate;
+    public double? ReleaseVolEnv;
+    public double? ReleaseModEnv;
 
     public double? MulQ;
     public double? MulSampleRate;
 }
 
-internal sealed class SampleCfg
+internal sealed class GroupCfg: BaseCfg;
+
+internal sealed class SampleCfg: BaseCfg
 {
     public string Folder = "";
     public string Preset = "";
@@ -911,18 +931,9 @@ internal sealed class SampleCfg
     public string Ext = "";
     
     public double? LoopStart;
-    public object? LoopEnd;
-    public int? LoopMode;
 
-    public double? Speed;
-    public bool? Trim;
-    public int? TrimDb;
-    public bool? Norm;
-    public int? Q;
-    public int? SampleRate;
-
-    public double? MulQ;
-    public double? MulSampleRate;
+    public string? LoopEnd;
+    public string? LoopMode;
 }
 
 internal class MConfig
@@ -937,96 +948,24 @@ internal class MConfig
         string, Dictionary<string, SampleCfg>> Presets;
 }
 
-internal sealed class SampleCfgConverter : IYamlTypeConverter
+internal sealed class SampleCfgDeserializer : INodeDeserializer
 {
-    private Mark _prev;
-    
-    public bool Accepts(Type type) => type == typeof(SampleCfg);
-
-    public object ReadYaml(IParser parser, Type __, ObjectDeserializer ___)
+    public bool Deserialize(
+        IParser parser,
+        Type expectedType,
+        Func<IParser, Type, object?> _,
+        out object? value,
+        ObjectDeserializer rootDeserializer)
     {
-        if (TryConsume<Scalar>(out var scalar))
-            return new SampleCfg { File = scalar.Value };
-
-        Consume<SequenceStart>();
-        
-        var cfg = new SampleCfg { File = Consume<Scalar>().Value };
-        while (!TryConsume<SequenceEnd>(out _))
+        if (expectedType == typeof(SampleCfg) &&
+            parser.TryConsume<Scalar>(out var scalar))
         {
-            Consume<MappingStart>();
-            var key = Consume<Scalar>().Value;
-            switch (key)
-            {
-                case "SampleRate":
-                    cfg.SampleRate = GetInt();
-                    break;
-                case "Q":
-                    cfg.Q = Math.Clamp(GetInt(), 0, 10);
-                    break;
-                case "Trim":
-                    cfg.Trim = GetBool();
-                    break;
-                case "TrimDb":
-                    cfg.TrimDb = GetInt();
-                    break;
-                case "Norm":
-                    cfg.Norm = GetBool();
-                    break;
-                case "Start":
-                    cfg.LoopStart = GetDouble();
-                    break;
-                case "End":
-                    var val = Consume<Scalar>().Value;
-                    if (val.Equals("all", StringComparison.CurrentCultureIgnoreCase))
-                        cfg.LoopEnd = "all";
-                    else
-                        cfg.LoopEnd = double.Parse(val);
-                    break;
-                case "LoopMode":
-                    switch (Consume<Scalar>().Value.ToLowerInvariant())
-                    {
-                        case "untilrelease":
-                        cfg.LoopMode = 3;
-                        break;
-                        case var m:
-                            Error("Unknown loop mode: " + m);
-                            break;
-                    }
-                break;
-                case "Speed":
-                    cfg.Speed = GetDouble();
-                    break;
-                default:
-                    Error("Unknown Key: " + key);
-                    break;
-            }
-            Consume<MappingEnd>();
+            value = new SampleCfg { File = scalar.Value };
+            return true;
         }
 
-        return cfg;
-
-        int GetInt() => int.Parse(Consume<Scalar>().Value);
-        bool GetBool() => bool.Parse(Consume<Scalar>().Value);
-        double GetDouble() => double.Parse(Consume<Scalar>().Value);
-
-        T Consume<T>() where T : ParsingEvent
-        {
-            _prev = parser.Current?.Start ?? new();
-            return parser.Consume<T>();
-        }
-
-        bool TryConsume<T>([MaybeNullWhen(false)] out T @event) where T : ParsingEvent
-        {
-            _prev = parser.Current?.Start ?? new();
-            return parser.TryConsume(out @event);
-        }
-        
-        void Error(string msg) => 
-            Util.Error($"[Line: {_prev.Line}, Col: {_prev.Column}] " + msg);
+        value = null;
+        return false;
     }
-
-    public void WriteYaml(
-        IEmitter _, object? __, Type ___, ObjectSerializer ____)
-        => throw new NotImplementedException();
 }
 #endregion
