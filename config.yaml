@@ -1201,25 +1201,23 @@ Presets:
 
     Flashbang1: 693421__areniporgen__cts-7290
 
-  Bell:
+  Ring:
     Bell1:
       File: 650317__jotraing__japanese-railway
       LoopEnd: all
     Bell2: 611113__5ro4__bell-ding-1
 
-    Door1: 182879__landub__door-bell-rings
-    Door2: 442280__jwheeler91__doorbell-shortened
-    Door3: 171755__2887679652__ding_dongremix-of-110165
-
     School1: 378394__deleted_user_7020630__school-bell
 
-  Ring:
     Door1:
       File: 201030__dr-macak__zvonekdoma
       LoopStart: 0.1
       LoopEnd: 0.63
       LoopMode: 1
       ReleaseVolEnv: 0.4
+    Door2: 182879__landub__door-bell-rings
+    Door3: 442280__jwheeler91__doorbell-shortened
+    Door4: 171755__2887679652__ding_dongremix-of-110165
 
     Phone1: 106744__nixsound__80s_car_phone1
     Phone2: 65535__eliasheuninck__1x_telefoon

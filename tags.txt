@@ -304,13 +304,10 @@ Boom explosion blast detonation bomb burst
 Firework pyrothechnic explosion bang aerial
 Flashbang stun grenade blast blinding
 
-# Bell
-Bell ding chime
-Door ring ding dong chime
-School bell ring recess
-
 # Ring
-Door intercom ring buzz
+Bell ding chime
+School bell ring recess
+Door intercom bell buzz dingdong chime
 Phone ring office
 Alarm siren antitheft security
 Siren air alarm army raid
