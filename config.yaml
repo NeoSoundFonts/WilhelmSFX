@@ -1214,7 +1214,12 @@ Presets:
     School1: 378394__deleted_user_7020630__school-bell
 
   Ring:
-    Door1: 201030__dr-macak__zvonekdoma
+    Door1:
+      File: 201030__dr-macak__zvonekdoma
+      LoopStart: 0.1
+      LoopEnd: 0.63
+      LoopMode: 1
+      ReleaseVolEnv: 0.4
 
     Phone1: 106744__nixsound__80s_car_phone1
     Phone2: 65535__eliasheuninck__1x_telefoon
@@ -1240,3 +1245,4 @@ Presets:
       File: 412171__poligonstudio__air-raid-siren-alarm
       LoopStart: 0.8
       LoopEnd: 12.75
+      MulSampleRate: .5

@@ -426,6 +426,8 @@ if (!outputDir.Exists)
         sRate = int.Clamp(sRate, 750, 96_000);
         sQ = int.Clamp(sQ, 0, 10);
 
+        cfg.Meta.FinalSampleRate = sRate;
+
         cmd +=
             // Filters
             filters +
@@ -436,7 +438,7 @@ if (!outputDir.Exists)
             $"\"{output}\""
         ;
 
-        Log.Line($"[ffmpeg] {name}({output}) - {cmd}");
+        Log.Line($"[ffmpeg] {cmd}");
 
         if (SampleCache.Add(name, cmd)) argList.Add(cmd);
     }
@@ -549,11 +551,11 @@ foreach (var (presetName, sounds) in presets)
     var set = new HashSet<string>();
 
     var i = -1;
-    foreach (var (soundName, sound) in sounds)
+    foreach (var (soundName, cfg) in sounds)
     {
         i++;
 
-        var fileName = sound.File;
+        var fileName = cfg.File;
 
 
         if (fileToUrl.TryGetValue(fileName, out var url) &&
@@ -564,10 +566,11 @@ foreach (var (presetName, sounds) in presets)
             "Sound preset file not found: " + file.FullName);
 
         // Sample
+        var sRate = cfg.Meta.FinalSampleRate;
         var audioData = File.ReadAllBytes(file.FullName);
         var sampleName = presetName + "." + soundName;
         var sampleDuration = sampleToDuration[fileName];
-        var sampleDurLen = (int)(sampleDuration * sampleRate);
+        var sampleDurLen = (int)(sampleDuration * sRate);
 
         var gCfg = GetGroupCfg(sampleName);
 
@@ -576,14 +579,14 @@ foreach (var (presetName, sounds) in presets)
         
         var sample = BasicSample.NewEmpty();
         sample.Name = sampleName;
-        sample.Rate = sampleRate;
+        sample.Rate = sRate;
         sample.OriginalKey = i;
         sample.SetCompressedData(audioData);
         
-        if (sound.LoopStart is {} lStart)
-            sample.LoopStart = (int)(lStart * sampleRate);
+        if (cfg.LoopStart is {} lStart)
+            sample.LoopStart = (int)(lStart * sRate);
 
-        if (sound.LoopEnd is { } lEnd)
+        if (cfg.LoopEnd is { } lEnd)
         {
             int samples;
 
@@ -592,7 +595,7 @@ foreach (var (presetName, sounds) in presets)
             else if (double.TryParse(
                     lEnd, System.Globalization.CultureInfo.InvariantCulture,
                     out var parsed))
-                samples = (int)(parsed * sampleRate);
+                samples = (int)(parsed * sRate);
             else
                 Error("Wrong sample loop arg: " + lEnd);
 
@@ -615,14 +618,24 @@ foreach (var (presetName, sounds) in presets)
         if (sample.LoopEnd != 0 || sample.LoopStart != 0)
         {
             // TODO: if sample is very short, maybe mode 3 is a sensible default
-            var mode = sound.LoopMode?.ToLowerInvariant() switch
+            var mode = cfg.LoopMode?.ToLowerInvariant() switch
             {
                 "untilrelease" => 3,
                 null => 1,
                 var m => int.Parse(m)
             };
 
-            if (sample.LoopEnd < sampleDurLen)
+            if ((cfg.ReleaseVolEnv ??
+                cfg.ReleaseModEnv) is not null)
+            {
+                if (cfg.ReleaseVolEnv is {} rve)
+                    zone.Basic.SetGenerator(
+                        Generator.Type.ReleaseVolEnv, UnitConverter.SecondsToTimecents(rve));
+                if (cfg.ReleaseModEnv is {} rme)
+                    zone.Basic.SetGenerator(
+                        Generator.Type.ReleaseModEnv, UnitConverter.SecondsToTimecents(rme));
+            }
+            else if (sample.LoopEnd < sampleDurLen)
             {
                 var sec = 
                     (sample.LoopEnd / (double)sampleDurLen) * sampleDuration;
@@ -929,6 +942,8 @@ internal sealed class SampleCfg: BaseCfg
         public string Preset = "";
         public string Name = "";
         public string Ext = "";
+
+        public int FinalSampleRate = 0;
     }
 
     public SampleMeta Meta = new();
