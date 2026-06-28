@@ -322,7 +322,7 @@ if (processReadme)
             tagList.RemoveAt(i);
 
             var tags = string.Join(", ", tagVal.Select(n => $"`{n}`"));
-            readme = readme.Replace(tagsVar, $"\n\n*{tags}*\n\n");
+            readme = readme.Replace(tagsVar, $"\n*{tags}*\n\n");
             return;
         }
 
