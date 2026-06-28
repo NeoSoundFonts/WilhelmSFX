@@ -1006,24 +1006,6 @@ Presets:
 
     Lock1: 50888__rutgermuller__car-door-porter-unlocking
 
-    Alarm1:
-      File: 150981__soundingoffagain__caralarm
-      LoopEnd: all
-
-    Alarm2:
-      File: 811201__designerschoice__vehalrm-cu_car-alarm-horn-honks-looped_nicholas-judy_tdc
-      LoopEnd: all
-
-    Alarm3:
-      File: 51747__erkanozan__car-alarm-in-parking-structure
-      LoopEnd: all
-
-    Alarm4:
-      File: 54086__guitarguy1985__horn
-      LoopEnd: all
-
-    # TODO: Move noises to Ring
-
     Crash1: 592388__magnuswaker__car-crash-with-glass
     Crash2: 420356__cogfirestudios__crash
 
@@ -1182,7 +1164,7 @@ Presets:
 
     Wood1:
       File: WOODBrk_Snap09_InMotionAudio_Wood
-      Trim: false # TODO This needs some trimming
+      TrimDb: -65
 
     Wood2: 443293__deathscyp__wood-break
     Wood3: 500901__bertsz__wood-crate-destory-2
@@ -1237,6 +1219,22 @@ Presets:
     Phone1: 106744__nixsound__80s_car_phone1
     Phone2: 65535__eliasheuninck__1x_telefoon
     Phone3: 345805__knufds__ringtone-1960s-office-phone
+
+    Alarm1:
+      File: 150981__soundingoffagain__caralarm
+      LoopEnd: all
+
+    Alarm2:
+      File: 811201__designerschoice__vehalrm-cu_car-alarm-horn-honks-looped_nicholas-judy_tdc
+      LoopEnd: all
+
+    Alarm3:
+      File: 51747__erkanozan__car-alarm-in-parking-structure
+      LoopEnd: all
+
+    Alarm4:
+      File: 54086__guitarguy1985__horn
+      LoopEnd: all
 
     Siren1:
       File: 412171__poligonstudio__air-raid-siren-alarm

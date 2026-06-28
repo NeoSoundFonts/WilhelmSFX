@@ -124,9 +124,6 @@ foreach (var cfgFile in cfgFileList)
         var list = new List<(string, SampleCfg)>();
         foreach (var (name, value) in entry.Value)
         {
-            if (value.File == "")
-                Error($"Sample '{name}' didn't provide a File property");
-
             var pIdx = tempSampleList.FindIndex(
                 s => Path.GetFileNameWithoutExtension(s) == value.File);
             if (pIdx is -1) Error("Sample does not exist: " + value.File);
@@ -933,7 +930,7 @@ internal sealed class SampleCfg: BaseCfg
 
     public SampleMeta Meta = new();
     
-    public string File = "";
+    public string File;
 
     public double? LoopStart;
     public string? LoopEnd;

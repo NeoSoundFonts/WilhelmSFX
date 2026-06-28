@@ -239,7 +239,6 @@ Open unlatch pull
 Close slam shut seal
 Horn honk klaxon traffic
 Lock deadbolt click
-Alarm siren antitheft security
 Crash accident smash collision crunch
 Cart rumble rattle grind wagon
 Helicopter chinook rotor chopper aircraft rumble
@@ -313,4 +312,5 @@ School bell ring recess
 # Ring
 Door intercom ring buzz
 Phone ring office
+Alarm siren antitheft security
 Siren air alarm army raid
