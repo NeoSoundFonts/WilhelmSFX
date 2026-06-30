@@ -509,6 +509,9 @@ Presets:
     Bat3: the-vampires-monster-bat-chirping-type-2-355965_a
     Bat4: the-vampires-monster-bat-chirping-type-2-355965_b
 
+    Snake1: 423454__florianreichelt__snarling-snake
+    Snake2: 268580__7h3_lark__rattle_snake
+
     Bug1: CREASmall__Small_Species_A_Voices_Skitter_Squeak_Phrase_02_HZBIT_Microbes
 
     Frog1: 536759__egomassive__frog
@@ -606,6 +609,10 @@ Presets:
 
     Wind2:
       File: WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi
+      LoopEnd: all
+
+    WindLeaves1:
+      File: 181801__keweldog__breeze
       LoopEnd: all
 
     River1:

@@ -476,6 +476,9 @@ freesound_community-double-squeak-2-103875_b            https://pixabay.com/soun
 the-vampires-monster-bat-chirping-type-2-355965_a       https://pixabay.com/sound-effects/nature-bat-chirping-type-2-355965/
 the-vampires-monster-bat-chirping-type-2-355965_b       https://pixabay.com/sound-effects/nature-bat-chirping-type-2-355965/
 
+423454__florianreichelt__snarling-snake                 https://freesound.org/people/florianreichelt/sounds/423454/
+268580__7h3_lark__rattle_snake                          https://freesound.org/people/7h3_lark/sounds/268580/
+
 CREASmall__Small_Species_A_Voices_Skitter_Squeak_Phrase_02_HZBIT_Microbes https://sonniss.com/gameaudiogdc/
 
 536759__egomassive__frog                                https://freesound.org/people/egomassive/sounds/536759/
@@ -538,6 +541,8 @@ RAINInt_Heavy_Rain_on_Window,__Constant                 https://sonniss.com/game
 
 146932__crashoverride6__wind-gust                       https://freesound.org/people/crashoverride6/sounds/146932/
 WINDDsgn_EXT,_Eye_Of_The_Storm_344_Audi                 https://sonniss.com/gameaudiogdc/
+
+181801__keweldog__breeze                                https://freesound.org/people/keweldog/sounds/181801/
 
 storegraphic-crackling-fire-sound-309634                https://pixabay.com/sound-effects/nature-crackling-fire-sound-309634/
 djartmusic-short-fire-whoosh_1-317280                   https://pixabay.com/sound-effects/film-special-effects-short-fire-whoosh-1-317280/

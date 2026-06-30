@@ -132,6 +132,7 @@ Lion Roar growl snarl apex
 Squirrel Rodent chatter chip
 Rat Mouse squeak rodent chatter pest
 Bat vampire chirp cave
+Snake cobra snarle hiss rattle
 Bug skitter scurry chitter larvae parasite
 Frog Croak toad quack ribbit amphibian swamp
 Cicada Insect buzz
@@ -150,6 +151,7 @@ TreeFall crash forest woodcutting wood snap collapse lumberjack
 Rain downpour drizzle precipitation
 RainInterior storm window indoor car patter
 Wind cyclone gale muffled gust
+WindLeaves breeze gust tree
 River Stream rushing flow
 Waterfall Cascading Rushing
 Thunder lightning storm tempest
