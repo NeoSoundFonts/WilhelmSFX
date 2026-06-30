@@ -216,6 +216,7 @@ Electric Zap circuit spark current discharge voltage
 Spark flicker discharge flash
 Steam hiss vapor sizzle pneumatic release
 Lever switch handle latch toggle clunk lock unlock metallic
+TurretRotation tank military turning servo friction
 
 # Digit
 Radio static fuzz noise frequency
@@ -310,6 +311,8 @@ Can tin aluminum crush crunch
 Boom explosion blast detonation bomb burst
 Firework pyrothechnic explosion bang aerial
 Flashbang stun grenade blast blinding
+Cannon boom explosion large
+Launch rocket missile thrust
 
 # Ring
 Bell ding chime

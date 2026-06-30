@@ -744,6 +744,8 @@ OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle                 https://sonniss.com/game
 Bluezone_BC0302_industrial_lever_switch_014             https://sonniss.com/gameaudiogdc/
 Bluezone_BC0302_industrial_lever_switch_039             https://sonniss.com/gameaudiogdc/
 
+418881__kierankeegan__tank-turret-rotate                https://freesound.org/people/KieranKeegan/sounds/418881/
+
 
 
 // Digit
@@ -801,6 +803,7 @@ Bluezone_BC0287_annihilation_mech_weapon_scifi_shot_004 https://sonniss.com/game
 473846__lilmati__shotgun-shot-03                        https://freesound.org/people/LilMati/sounds/473846/
 
 163460__lemudcrab__sniper-shot                          https://freesound.org/people/LeMudCrab/sounds/163460/
+816114__qubodup__fps-sniper-shot                        https://freesound.org/people/qubodup/sounds/816114/
 258198__wadaltmon__thompson-smg-shot                    https://freesound.org/people/wadaltmon/sounds/258198/
 482120__qubodup__rifle-burst                            https://freesound.org/people/qubodup/sounds/482120/
 
@@ -1022,14 +1025,17 @@ Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010  https://
 // Bang
 
 47252__deleted_user_364925__bad-explosion               https://freesound.org/people/deleted_user_364925/sounds/47252/
-dragon-studio-boom-425459                               https://pixabay.com/sound-effects/film-special-effects-boom-425459/
-soundreality-explosion-fx-343683                        https://pixabay.com/sound-effects/film-special-effects-explosion-fx-343683/
-gearpile-explosion-3-386885                             https://pixabay.com/sound-effects/film-special-effects-explosion-3-386885/
+803198__colinleblancsound__explosion-synth              https://freesound.org/people/Colin.LeBlanc.Sound/sounds/803198/
+745549__samsterbirdies__beefy-explosions                https://freesound.org/people/SamsterBirdies/sounds/745549/
 
 587195__derplayer__explosion_07                         https://freesound.org/people/derplayer/sounds/587195/
 587191__derplayer__firework_twister                     https://freesound.org/people/derplayer/sounds/587191/
 
 693421__areniporgen__cts-7290                           https://freesound.org/people/areniporgen/sounds/693421/
+
+186951__readeonly__cannon_boom7                         https://freesound.org/people/ReadeOnly/sounds/186951/
+
+259285__philip_daniels__launch                          https://freesound.org/people/Philip_Daniels/sounds/259285/
 
 
 

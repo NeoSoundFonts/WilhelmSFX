@@ -911,6 +911,11 @@ Presets:
     Lever1: Bluezone_BC0302_industrial_lever_switch_014
     Lever2: Bluezone_BC0302_industrial_lever_switch_039
 
+    TurretRotation1:
+      File: 418881__kierankeegan__tank-turret-rotate
+      LoopEnd: 1.0
+      ReleaseVolEnv: 0.5
+
   Digit:
     Radio1:
       File: 724706__9voltplasma__glitchy-radio-static-industrial-sfx
@@ -985,12 +990,13 @@ Presets:
     Shotgun2: 473846__lilmati__shotgun-shot-03
 
     Rifle1: 163460__lemudcrab__sniper-shot
-    Rifle2:
+    Rifle2: 816114__qubodup__fps-sniper-shot
+    Rifle3:
       File: 258198__wadaltmon__thompson-smg-shot
       LoopStart: .008
       LoopEnd: .114
 
-    Rifle3:
+    Rifle4:
       File: 482120__qubodup__rifle-burst
       LoopEnd: all
 
@@ -1216,14 +1222,17 @@ Presets:
 
   Bang:
     Boom1: 47252__deleted_user_364925__bad-explosion
-    Boom2: dragon-studio-boom-425459
-    Boom3: soundreality-explosion-fx-343683
-    Boom4: gearpile-explosion-3-386885
+    Boom2: 803198__colinleblancsound__explosion-synth
+    Boom3: 745549__samsterbirdies__beefy-explosions
 
     Firework1: 587195__derplayer__explosion_07
-    Firework2: 587191__derplayer__firework_twister
+    Firework2: 587191__derplayer__firework_twister # TODO Loop
 
     Flashbang1: 693421__areniporgen__cts-7290
+
+    Cannon1: 186951__readeonly__cannon_boom7
+
+    Launch1: 259285__philip_daniels__launch
 
   Ring:
     Bell1:
