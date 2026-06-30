@@ -207,11 +207,13 @@ Train Locomotive rumble freight railway
 Minecart rail coaster rattle wagon clatter
 Break Brake screech tire squeal abrupt stop
 Shutter camera click snap aperture snapshot photo capture
+Printer robotic electronic buzz grind
 Typewriter Typing mechanical press stroke typewriter
 Keyboard Typing mechanical press stroke typewriter
 Click Button press
 Drier motor hair barbershop buzz airflow wind
 Trimmer clipper shaver buzz hum
+Sprinkler water irrigation hissing Spraying
 Electric Zap circuit spark current discharge voltage
 Spark flicker discharge flash
 Steam hiss vapor sizzle pneumatic release

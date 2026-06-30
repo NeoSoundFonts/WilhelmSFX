@@ -873,6 +873,13 @@ Presets:
     Shutter3: 87149__benjohansen__dslr-shutter
     Shutter4: 537314__ristooooo1__camera-take-photo
 
+    Printer1:
+      File: 166241__demonicelectronic__19
+      Trim: false
+      LoopStart: 0.036
+      LoopEnd: 0.308
+      ReleaseVolEnv: 0.1
+
     Typewriter1: COMType_Typewriter_Space_Key,_Typewriter_05_344_Audio_Antiques_-_Typewriter
 
     Keyboard1: 194799__jim-ph__keyboard5
@@ -897,6 +904,10 @@ Presets:
       File: OBJMisc_Wahl_Sterling_Trimmer,_On,_Idle
       LoopEnd: all
 
+    Sprinkler1:
+      File: 62403__bsumusictech__sprinkler
+      LoopEnd: all
+
     Electric1:
       File: 512471__michael_grinnell__electric-zap
       LoopEnd: all
@@ -913,6 +924,11 @@ Presets:
 
     TurretRotation1:
       File: 418881__kierankeegan__tank-turret-rotate
+      LoopEnd: 1.0
+      ReleaseVolEnv: 0.5
+
+    TurretRotation2:
+      File: 166246__demonicelectronic__5
       LoopEnd: 1.0
       ReleaseVolEnv: 0.5
 
