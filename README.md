@@ -20,9 +20,9 @@ Used sites:
 
 ***
 
-## Effect List (830)
+## Effect List (831)
 &nbsp;
-### Male (58)
+### Male (59)
 
 
 
@@ -86,8 +86,13 @@ Used sites:
 
 
 
-[Ohm 1](https://freesound.org/people/bitsmart/sounds/26244/ "ohm") [Sing 1](https://freesound.org/people/schafferdavid/sounds/190951/ "singerrehearsing") 
-*`opera`, `lyrical`*
+[Ohm 1](https://freesound.org/people/bitsmart/sounds/26244/ "ohm") 
+*`om`, `meditation`, `drone`, `mantra`, `spiritual`, `chant`*
+
+
+
+[Sing 1](https://freesound.org/people/schafferdavid/sounds/190951/ "singerrehearsing") [2](https://freesound.org/people/unfa/sounds/222593/ "baritone piece of sh explicit") 
+*`opera`, `lyrical`, `dramatic`*
 
 
 

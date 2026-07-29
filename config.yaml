@@ -104,6 +104,13 @@ Presets:
       LoopEnd: 1.198
       ReleaseVolEnv: 0.3
 
+    Sing2:
+      File: 222593__unfa__baritone-piece-of-sh-explicit
+      LoopStart: 0.1
+      LoopEnd: 0.75 # TODO: There is some room of improvement for the loop points
+      ReleaseVolEnv: 0.1
+      Trim: false
+
     Moan1: 221550__joseppujol__pleasure-sound
 
     Megaphone1: 407183__kyles__megaphone-voice-prerecorded-ad-loop-in-ext-second-hand-clothing-market-kampala-uganda-africa-2016
