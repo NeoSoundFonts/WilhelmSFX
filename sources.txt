@@ -67,6 +67,7 @@ HMNBrth_Police_Officer_Gasp_Vocal_Male_Shocked_Alert_1  https://sonniss.com/game
 166944__qubodup__grunts-of-pain-by-military-soldiers_b  https://freesound.org/people/qubodup/sounds/166944/
 
 26244__bitsmart__ohm                                    https://freesound.org/people/bitsmart/sounds/26244/
+190951__schafferdavid__singerrehearsing                 https://freesound.org/people/schafferdavid/sounds/190951/
 
 HMNBrth_Human,_Adult,_Male,_Breath,_Surprise,_Gasp_UberDuo_INHL_17  https://sonniss.com/gameaudiogdc/
 677888__ranman22__man-gasping                           https://freesound.org/people/ranman22/sounds/677888/

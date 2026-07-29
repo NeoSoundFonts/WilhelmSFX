@@ -98,6 +98,11 @@ Presets:
     Gasp3: 427688__efsdcnveoi__07-sorpresa
 
     Ohm1: 26244__bitsmart__ohm
+    Sing1:
+      File: 190951__schafferdavid__singerrehearsing
+      LoopStart: 0.512
+      LoopEnd: 1.198
+      ReleaseVolEnv: 0.3
 
     Moan1: 221550__joseppujol__pleasure-sound
 
