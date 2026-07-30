@@ -551,7 +551,12 @@ Presets:
     Dove1: 795719__5ro4__dove-cry-1
     Dove2: 147349__elle-trudgett__australian-morning-birds
 
-    Owl1: 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044
+    Owl1:
+      File: 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044
+      Seek: 1.0
+      To: 3.1
+    Owl2: 864872__sound368__tawny-owl-in-molkom-sweden-cleaned_a
+    Owl3: 864872__sound368__tawny-owl-in-molkom-sweden-cleaned_b
 
     Crow1: 512781__iwanplays__croworraven1
     Crow2: 512780__iwanplays__croworraven2
@@ -979,6 +984,10 @@ Presets:
 
     Hanger1: 197892__millavsb__moving-coat-hangers-in-an-metal-suport_a
     Hanger2: 197892__millavsb__moving-coat-hangers-in-an-metal-suport_b
+
+    BoulderRoll1:
+      File: 807186__sound368__boulder-roll
+      LoopEnd: all
 
   Machine:
     Motor1:

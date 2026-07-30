@@ -502,6 +502,8 @@ yell-YELLMM8K2005918Bison_b                             https://www.nps.gov/yell
 147349__elle-trudgett__australian-morning-birds         https://freesound.org/people/elle-trudgett/sounds/147349/
 
 558397__gerent__owl_hooting_000102_0145s3-002-070-000-002-037-044 https://freesound.org/people/Gerent/sounds/558397/
+864872__sound368__tawny-owl-in-molkom-sweden-cleaned_a  https://freesound.org/people/sound368/sounds/864872/
+864872__sound368__tawny-owl-in-molkom-sweden-cleaned_b  https://freesound.org/people/sound368/sounds/864872/
 
 512781__iwanplays__croworraven1                         https://freesound.org/people/iwanPlays/sounds/512781/
 512780__iwanplays__croworraven2                         https://freesound.org/people/iwanPlays/sounds/512780/
@@ -794,6 +796,9 @@ OBJMisc_ScratchCard_CoinTapScratch_01_InMotionAudio_ScratchCard https://sonniss.
 
 197892__millavsb__moving-coat-hangers-in-an-metal-suport_a  https://freesound.org/people/Millavsb/sounds/197892/
 197892__millavsb__moving-coat-hangers-in-an-metal-suport_b  https://freesound.org/people/Millavsb/sounds/197892/
+
+807186__sound368__boulder-roll                          https://freesound.org/people/sound368/sounds/807186/
+
 
 
 // Machine
