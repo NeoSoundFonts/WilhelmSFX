@@ -122,8 +122,9 @@ Wolf Howl pack
 Bear Grizzly roar predator apex
 Chicken Rooster cluck cocorico
 Eagle Hawk falcon screech
-Cow Moo cattle bovine farm
-Sheep Baa bleat lamb livestock
+Cow moo cattle bovine farm
+Sheep baa bleat lamb livestock
+Goat bleat baa herd
 Duck Quack Honk Nasal
 Bison Buffalo beast
 Horse Neigh whinny stallion equine snort

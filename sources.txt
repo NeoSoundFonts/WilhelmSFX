@@ -466,6 +466,10 @@ yell-YELLGrizzlyBearVocalizations20160520Android1_c     https://www.nps.gov/yell
 710298__michaelperfect__sheep-baaing-3-norwegian-sheep-expressing-itself-concisely  https://freesound.org/people/michaelperfect/sounds/710298/
 710296__michaelperfect__sheep-baaing-1-norwegian-sheep-expressing-itself-concisely  https://freesound.org/people/michaelperfect/sounds/710296/
 
+273911__beskhu__goat                                    https://freesound.org/people/beskhu/sounds/273911/
+188182__erokia__goat-sound-2                            https://freesound.org/people/Erokia/sounds/188182/
+675417__craigsmith__s01-31_single-goat-calling-out      https://freesound.org/people/craigsmith/sounds/675417/
+
 607226__d4xx__ducks_a                                   https://freesound.org/people/D4XX/sounds/607226/
 607226__d4xx__ducks_b                                   https://freesound.org/people/D4XX/sounds/607226/
 607226__d4xx__ducks_c                                   https://freesound.org/people/D4XX/sounds/607226/
@@ -1179,6 +1183,7 @@ CLOTHRip_CottonRips44_InMotionAudio_TornTShirt          https://sonniss.com/game
 
 GORESplt_Gore_Splatter_01_JSE_GMP_a                     https://sonniss.com/gameaudiogdc/
 GORESplt_Gore_Splatter_01_JSE_GMP_b                     https://sonniss.com/gameaudiogdc/
+89606__marleneayni__chajchas                            https://freesound.org/people/MarleneAyni/sounds/89606/
 
 Bluezone_BC0287_annihilation_debris_falling_rock_001    https://sonniss.com/gameaudiogdc/
 Bluezone_BC0275_building_collapse_debris_falling_rock_rubble_glass_010  https://sonniss.com/gameaudiogdc/

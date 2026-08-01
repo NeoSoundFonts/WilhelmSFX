@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (834)
+## Effect List (838)
 &nbsp;
 ### Male (59)
 
@@ -583,7 +583,7 @@ Used sites:
 
 
 &nbsp;
-### Animal (99)
+### Animal (102)
 
 
 
@@ -639,6 +639,11 @@ Used sites:
 
 [Sheep 1](https://freesound.org/people/edschaefer/sounds/380042/ "sheeplings a") [2](https://freesound.org/people/edschaefer/sounds/380042/ "sheeplings b") [3](https://freesound.org/people/michaelperfect/sounds/710298/ "sheep baaing 3 norwegian sheep expressing itself concisely") [4](https://freesound.org/people/michaelperfect/sounds/710296/ "sheep baaing 1 norwegian sheep expressing itself concisely") 
 *`baa`, `bleat`, `lamb`, `livestock`*
+
+
+
+[Goat 1](https://freesound.org/people/beskhu/sounds/273911/ "goat") [2](https://freesound.org/people/Erokia/sounds/188182/ "goat sound 2") [3](https://freesound.org/people/craigsmith/sounds/675417/ "s01 31 single goat calling out") 
+*`bleat`, `baa`, `herd`*
 
 
 
@@ -1653,7 +1658,7 @@ Used sites:
 
 
 &nbsp;
-### Break (38)
+### Break (39)
 
 
 
@@ -1722,7 +1727,7 @@ Used sites:
 
 
 
-[Gore 1](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP a") [2](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP b") 
+[Gore 1](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP a") [2](https://sonniss.com/gameaudiogdc/ "GORESplt Gore Splatter 01 JSE GMP b") [3](https://freesound.org/people/MarleneAyni/sounds/89606/ "chajchas") 
 *`splatter`, `squish`, `flesh`, `gruesome`, `visceral`*
 
 
