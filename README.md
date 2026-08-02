@@ -20,7 +20,7 @@ Used sites:
 
 ***
 
-## Effect List (838)
+## Effect List (844)
 &nbsp;
 ### Male (59)
 
@@ -46,7 +46,7 @@ Used sites:
 
 
 
-[Snore 1](https://freesound.org/people/SortsApostata/sounds/233600/ "snoring") [2](https://freesound.org/people/rdpipo7777/sounds/365372/ "ronquido") [3](https://freesound.org/people/Taranliberation/sounds/844964/ "snoring a") [4](https://freesound.org/people/Taranliberation/sounds/844964/ "snoring b") [5](https://freesound.org/people/JRWEntertainment/sounds/791248/ "snoring 30s 48khz24 bit") [6](https://freesound.org/people/stevielematt/sounds/760036/ "snore 03 44100") 
+[Snore 1](https://freesound.org/people/sirplus/sounds/20545/ "snore") [2](https://freesound.org/people/rdpipo7777/sounds/365372/ "ronquido") [3](https://freesound.org/people/Taranliberation/sounds/844964/ "snoring a") [4](https://freesound.org/people/Taranliberation/sounds/844964/ "snoring b") [5](https://freesound.org/people/JRWEntertainment/sounds/791248/ "snoring 30s 48khz24 bit") [6](https://freesound.org/people/stevielematt/sounds/760036/ "snore 03 44100") 
 *`breathing`, `sleeping`, `asleep`, `slumber`, `rest`, `apnea`*
 
 
@@ -118,7 +118,7 @@ Used sites:
 
 
 &nbsp;
-### Female (50)
+### Female (56)
 
 
 
@@ -157,8 +157,13 @@ Used sites:
 
 
 
-[Exhale 1](https://freesound.org/people/thatkellytrna/sounds/425781/ "girl exhale") 
+[Exhale 1](https://freesound.org/people/thatkellytrna/sounds/425781/ "girl exhale") [2](https://freesound.org/people/SpliceSound/sounds/218309/ "girl female inhale exhale sigh breathing") 
 *`relief`, `satisfaction`, `refreshment`, `gasp`, `phew`*
+
+
+
+[Snore 1](https://freesound.org/people/Tetoszka/sounds/621233/ "snoring woman") [2](https://freesound.org/people/the_yura/sounds/693402/ "snoring ii") [3](https://freesound.org/people/DangerLaef/sounds/693432/ "woman snoring") 
+*`breathing`, `sleeping`, `asleep`, `slumber`, `rest`, `apnea`*
 
 
 
@@ -182,7 +187,7 @@ Used sites:
 
 
 
-[Grunt 1](https://freesound.org/people/Reitanna/sounds/344004/ "heavy grunt") 
+[Grunt 1](https://freesound.org/people/Reitanna/sounds/344004/ "heavy grunt") [2](https://freesound.org/people/martian/sounds/218908/ "female grunts breaths a") [3](https://freesound.org/people/martian/sounds/218908/ "female grunts breaths b") 
 *`groan`, `strain`, `effort`, `military`, `soldier`, `exertion`*
 
 

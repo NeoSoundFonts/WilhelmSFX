@@ -44,10 +44,7 @@ Presets:
     Agony5: 528839__th3romeo__human-roar-1
     Agony6: 265554__augustsandberg__studio-roar
 
-    Snore1:
-      File: 233600__sortsapostata__snoring
-      Trim: false
-
+    Snore1: 20545__sirplus__snore
     Snore2: 365372__rdpipo7777__ronquido
     Snore3: 844964__taranliberation__snoring_a
     Snore4: 844964__taranliberation__snoring_b
@@ -145,10 +142,17 @@ Presets:
     Yawn2: 672450__cyweb__yawn-baillements
 
     Exhale1: 425781__thatkellytrna__girl-exhale
+    Exhale2: 218309__splicesound__girl-female-inhale-exhale-sigh-breathing
 
     Sigh1: 384992__threadzz__woman-sigh
     Sigh2: 252224__reitanna__defeated-sigh
-    Sigh3: 377736__bluesiren__girl-sighs
+    Sigh3:
+      File: 377736__bluesiren__girl-sighs
+      TrimDb: -31
+
+    Snore1: 621233__tetoszka__snoring-woman
+    Snore2: 693402__the_yura__snoring-ii
+    Snore3: 693432__dangerlaef__woman_snoring
 
     Scream1: 400183__tomattka__girl-screaming_01
     Scream2: 235592__tcrocker68__girl_scream
@@ -168,6 +172,8 @@ Presets:
     Agony3: VOXScrm_Female_Scream_in_Pain,_Agony,_Wounded_2_344_Audio_Screaming
 
     Grunt1: 344004__reitanna__heavy-grunt
+    Grunt2: 218908__martian__female-grunts-breaths_a
+    Grunt3: 218908__martian__female-grunts-breaths_b
 
     Gasp1: 509883__slamaxu__female_gasp
     Gasp2: 323707__reitanna__ooh

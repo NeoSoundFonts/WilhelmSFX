@@ -27,7 +27,7 @@ VOXLaff_Police_Officer_Laugh_Vocal_Male_1               https://sonniss.com/game
 528839__th3romeo__human-roar-1                          https://freesound.org/people/th3romeo/sounds/528839/
 265554__augustsandberg__studio-roar                     https://freesound.org/people/AugustSandberg/sounds/265554/
 
-233600__sortsapostata__snoring                          https://freesound.org/people/SortsApostata/sounds/233600/
+20545__sirplus__snore                                   https://freesound.org/people/sirplus/sounds/20545/
 365372__rdpipo7777__ronquido                            https://freesound.org/people/rdpipo7777/sounds/365372/
 844964__taranliberation__snoring_a                      https://freesound.org/people/Taranliberation/sounds/844964/
 844964__taranliberation__snoring_b                      https://freesound.org/people/Taranliberation/sounds/844964/
@@ -109,6 +109,11 @@ VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://sonniss.com/game
 672450__cyweb__yawn-baillements                         https://freesound.org/people/CyWeb/sounds/672450/
 
 425781__thatkellytrna__girl-exhale                      https://freesound.org/people/thatkellytrna/sounds/425781/
+218309__splicesound__girl-female-inhale-exhale-sigh-breathing https://freesound.org/people/SpliceSound/sounds/218309/
+
+621233__tetoszka__snoring-woman                         https://freesound.org/people/Tetoszka/sounds/621233/
+693402__the_yura__snoring-ii                            https://freesound.org/people/the_yura/sounds/693402/
+693432__dangerlaef__woman_snoring                       https://freesound.org/people/DangerLaef/sounds/693432/
 
 384992__threadzz__woman-sigh                            https://freesound.org/people/threadzz/sounds/384992/
 252224__reitanna__defeated-sigh                         https://freesound.org/people/Reitanna/sounds/252224/
@@ -132,6 +137,8 @@ VOXCry_Crying_Female_04_05_SNDBTS_VH                    https://sonniss.com/game
 VOXScrm_Female_Scream_in_Pain,_Agony,_Wounded_2_344_Audio_Screaming https://sonniss.com/gameaudiogdc/
 
 344004__reitanna__heavy-grunt                           https://freesound.org/people/Reitanna/sounds/344004/
+218908__martian__female-grunts-breaths_a                https://freesound.org/people/martian/sounds/218908/
+218908__martian__female-grunts-breaths_b                https://freesound.org/people/martian/sounds/218908/
 
 509883__slamaxu__female_gasp                            https://freesound.org/people/slamaxu/sounds/509883/
 323707__reitanna__ooh                                   https://freesound.org/people/Reitanna/sounds/323707/
