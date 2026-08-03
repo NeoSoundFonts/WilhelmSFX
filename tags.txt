@@ -279,6 +279,7 @@ GrenLaunch grenade projectile mortar
 Flamethrower fire fuel incinerator pyro
 
 # Vehicle
+EngineStart motor ignition
 Open unlatch pull
 Close slam shut seal
 Horn honk klaxon traffic

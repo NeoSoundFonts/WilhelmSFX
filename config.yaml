@@ -1286,6 +1286,9 @@ Presets:
       LoopEnd: all
 
   Vehicle:
+    EngineStart1: 458461__prometheus888__carengine
+    EngineStart2: 344574__kmyers1316__car_starting_gearshift
+
     Open1: 335102__rnl__opening_car_door
 
     Close1: 208695__monotraum__car-door-close
@@ -1581,7 +1584,7 @@ Presets:
       File: 54086__guitarguy1985__horn
       LoopEnd: all
 
-    Siren1:
+    Siren1: # TODO: Most of these can be approximated through synthesized signals, remove then
       File: 412171__poligonstudio__air-raid-siren-alarm
       LoopStart: 0.8
       LoopEnd: 12.75
